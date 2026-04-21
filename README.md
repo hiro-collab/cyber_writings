@@ -36,4 +36,4 @@
 - [docs/editorial_policy.md](docs/editorial_policy.md): 記録とエッセイの編集方針
 - [docs/publishing_strategy.md](docs/publishing_strategy.md): GitHub公開と収益化の考え方
 - [02_manuscript/outline.md](02_manuscript/outline.md): 仮の章立て
-- [tools/chatgpt_export_viewer.html](tools/chatgpt_export_viewer.html): ChatGPTエクスポート閲覧用ビューア
+- [tools/chatgpt_export_viewer.html](tools/chatgpt_export_viewer.html): ChatGPTエクスポートとMarkdownメモの閲覧用ビューア

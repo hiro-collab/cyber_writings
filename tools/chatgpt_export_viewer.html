@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>ChatGPT Export Viewer</title>
+  <title>ChatGPT Export / Markdown Viewer</title>
   <style>
     :root {
       color-scheme: light;
@@ -22,6 +22,8 @@
       --system-bg: #f1f3f5;
       --tool: #9a5b1f;
       --tool-bg: #fbf0df;
+      --memo: #4f6f2d;
+      --memo-bg: #eef5e8;
       --danger: #b42318;
       --mark: #fff0a6;
       --shadow: 0 12px 32px rgba(40, 42, 45, 0.08);
@@ -361,6 +363,13 @@
       color: var(--muted);
     }
 
+    .empty-actions {
+      display: flex;
+      justify-content: center;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+
     .conversation {
       border-top: 3px solid #2f5d62;
       background: transparent;
@@ -437,6 +446,11 @@
       background: var(--tool-bg);
     }
 
+    .message.memo {
+      border-left-color: var(--memo);
+      background: var(--memo-bg);
+    }
+
     .message-role {
       padding: 12px 10px;
       border-right: 1px solid rgba(0, 0, 0, 0.07);
@@ -472,6 +486,10 @@
 
     .tool .role-badge {
       background: var(--tool);
+    }
+
+    .memo .role-badge {
+      background: var(--memo);
     }
 
     .message-time {
@@ -591,8 +609,8 @@
     <header class="topbar">
       <div class="topbar-inner">
         <div class="brand">
-          <div class="brand-title">ChatGPT Export Viewer</div>
-          <div class="brand-subtitle">ローカルのエクスポートを読み込み、全チャットを1ページで読む</div>
+          <div class="brand-title">ChatGPT Export / Markdown Viewer</div>
+          <div class="brand-subtitle">ローカルのエクスポートやMarkdownメモを1ページで読む</div>
         </div>
 
         <div class="searchbar">
@@ -608,8 +626,10 @@
         <div class="top-actions">
           <button id="expandAllBtn" type="button">すべて展開</button>
           <button id="collapseAllBtn" type="button">すべて折りたたむ</button>
+          <button id="pickMdFolderBtn" type="button">MDフォルダ</button>
           <button class="primary" id="pickFileBtn" type="button">JSONを選ぶ</button>
           <input class="file-input" id="fileInput" type="file" accept=".json,application/json">
+          <input class="file-input" id="mdFolderInput" type="file" accept=".md,.markdown,text/markdown,text/plain" multiple webkitdirectory>
         </div>
       </div>
     </header>
@@ -619,8 +639,8 @@
         <section class="panel">
           <div class="panel-body">
             <div class="drop-zone" id="dropZone">
-              <p class="drop-title">conversations.json を読み込む</p>
-              <p class="drop-note">ChatGPTのエクスポート内にあるJSONをここへドラッグするか、右上のボタンで選びます。データはブラウザ内で処理され、外部へ送信されません。</p>
+              <p class="drop-title">conversations.json / Markdown を読み込む</p>
+              <p class="drop-note">ChatGPTのエクスポート内にあるJSON、またはMarkdownファイルをここへドラッグします。Markdownフォルダは右上の「MDフォルダ」から選びます。データはブラウザ内で処理され、外部へ送信されません。</p>
             </div>
           </div>
         </section>
@@ -631,6 +651,7 @@
             <div class="filter-row">
               <label><input type="checkbox" id="roleUser" checked>自分</label>
               <label><input type="checkbox" id="roleAssistant" checked>ChatGPT</label>
+              <label><input type="checkbox" id="roleMemo" checked>メモ</label>
               <label><input type="checkbox" id="roleSystem">system</label>
               <label><input type="checkbox" id="roleTool">tool</label>
             </div>
@@ -647,8 +668,8 @@
           </div>
         </section>
 
-        <nav class="conversation-list" aria-label="会話一覧">
-          <h2 id="listTitle">会話一覧</h2>
+        <nav class="conversation-list" aria-label="資料一覧">
+          <h2 id="listTitle">資料一覧</h2>
           <div id="conversationList"></div>
         </nav>
       </aside>
@@ -657,8 +678,11 @@
         <section class="empty-state" id="emptyState">
           <div class="empty-inner">
             <h1>ChatGPT履歴を、読むための形にする</h1>
-            <p>エクスポートから `conversations.json` を選ぶと、会話ごとに自分の入力とChatGPTの出力を色分けして表示します。検索、折りたたみ、メッセージ単位のコピーが使えます。</p>
-            <button class="primary" id="emptyPickFileBtn" type="button">conversations.json を選ぶ</button>
+            <p>エクスポートの `conversations.json` やMarkdownメモを読み込むと、自分の入力、ChatGPTの出力、メモを色分けして表示します。検索、折りたたみ、メッセージ単位のコピーが使えます。</p>
+            <div class="empty-actions">
+              <button id="emptyPickMdFolderBtn" type="button">MDフォルダを選ぶ</button>
+              <button class="primary" id="emptyPickFileBtn" type="button">conversations.json を選ぶ</button>
+            </div>
           </div>
         </section>
       </main>
@@ -671,7 +695,7 @@
       filtered: [],
       query: "",
       sort: "updated-desc",
-      roles: new Set(["user", "assistant"]),
+      roles: new Set(["user", "assistant", "memo"]),
       onlyMatches: false,
       includeBranches: false,
       fileName: "",
@@ -680,13 +704,17 @@
 
     const els = {
       fileInput: document.getElementById("fileInput"),
+      mdFolderInput: document.getElementById("mdFolderInput"),
       pickFileBtn: document.getElementById("pickFileBtn"),
+      pickMdFolderBtn: document.getElementById("pickMdFolderBtn"),
       emptyPickFileBtn: document.getElementById("emptyPickFileBtn"),
+      emptyPickMdFolderBtn: document.getElementById("emptyPickMdFolderBtn"),
       dropZone: document.getElementById("dropZone"),
       searchInput: document.getElementById("searchInput"),
       sortSelect: document.getElementById("sortSelect"),
       roleUser: document.getElementById("roleUser"),
       roleAssistant: document.getElementById("roleAssistant"),
+      roleMemo: document.getElementById("roleMemo"),
       roleSystem: document.getElementById("roleSystem"),
       roleTool: document.getElementById("roleTool"),
       onlyMatches: document.getElementById("onlyMatches"),
@@ -701,10 +729,16 @@
     };
 
     els.pickFileBtn.addEventListener("click", () => els.fileInput.click());
+    els.pickMdFolderBtn.addEventListener("click", () => els.mdFolderInput.click());
     els.emptyPickFileBtn.addEventListener("click", () => els.fileInput.click());
+    els.emptyPickMdFolderBtn.addEventListener("click", () => els.mdFolderInput.click());
     els.fileInput.addEventListener("change", event => {
       const file = event.target.files && event.target.files[0];
-      if (file) readFile(file);
+      if (file) readJsonFile(file);
+    });
+    els.mdFolderInput.addEventListener("change", event => {
+      const files = event.target.files ? Array.from(event.target.files) : [];
+      if (files.length) readMarkdownFiles(files);
     });
 
     els.dropZone.addEventListener("dragover", event => {
@@ -719,8 +753,8 @@
     els.dropZone.addEventListener("drop", event => {
       event.preventDefault();
       els.dropZone.classList.remove("dragover");
-      const file = event.dataTransfer.files && event.dataTransfer.files[0];
-      if (file) readFile(file);
+      const files = event.dataTransfer.files ? Array.from(event.dataTransfer.files) : [];
+      handleDroppedFiles(files);
     });
 
     els.searchInput.addEventListener("input", () => {
@@ -733,7 +767,7 @@
       render();
     });
 
-    [els.roleUser, els.roleAssistant, els.roleSystem, els.roleTool].forEach(input => {
+    [els.roleUser, els.roleAssistant, els.roleMemo, els.roleSystem, els.roleTool].forEach(input => {
       input.addEventListener("change", syncRoleFilters);
     });
 
@@ -776,12 +810,30 @@
       state.roles = new Set();
       if (els.roleUser.checked) state.roles.add("user");
       if (els.roleAssistant.checked) state.roles.add("assistant");
+      if (els.roleMemo.checked) state.roles.add("memo");
       if (els.roleSystem.checked) state.roles.add("system");
       if (els.roleTool.checked) state.roles.add("tool");
       render();
     }
 
-    function readFile(file) {
+    function handleDroppedFiles(files) {
+      const markdownFiles = files.filter(isMarkdownFile);
+      const jsonFile = files.find(isJsonFile);
+
+      if (markdownFiles.length) {
+        readMarkdownFiles(markdownFiles);
+        return;
+      }
+
+      if (jsonFile) {
+        readJsonFile(jsonFile);
+        return;
+      }
+
+      showError("読み込める .json / .md / .markdown ファイルが見つかりませんでした。");
+    }
+
+    function readJsonFile(file) {
       state.fileName = file.name;
       const reader = new FileReader();
       reader.onload = () => {
@@ -799,6 +851,36 @@
       reader.readAsText(file, "utf-8");
     }
 
+    async function readMarkdownFiles(files) {
+      const markdownFiles = files.filter(isMarkdownFile).sort((a, b) => fileDisplayName(a).localeCompare(fileDisplayName(b), "ja"));
+
+      if (!markdownFiles.length) {
+        showError("Markdownファイルが見つかりませんでした。");
+        return;
+      }
+
+      try {
+        const fileTexts = await Promise.all(markdownFiles.map(async file => ({
+          file,
+          text: await readTextFile(file)
+        })));
+        state.fileName = markdownSetName(markdownFiles);
+        state.conversations = parseMarkdownFiles(fileTexts);
+        render();
+      } catch (error) {
+        showError("Markdownを読み込めませんでした: " + error.message);
+      }
+    }
+
+    function readTextFile(file) {
+      return new Promise((resolve, reject) => {
+        const reader = new FileReader();
+        reader.onload = () => resolve(String(reader.result || ""));
+        reader.onerror = () => reject(new Error(file.name + " の読み込みに失敗しました。"));
+        reader.readAsText(file, "utf-8");
+      });
+    }
+
     function parseExport(raw) {
       const source = Array.isArray(raw) ? raw : raw.conversations || raw.items || [];
       if (!Array.isArray(source)) {
@@ -807,6 +889,77 @@
 
       return source.map((conversation, index) => normalizeConversation(conversation, index))
         .filter(conversation => conversation.allMessages.length > 0 || conversation.title);
+    }
+
+    function parseMarkdownFiles(fileTexts) {
+      return fileTexts.map(({ file, text }, index) => {
+        const title = fileDisplayName(file);
+        const created = file.lastModified ? new Date(file.lastModified) : null;
+        const sections = splitMarkdownSections(text);
+        const messages = sections.map((section, sectionIndex) => ({
+          id: "markdown-" + index + "-section-" + sectionIndex,
+          nodeId: String(sectionIndex),
+          role: "memo",
+          roleLabel: "メモ",
+          text: section,
+          created,
+          hidden: false,
+          inCurrentPath: true,
+          sortTime: sectionIndex
+        }));
+        const indexText = [title, text].join("\n").toLowerCase();
+
+        return {
+          id: "markdown-" + index,
+          title,
+          created,
+          updated: created,
+          sourceLabel: "Markdown",
+          allMessages: messages,
+          currentMessages: messages,
+          indexText
+        };
+      });
+    }
+
+    function splitMarkdownSections(text) {
+      const normalized = String(text || "").replace(/\r\n/g, "\n");
+      const lines = normalized.split("\n");
+      const sections = [];
+      let buffer = [];
+
+      lines.forEach(line => {
+        const isSectionHeading = /^#{1,2}\s+\S/.test(line);
+        if (isSectionHeading && buffer.join("\n").trim()) {
+          sections.push(buffer.join("\n").trimEnd());
+          buffer = [];
+        }
+        buffer.push(line);
+      });
+
+      if (buffer.join("\n").trim()) {
+        sections.push(buffer.join("\n").trimEnd());
+      }
+
+      return sections.length ? sections : [normalized];
+    }
+
+    function isJsonFile(file) {
+      return Boolean(file && /\.json$/i.test(file.name));
+    }
+
+    function isMarkdownFile(file) {
+      return Boolean(file && /\.(md|markdown)$/i.test(file.name));
+    }
+
+    function fileDisplayName(file) {
+      return file.webkitRelativePath || file.name || "Untitled Markdown";
+    }
+
+    function markdownSetName(files) {
+      const firstPath = fileDisplayName(files[0]);
+      const root = firstPath.includes("/") ? firstPath.split("/")[0] : "";
+      return (root || "Markdown files") + " (" + files.length + " files)";
     }
 
     function normalizeConversation(conversation, index) {
@@ -847,6 +1000,7 @@
         title,
         created,
         updated,
+        sourceLabel: "ChatGPT",
         allMessages,
         currentMessages,
         indexText
@@ -896,13 +1050,14 @@
     }
 
     function normalizeRole(role) {
-      if (role === "user" || role === "assistant" || role === "system" || role === "tool") return role;
+      if (role === "user" || role === "assistant" || role === "system" || role === "tool" || role === "memo") return role;
       return "tool";
     }
 
     function roleLabel(role) {
       if (role === "user") return "自分";
       if (role === "assistant") return "ChatGPT";
+      if (role === "memo") return "メモ";
       if (role === "system") return "system";
       return "tool";
     }
@@ -985,8 +1140,8 @@
     }
 
     function renderEmpty() {
-      els.stats.innerHTML = statHtml(0, "会話") + statHtml(0, "メッセージ") + statHtml(0, "自分") + statHtml(0, "ChatGPT");
-      els.listTitle.textContent = "会話一覧";
+      els.stats.innerHTML = statHtml(0, "資料") + statHtml(0, "表示中") + statHtml(0, "自分") + statHtml(0, "ChatGPT") + statHtml(0, "メモ");
+      els.listTitle.textContent = "資料一覧";
       els.conversationList.innerHTML = "";
       els.main.innerHTML = "";
       els.main.appendChild(els.emptyState);
@@ -998,11 +1153,13 @@
       const messages = items.reduce((sum, item) => sum + item.visibleMessages.length, 0);
       const userMessages = items.reduce((sum, item) => sum + item.visibleMessages.filter(message => message.role === "user").length, 0);
       const assistantMessages = items.reduce((sum, item) => sum + item.visibleMessages.filter(message => message.role === "assistant").length, 0);
+      const memoMessages = items.reduce((sum, item) => sum + item.visibleMessages.filter(message => message.role === "memo").length, 0);
       els.stats.innerHTML = [
-        statHtml(conversations, "会話"),
+        statHtml(conversations, "資料"),
         statHtml(messages, "表示中"),
         statHtml(userMessages, "自分"),
-        statHtml(assistantMessages, "ChatGPT")
+        statHtml(assistantMessages, "ChatGPT"),
+        statHtml(memoMessages, "メモ")
       ].join("");
     }
 
@@ -1011,15 +1168,16 @@
     }
 
     function renderList(items) {
-      els.listTitle.textContent = state.fileName ? "会話一覧: " + state.fileName : "会話一覧";
+      els.listTitle.textContent = state.fileName ? "資料一覧: " + state.fileName : "資料一覧";
       els.conversationList.innerHTML = items.map(item => {
         const conversation = item.conversation;
         const date = formatDate(conversation.updated || conversation.created);
         const matchLabel = state.query ? " / 一致 " + item.matchCount : "";
+        const sourceLabel = conversation.sourceLabel ? conversation.sourceLabel + " / " : "";
         return [
           '<a href="#' + escapeAttribute(conversation.id) + '">',
           '<span class="list-title">' + renderHighlighted(conversation.title, searchTerms(state.query)) + '</span>',
-          '<span class="list-meta">' + escapeHtml(date || "日付なし") + ' / ' + item.visibleMessages.length + '件' + escapeHtml(matchLabel) + '</span>',
+          '<span class="list-meta">' + escapeHtml(sourceLabel + (date || "日付なし")) + ' / ' + item.visibleMessages.length + '件' + escapeHtml(matchLabel) + '</span>',
           '</a>'
         ].join("");
       }).join("");
@@ -1055,6 +1213,7 @@
       const date = formatDate(conversation.created);
       const updated = formatDate(conversation.updated);
       const meta = [
+        conversation.sourceLabel || "",
         date ? "作成 " + date : "",
         updated ? "更新 " + updated : "",
         item.visibleMessages.length + "件表示"
