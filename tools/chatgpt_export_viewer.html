@@ -1,0 +1,1221 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ChatGPT Export Viewer</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #f6f5f1;
+      --surface: #ffffff;
+      --surface-alt: #f0f5f4;
+      --ink: #202124;
+      --muted: #60646c;
+      --line: #d9d8d2;
+      --line-strong: #b8bbb4;
+      --user: #0f766e;
+      --user-bg: #e7f5f2;
+      --assistant: #7950a8;
+      --assistant-bg: #f1ecf8;
+      --system: #6b7280;
+      --system-bg: #f1f3f5;
+      --tool: #9a5b1f;
+      --tool-bg: #fbf0df;
+      --danger: #b42318;
+      --mark: #fff0a6;
+      --shadow: 0 12px 32px rgba(40, 42, 45, 0.08);
+      --radius: 8px;
+      --font: "Segoe UI", "Yu Gothic UI", "Meiryo", system-ui, sans-serif;
+      --mono: "Cascadia Mono", "SFMono-Regular", Consolas, monospace;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-width: 320px;
+      background: var(--bg);
+      color: var(--ink);
+      font-family: var(--font);
+      line-height: 1.65;
+    }
+
+    button,
+    input,
+    select {
+      font: inherit;
+    }
+
+    button {
+      min-height: 36px;
+      border: 1px solid var(--line-strong);
+      border-radius: 6px;
+      background: var(--surface);
+      color: var(--ink);
+      cursor: pointer;
+    }
+
+    button:hover {
+      border-color: var(--ink);
+    }
+
+    button.primary {
+      border-color: #1f6f8b;
+      background: #1f6f8b;
+      color: #ffffff;
+    }
+
+    button.small {
+      min-height: 30px;
+      padding: 3px 9px;
+      font-size: 12px;
+    }
+
+    input[type="search"],
+    select {
+      min-height: 38px;
+      border: 1px solid var(--line-strong);
+      border-radius: 6px;
+      background: var(--surface);
+      color: var(--ink);
+      padding: 7px 10px;
+    }
+
+    label {
+      display: inline-flex;
+      align-items: center;
+      gap: 7px;
+      color: var(--ink);
+      cursor: pointer;
+      user-select: none;
+    }
+
+    label input {
+      width: 16px;
+      height: 16px;
+      margin: 0;
+    }
+
+    mark {
+      padding: 0 2px;
+      border-radius: 3px;
+      background: var(--mark);
+      color: inherit;
+    }
+
+    .app {
+      min-height: 100vh;
+      display: grid;
+      grid-template-rows: auto 1fr;
+    }
+
+    .topbar {
+      position: sticky;
+      top: 0;
+      z-index: 20;
+      border-bottom: 1px solid var(--line);
+      background: rgba(246, 245, 241, 0.96);
+      backdrop-filter: blur(14px);
+    }
+
+    .topbar-inner {
+      max-width: 1600px;
+      margin: 0 auto;
+      padding: 14px 18px;
+      display: grid;
+      grid-template-columns: minmax(220px, 1fr) minmax(280px, 620px) auto;
+      gap: 14px;
+      align-items: center;
+    }
+
+    .brand {
+      display: flex;
+      flex-direction: column;
+      gap: 1px;
+      min-width: 0;
+    }
+
+    .brand-title {
+      font-size: 20px;
+      font-weight: 700;
+      line-height: 1.2;
+      overflow-wrap: anywhere;
+    }
+
+    .brand-subtitle {
+      color: var(--muted);
+      font-size: 12px;
+      line-height: 1.4;
+    }
+
+    .searchbar {
+      display: grid;
+      grid-template-columns: minmax(180px, 1fr) 144px;
+      gap: 8px;
+    }
+
+    .top-actions {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+
+    .file-input {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      clip: rect(0 0 0 0);
+      overflow: hidden;
+      white-space: nowrap;
+    }
+
+    .layout {
+      max-width: 1600px;
+      width: 100%;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 320px minmax(0, 1fr);
+      gap: 18px;
+      padding: 18px;
+    }
+
+    .sidebar {
+      position: sticky;
+      top: 77px;
+      align-self: start;
+      max-height: calc(100vh - 96px);
+      display: grid;
+      grid-template-rows: auto auto minmax(0, 1fr);
+      gap: 12px;
+    }
+
+    .panel {
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background: var(--surface);
+      box-shadow: var(--shadow);
+    }
+
+    .panel-body {
+      padding: 14px;
+    }
+
+    .drop-zone {
+      border: 1px dashed var(--line-strong);
+      border-radius: var(--radius);
+      background: var(--surface-alt);
+      padding: 16px;
+      display: grid;
+      gap: 10px;
+    }
+
+    .drop-zone.dragover {
+      border-color: #1f6f8b;
+      background: #e5f2f6;
+    }
+
+    .drop-title {
+      margin: 0;
+      font-size: 15px;
+      font-weight: 700;
+    }
+
+    .drop-note {
+      margin: 0;
+      color: var(--muted);
+      font-size: 12px;
+      line-height: 1.55;
+    }
+
+    .stats {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 8px;
+    }
+
+    .stat {
+      border: 1px solid var(--line);
+      border-radius: 7px;
+      padding: 8px;
+      background: #fafafa;
+    }
+
+    .stat-value {
+      display: block;
+      font-size: 20px;
+      font-weight: 700;
+      line-height: 1.2;
+    }
+
+    .stat-label {
+      display: block;
+      color: var(--muted);
+      font-size: 11px;
+    }
+
+    .filters {
+      display: grid;
+      gap: 10px;
+      font-size: 13px;
+    }
+
+    .filter-title {
+      margin: 0;
+      font-size: 13px;
+      font-weight: 700;
+      color: var(--muted);
+    }
+
+    .filter-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px 12px;
+    }
+
+    .conversation-list {
+      overflow: auto;
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background: var(--surface);
+      box-shadow: var(--shadow);
+    }
+
+    .conversation-list h2 {
+      position: sticky;
+      top: 0;
+      margin: 0;
+      padding: 11px 12px;
+      border-bottom: 1px solid var(--line);
+      background: var(--surface);
+      font-size: 13px;
+      color: var(--muted);
+      z-index: 1;
+    }
+
+    .conversation-list a {
+      display: grid;
+      gap: 3px;
+      padding: 10px 12px;
+      border-bottom: 1px solid var(--line);
+      color: var(--ink);
+      text-decoration: none;
+    }
+
+    .conversation-list a:hover,
+    .conversation-list a:focus-visible {
+      background: var(--surface-alt);
+      outline: none;
+    }
+
+    .conversation-list .list-title {
+      font-size: 13px;
+      font-weight: 650;
+      line-height: 1.35;
+      overflow-wrap: anywhere;
+    }
+
+    .conversation-list .list-meta {
+      color: var(--muted);
+      font-size: 11px;
+      line-height: 1.4;
+    }
+
+    .main {
+      min-width: 0;
+      display: grid;
+      gap: 18px;
+      align-content: start;
+    }
+
+    .empty-state {
+      min-height: 420px;
+      display: grid;
+      place-items: center;
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background: var(--surface);
+      box-shadow: var(--shadow);
+      padding: 28px;
+      text-align: center;
+    }
+
+    .empty-inner {
+      max-width: 560px;
+      display: grid;
+      gap: 12px;
+    }
+
+    .empty-inner h1 {
+      margin: 0;
+      font-size: 26px;
+      line-height: 1.25;
+    }
+
+    .empty-inner p {
+      margin: 0;
+      color: var(--muted);
+    }
+
+    .conversation {
+      border-top: 3px solid #2f5d62;
+      background: transparent;
+      scroll-margin-top: 94px;
+    }
+
+    .conversation summary {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto;
+      gap: 12px;
+      align-items: center;
+      padding: 15px 0 13px;
+      cursor: pointer;
+      list-style: none;
+    }
+
+    .conversation summary::-webkit-details-marker {
+      display: none;
+    }
+
+    .conversation-title {
+      margin: 0;
+      font-size: 20px;
+      line-height: 1.35;
+      overflow-wrap: anywhere;
+    }
+
+    .conversation-meta {
+      color: var(--muted);
+      font-size: 12px;
+    }
+
+    .conversation-actions {
+      display: flex;
+      gap: 8px;
+      align-items: center;
+      justify-content: flex-end;
+      flex-wrap: wrap;
+    }
+
+    .message-stack {
+      display: grid;
+      gap: 10px;
+      padding-bottom: 18px;
+    }
+
+    .message {
+      border: 1px solid var(--line);
+      border-left-width: 5px;
+      border-radius: var(--radius);
+      background: var(--surface);
+      display: grid;
+      grid-template-columns: 118px minmax(0, 1fr);
+      overflow: hidden;
+    }
+
+    .message.user {
+      border-left-color: var(--user);
+      background: var(--user-bg);
+    }
+
+    .message.assistant {
+      border-left-color: var(--assistant);
+      background: var(--assistant-bg);
+    }
+
+    .message.system {
+      border-left-color: var(--system);
+      background: var(--system-bg);
+    }
+
+    .message.tool {
+      border-left-color: var(--tool);
+      background: var(--tool-bg);
+    }
+
+    .message-role {
+      padding: 12px 10px;
+      border-right: 1px solid rgba(0, 0, 0, 0.07);
+      display: grid;
+      align-content: start;
+      gap: 7px;
+    }
+
+    .role-badge {
+      display: inline-flex;
+      width: fit-content;
+      min-width: 78px;
+      justify-content: center;
+      border-radius: 999px;
+      padding: 3px 8px;
+      font-size: 11px;
+      font-weight: 750;
+      line-height: 1.35;
+      color: #ffffff;
+    }
+
+    .user .role-badge {
+      background: var(--user);
+    }
+
+    .assistant .role-badge {
+      background: var(--assistant);
+    }
+
+    .system .role-badge {
+      background: var(--system);
+    }
+
+    .tool .role-badge {
+      background: var(--tool);
+    }
+
+    .message-time {
+      color: var(--muted);
+      font-size: 11px;
+      line-height: 1.4;
+      overflow-wrap: anywhere;
+    }
+
+    .message-body {
+      min-width: 0;
+      background: rgba(255, 255, 255, 0.7);
+    }
+
+    .message-tools {
+      min-height: 39px;
+      display: flex;
+      justify-content: flex-end;
+      gap: 6px;
+      padding: 7px 9px;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.07);
+      background: rgba(255, 255, 255, 0.45);
+    }
+
+    .message-text {
+      margin: 0;
+      padding: 13px 15px 16px;
+      white-space: pre-wrap;
+      overflow-wrap: anywhere;
+      font-family: var(--font);
+      font-size: 14px;
+      line-height: 1.72;
+    }
+
+    .message-text code,
+    .message-text pre {
+      font-family: var(--mono);
+    }
+
+    .notice {
+      border: 1px solid var(--line);
+      border-left: 5px solid #1f6f8b;
+      border-radius: var(--radius);
+      background: var(--surface);
+      padding: 12px 14px;
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    .error {
+      border-color: #f2b8b5;
+      border-left-color: var(--danger);
+      color: var(--danger);
+    }
+
+    .hidden {
+      display: none !important;
+    }
+
+    @media (max-width: 1020px) {
+      .topbar-inner {
+        grid-template-columns: 1fr;
+      }
+
+      .searchbar {
+        grid-template-columns: 1fr;
+      }
+
+      .top-actions {
+        justify-content: flex-start;
+      }
+
+      .layout {
+        grid-template-columns: 1fr;
+      }
+
+      .sidebar {
+        position: static;
+        max-height: none;
+      }
+
+      .conversation-list {
+        max-height: 320px;
+      }
+    }
+
+    @media (max-width: 720px) {
+      .topbar-inner,
+      .layout {
+        padding-left: 12px;
+        padding-right: 12px;
+      }
+
+      .conversation summary {
+        grid-template-columns: 1fr;
+      }
+
+      .conversation-actions {
+        justify-content: flex-start;
+      }
+
+      .message {
+        grid-template-columns: 1fr;
+      }
+
+      .message-role {
+        border-right: 0;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.07);
+        grid-template-columns: auto minmax(0, 1fr);
+        align-items: center;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="app">
+    <header class="topbar">
+      <div class="topbar-inner">
+        <div class="brand">
+          <div class="brand-title">ChatGPT Export Viewer</div>
+          <div class="brand-subtitle">ローカルのエクスポートを読み込み、全チャットを1ページで読む</div>
+        </div>
+
+        <div class="searchbar">
+          <input id="searchInput" type="search" placeholder="タイトル・本文を検索" autocomplete="off">
+          <select id="sortSelect" aria-label="並び順">
+            <option value="updated-desc">更新日が新しい順</option>
+            <option value="created-asc">作成日が古い順</option>
+            <option value="created-desc">作成日が新しい順</option>
+            <option value="title-asc">タイトル順</option>
+          </select>
+        </div>
+
+        <div class="top-actions">
+          <button id="expandAllBtn" type="button">すべて展開</button>
+          <button id="collapseAllBtn" type="button">すべて折りたたむ</button>
+          <button class="primary" id="pickFileBtn" type="button">JSONを選ぶ</button>
+          <input class="file-input" id="fileInput" type="file" accept=".json,application/json">
+        </div>
+      </div>
+    </header>
+
+    <div class="layout">
+      <aside class="sidebar">
+        <section class="panel">
+          <div class="panel-body">
+            <div class="drop-zone" id="dropZone">
+              <p class="drop-title">conversations.json を読み込む</p>
+              <p class="drop-note">ChatGPTのエクスポート内にあるJSONをここへドラッグするか、右上のボタンで選びます。データはブラウザ内で処理され、外部へ送信されません。</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="panel">
+          <div class="panel-body filters">
+            <p class="filter-title">表示</p>
+            <div class="filter-row">
+              <label><input type="checkbox" id="roleUser" checked>自分</label>
+              <label><input type="checkbox" id="roleAssistant" checked>ChatGPT</label>
+              <label><input type="checkbox" id="roleSystem">system</label>
+              <label><input type="checkbox" id="roleTool">tool</label>
+            </div>
+            <div class="filter-row">
+              <label><input type="checkbox" id="onlyMatches">一致メッセージだけ</label>
+              <label><input type="checkbox" id="includeBranches">編集分岐も含める</label>
+            </div>
+            <div class="stats" id="stats">
+              <div class="stat"><span class="stat-value">0</span><span class="stat-label">会話</span></div>
+              <div class="stat"><span class="stat-value">0</span><span class="stat-label">メッセージ</span></div>
+              <div class="stat"><span class="stat-value">0</span><span class="stat-label">自分</span></div>
+              <div class="stat"><span class="stat-value">0</span><span class="stat-label">ChatGPT</span></div>
+            </div>
+          </div>
+        </section>
+
+        <nav class="conversation-list" aria-label="会話一覧">
+          <h2 id="listTitle">会話一覧</h2>
+          <div id="conversationList"></div>
+        </nav>
+      </aside>
+
+      <main class="main" id="main">
+        <section class="empty-state" id="emptyState">
+          <div class="empty-inner">
+            <h1>ChatGPT履歴を、読むための形にする</h1>
+            <p>エクスポートから `conversations.json` を選ぶと、会話ごとに自分の入力とChatGPTの出力を色分けして表示します。検索、折りたたみ、メッセージ単位のコピーが使えます。</p>
+            <button class="primary" id="emptyPickFileBtn" type="button">conversations.json を選ぶ</button>
+          </div>
+        </section>
+      </main>
+    </div>
+  </div>
+
+  <script>
+    const state = {
+      conversations: [],
+      filtered: [],
+      query: "",
+      sort: "updated-desc",
+      roles: new Set(["user", "assistant"]),
+      onlyMatches: false,
+      includeBranches: false,
+      fileName: "",
+      renderTextById: new Map()
+    };
+
+    const els = {
+      fileInput: document.getElementById("fileInput"),
+      pickFileBtn: document.getElementById("pickFileBtn"),
+      emptyPickFileBtn: document.getElementById("emptyPickFileBtn"),
+      dropZone: document.getElementById("dropZone"),
+      searchInput: document.getElementById("searchInput"),
+      sortSelect: document.getElementById("sortSelect"),
+      roleUser: document.getElementById("roleUser"),
+      roleAssistant: document.getElementById("roleAssistant"),
+      roleSystem: document.getElementById("roleSystem"),
+      roleTool: document.getElementById("roleTool"),
+      onlyMatches: document.getElementById("onlyMatches"),
+      includeBranches: document.getElementById("includeBranches"),
+      expandAllBtn: document.getElementById("expandAllBtn"),
+      collapseAllBtn: document.getElementById("collapseAllBtn"),
+      stats: document.getElementById("stats"),
+      listTitle: document.getElementById("listTitle"),
+      conversationList: document.getElementById("conversationList"),
+      main: document.getElementById("main"),
+      emptyState: document.getElementById("emptyState")
+    };
+
+    els.pickFileBtn.addEventListener("click", () => els.fileInput.click());
+    els.emptyPickFileBtn.addEventListener("click", () => els.fileInput.click());
+    els.fileInput.addEventListener("change", event => {
+      const file = event.target.files && event.target.files[0];
+      if (file) readFile(file);
+    });
+
+    els.dropZone.addEventListener("dragover", event => {
+      event.preventDefault();
+      els.dropZone.classList.add("dragover");
+    });
+
+    els.dropZone.addEventListener("dragleave", () => {
+      els.dropZone.classList.remove("dragover");
+    });
+
+    els.dropZone.addEventListener("drop", event => {
+      event.preventDefault();
+      els.dropZone.classList.remove("dragover");
+      const file = event.dataTransfer.files && event.dataTransfer.files[0];
+      if (file) readFile(file);
+    });
+
+    els.searchInput.addEventListener("input", () => {
+      state.query = els.searchInput.value.trim();
+      render();
+    });
+
+    els.sortSelect.addEventListener("change", () => {
+      state.sort = els.sortSelect.value;
+      render();
+    });
+
+    [els.roleUser, els.roleAssistant, els.roleSystem, els.roleTool].forEach(input => {
+      input.addEventListener("change", syncRoleFilters);
+    });
+
+    els.onlyMatches.addEventListener("change", () => {
+      state.onlyMatches = els.onlyMatches.checked;
+      render();
+    });
+
+    els.includeBranches.addEventListener("change", () => {
+      state.includeBranches = els.includeBranches.checked;
+      render();
+    });
+
+    els.expandAllBtn.addEventListener("click", () => {
+      document.querySelectorAll("details.conversation").forEach(detail => {
+        detail.open = true;
+      });
+    });
+
+    els.collapseAllBtn.addEventListener("click", () => {
+      document.querySelectorAll("details.conversation").forEach(detail => {
+        detail.open = false;
+      });
+    });
+
+    document.addEventListener("click", event => {
+      const copyButton = event.target.closest("[data-copy-message]");
+      if (copyButton) {
+        copyMessage(copyButton.dataset.copyMessage, copyButton);
+        return;
+      }
+
+      const copyConversationButton = event.target.closest("[data-copy-conversation]");
+      if (copyConversationButton) {
+        copyConversation(copyConversationButton.dataset.copyConversation, copyConversationButton);
+      }
+    });
+
+    function syncRoleFilters() {
+      state.roles = new Set();
+      if (els.roleUser.checked) state.roles.add("user");
+      if (els.roleAssistant.checked) state.roles.add("assistant");
+      if (els.roleSystem.checked) state.roles.add("system");
+      if (els.roleTool.checked) state.roles.add("tool");
+      render();
+    }
+
+    function readFile(file) {
+      state.fileName = file.name;
+      const reader = new FileReader();
+      reader.onload = () => {
+        try {
+          const raw = JSON.parse(String(reader.result || ""));
+          state.conversations = parseExport(raw);
+          render();
+        } catch (error) {
+          showError("JSONを読み込めませんでした: " + error.message);
+        }
+      };
+      reader.onerror = () => {
+        showError("ファイルの読み込みに失敗しました。");
+      };
+      reader.readAsText(file, "utf-8");
+    }
+
+    function parseExport(raw) {
+      const source = Array.isArray(raw) ? raw : raw.conversations || raw.items || [];
+      if (!Array.isArray(source)) {
+        throw new Error("配列形式のconversations.jsonではありません。");
+      }
+
+      return source.map((conversation, index) => normalizeConversation(conversation, index))
+        .filter(conversation => conversation.allMessages.length > 0 || conversation.title);
+    }
+
+    function normalizeConversation(conversation, index) {
+      const id = "conversation-" + index;
+      const title = conversation.title || "Untitled conversation " + (index + 1);
+      const created = toDate(conversation.create_time || conversation.created_at);
+      const updated = toDate(conversation.update_time || conversation.updated_at);
+      const currentNode = conversation.current_node;
+
+      let currentPathIds = new Set();
+      let currentNodes = [];
+      let allNodes = [];
+
+      if (conversation.mapping && typeof conversation.mapping === "object") {
+        const mapping = conversation.mapping;
+        allNodes = Object.keys(mapping).map(key => ({ nodeId: key, node: mapping[key] }));
+        currentPathIds = buildCurrentPathIds(mapping, currentNode);
+        currentNodes = currentPathIds.size > 0
+          ? allNodes.filter(item => currentPathIds.has(item.nodeId))
+          : allNodes;
+      } else if (Array.isArray(conversation.messages)) {
+        allNodes = conversation.messages.map((message, messageIndex) => ({
+          nodeId: String(message.id || messageIndex),
+          node: { message }
+        }));
+        currentNodes = allNodes;
+      }
+
+      const allMessages = nodesToMessages(allNodes, id, currentPathIds, created);
+      const currentMessages = nodesToMessages(currentNodes, id, currentPathIds, created);
+      const indexText = [
+        title,
+        allMessages.map(message => message.text).join("\n")
+      ].join("\n").toLowerCase();
+
+      return {
+        id,
+        title,
+        created,
+        updated,
+        allMessages,
+        currentMessages,
+        indexText
+      };
+    }
+
+    function buildCurrentPathIds(mapping, currentNode) {
+      const ids = [];
+      const seen = new Set();
+      let cursor = currentNode;
+
+      while (cursor && mapping[cursor] && !seen.has(cursor)) {
+        ids.push(cursor);
+        seen.add(cursor);
+        cursor = mapping[cursor].parent;
+      }
+
+      return new Set(ids.reverse());
+    }
+
+    function nodesToMessages(nodeItems, conversationId, currentPathIds, fallbackDate) {
+      const messages = nodeItems.map((item, index) => {
+        const message = item.node && item.node.message;
+        if (!message) return null;
+
+        const role = normalizeRole(message.author && message.author.role || message.role);
+        const text = extractText(message.content);
+        const created = toDate(message.create_time || message.update_time) || fallbackDate;
+        const hidden = Boolean(message.metadata && message.metadata.is_visually_hidden_from_conversation);
+
+        if (!text.trim() && role !== "system") return null;
+
+        return {
+          id: conversationId + "-message-" + item.nodeId + "-" + index,
+          nodeId: item.nodeId,
+          role,
+          roleLabel: roleLabel(role),
+          text,
+          created,
+          hidden,
+          inCurrentPath: currentPathIds.size === 0 || currentPathIds.has(item.nodeId),
+          sortTime: created ? created.getTime() : index
+        };
+      }).filter(Boolean);
+
+      return messages.sort((a, b) => a.sortTime - b.sortTime);
+    }
+
+    function normalizeRole(role) {
+      if (role === "user" || role === "assistant" || role === "system" || role === "tool") return role;
+      return "tool";
+    }
+
+    function roleLabel(role) {
+      if (role === "user") return "自分";
+      if (role === "assistant") return "ChatGPT";
+      if (role === "system") return "system";
+      return "tool";
+    }
+
+    function extractText(content) {
+      if (!content) return "";
+      if (typeof content === "string") return content;
+
+      if (Array.isArray(content.parts)) {
+        return content.parts.map(partToText).filter(Boolean).join("\n\n");
+      }
+
+      if (typeof content.text === "string") return content.text;
+      if (Array.isArray(content.text)) return content.text.map(partToText).filter(Boolean).join("\n\n");
+      if (typeof content.result === "string") return content.result;
+
+      if (content.content_type && content.content_type !== "text") {
+        return "[" + content.content_type + "]";
+      }
+
+      try {
+        return JSON.stringify(content, null, 2);
+      } catch (_error) {
+        return String(content);
+      }
+    }
+
+    function partToText(part) {
+      if (typeof part === "string") return part;
+      if (!part) return "";
+      if (typeof part.text === "string") return part.text;
+      if (part.content_type) return "[" + part.content_type + "]";
+      try {
+        return JSON.stringify(part, null, 2);
+      } catch (_error) {
+        return String(part);
+      }
+    }
+
+    function render() {
+      if (!state.conversations.length) {
+        renderEmpty();
+        return;
+      }
+
+      const terms = searchTerms(state.query);
+      const sorted = sortConversations(state.conversations.slice());
+      const prepared = sorted.map(conversation => {
+        const sourceMessages = state.includeBranches ? conversation.allMessages : conversation.currentMessages;
+        const roleMessages = sourceMessages.filter(message => state.roles.has(message.role));
+        const queryMatchesConversation = terms.length === 0 || matchesAllTerms(conversation.indexText, terms);
+        const matchingMessages = roleMessages.filter(message => {
+          if (!terms.length) return true;
+          return matchesAllTerms((conversation.title + "\n" + message.text).toLowerCase(), terms);
+        });
+
+        let visibleMessages = roleMessages;
+        if (state.onlyMatches && terms.length) {
+          visibleMessages = matchingMessages;
+        }
+
+        return {
+          conversation,
+          sourceMessages,
+          roleMessages,
+          visibleMessages,
+          matchCount: matchingMessages.length,
+          queryMatchesConversation
+        };
+      }).filter(item => {
+        if (!item.visibleMessages.length) return false;
+        if (!terms.length) return true;
+        return item.queryMatchesConversation || item.matchCount > 0;
+      });
+
+      state.filtered = prepared;
+      renderStats(prepared);
+      renderList(prepared);
+      renderConversations(prepared, terms);
+    }
+
+    function renderEmpty() {
+      els.stats.innerHTML = statHtml(0, "会話") + statHtml(0, "メッセージ") + statHtml(0, "自分") + statHtml(0, "ChatGPT");
+      els.listTitle.textContent = "会話一覧";
+      els.conversationList.innerHTML = "";
+      els.main.innerHTML = "";
+      els.main.appendChild(els.emptyState);
+      els.emptyState.classList.remove("hidden");
+    }
+
+    function renderStats(items) {
+      const conversations = items.length;
+      const messages = items.reduce((sum, item) => sum + item.visibleMessages.length, 0);
+      const userMessages = items.reduce((sum, item) => sum + item.visibleMessages.filter(message => message.role === "user").length, 0);
+      const assistantMessages = items.reduce((sum, item) => sum + item.visibleMessages.filter(message => message.role === "assistant").length, 0);
+      els.stats.innerHTML = [
+        statHtml(conversations, "会話"),
+        statHtml(messages, "表示中"),
+        statHtml(userMessages, "自分"),
+        statHtml(assistantMessages, "ChatGPT")
+      ].join("");
+    }
+
+    function statHtml(value, label) {
+      return '<div class="stat"><span class="stat-value">' + escapeHtml(String(value)) + '</span><span class="stat-label">' + escapeHtml(label) + '</span></div>';
+    }
+
+    function renderList(items) {
+      els.listTitle.textContent = state.fileName ? "会話一覧: " + state.fileName : "会話一覧";
+      els.conversationList.innerHTML = items.map(item => {
+        const conversation = item.conversation;
+        const date = formatDate(conversation.updated || conversation.created);
+        const matchLabel = state.query ? " / 一致 " + item.matchCount : "";
+        return [
+          '<a href="#' + escapeAttribute(conversation.id) + '">',
+          '<span class="list-title">' + renderHighlighted(conversation.title, searchTerms(state.query)) + '</span>',
+          '<span class="list-meta">' + escapeHtml(date || "日付なし") + ' / ' + item.visibleMessages.length + '件' + escapeHtml(matchLabel) + '</span>',
+          '</a>'
+        ].join("");
+      }).join("");
+    }
+
+    function renderConversations(items, terms) {
+      els.main.innerHTML = "";
+      state.renderTextById.clear();
+
+      if (!items.length) {
+        const message = document.createElement("section");
+        message.className = "notice";
+        message.textContent = "条件に一致する会話がありません。検索語か表示ロールを変えてください。";
+        els.main.appendChild(message);
+        return;
+      }
+
+      const fragment = document.createDocumentFragment();
+      items.forEach(item => {
+        const section = document.createElement("details");
+        section.className = "conversation";
+        section.id = item.conversation.id;
+        section.open = true;
+        section.innerHTML = conversationHtml(item, terms);
+        fragment.appendChild(section);
+      });
+
+      els.main.appendChild(fragment);
+    }
+
+    function conversationHtml(item, terms) {
+      const conversation = item.conversation;
+      const date = formatDate(conversation.created);
+      const updated = formatDate(conversation.updated);
+      const meta = [
+        date ? "作成 " + date : "",
+        updated ? "更新 " + updated : "",
+        item.visibleMessages.length + "件表示"
+      ].filter(Boolean).join(" / ");
+
+      return [
+        '<summary>',
+        '<div>',
+        '<h2 class="conversation-title">' + renderHighlighted(conversation.title, terms) + '</h2>',
+        '<div class="conversation-meta">' + escapeHtml(meta) + '</div>',
+        '</div>',
+        '<div class="conversation-actions">',
+        '<button class="small" type="button" data-copy-conversation="' + escapeAttribute(conversation.id) + '">Markdownコピー</button>',
+        '</div>',
+        '</summary>',
+        '<div class="message-stack">',
+        item.visibleMessages.map(message => messageHtml(message, terms)).join(""),
+        '</div>'
+      ].join("");
+    }
+
+    function messageHtml(message, terms) {
+      state.renderTextById.set(message.id, message.text);
+      const branchLabel = message.inCurrentPath ? "" : " / 分岐";
+      const hiddenLabel = message.hidden ? " / hidden" : "";
+      return [
+        '<article class="message ' + escapeAttribute(message.role) + '">',
+        '<div class="message-role">',
+        '<span class="role-badge">' + escapeHtml(message.roleLabel) + '</span>',
+        '<span class="message-time">' + escapeHtml(formatDate(message.created) || "時刻なし") + escapeHtml(branchLabel + hiddenLabel) + '</span>',
+        '</div>',
+        '<div class="message-body">',
+        '<div class="message-tools">',
+        '<button class="small" type="button" data-copy-message="' + escapeAttribute(message.id) + '">コピー</button>',
+        '</div>',
+        '<pre class="message-text">' + renderHighlighted(message.text, terms) + '</pre>',
+        '</div>',
+        '</article>'
+      ].join("");
+    }
+
+    function copyMessage(messageId, button) {
+      const text = state.renderTextById.get(messageId);
+      if (!text) return;
+      copyToClipboard(text, button);
+    }
+
+    function copyConversation(conversationId, button) {
+      const item = state.filtered.find(entry => entry.conversation.id === conversationId);
+      if (!item) return;
+
+      const lines = ["# " + item.conversation.title, ""];
+      item.visibleMessages.forEach(message => {
+        lines.push("## " + message.roleLabel + " - " + (formatDate(message.created) || "時刻なし"));
+        lines.push("");
+        lines.push(message.text);
+        lines.push("");
+      });
+      copyToClipboard(lines.join("\n"), button);
+    }
+
+    async function copyToClipboard(text, button) {
+      const original = button.textContent;
+      try {
+        await navigator.clipboard.writeText(text);
+        button.textContent = "コピー済み";
+      } catch (_error) {
+        const textarea = document.createElement("textarea");
+        textarea.value = text;
+        textarea.style.position = "fixed";
+        textarea.style.left = "-9999px";
+        document.body.appendChild(textarea);
+        textarea.focus();
+        textarea.select();
+        document.execCommand("copy");
+        document.body.removeChild(textarea);
+        button.textContent = "コピー済み";
+      }
+      window.setTimeout(() => {
+        button.textContent = original;
+      }, 1200);
+    }
+
+    function showError(text) {
+      els.main.innerHTML = '<section class="notice error">' + escapeHtml(text) + '</section>';
+    }
+
+    function sortConversations(conversations) {
+      return conversations.sort((a, b) => {
+        if (state.sort === "created-asc") return compareDates(a.created, b.created);
+        if (state.sort === "created-desc") return compareDates(b.created, a.created);
+        if (state.sort === "title-asc") return a.title.localeCompare(b.title, "ja");
+        return compareDates(b.updated || b.created, a.updated || a.created);
+      });
+    }
+
+    function compareDates(a, b) {
+      const left = a ? a.getTime() : 0;
+      const right = b ? b.getTime() : 0;
+      return left - right;
+    }
+
+    function searchTerms(query) {
+      return query.split(/\s+/).map(term => term.trim().toLowerCase()).filter(Boolean);
+    }
+
+    function matchesAllTerms(text, terms) {
+      return terms.every(term => text.includes(term));
+    }
+
+    function renderHighlighted(text, terms) {
+      if (!terms.length) return escapeHtml(text);
+      const pattern = new RegExp("(" + terms.map(escapeRegex).join("|") + ")", "gi");
+      return String(text).split(pattern).map(part => {
+        const matched = terms.includes(part.toLowerCase());
+        return matched ? "<mark>" + escapeHtml(part) + "</mark>" : escapeHtml(part);
+      }).join("");
+    }
+
+    function toDate(value) {
+      if (!value) return null;
+      if (value instanceof Date) return value;
+      if (typeof value === "string") {
+        const parsed = new Date(value);
+        return Number.isNaN(parsed.getTime()) ? null : parsed;
+      }
+      if (typeof value === "number") {
+        const millis = value > 100000000000 ? value : value * 1000;
+        const parsed = new Date(millis);
+        return Number.isNaN(parsed.getTime()) ? null : parsed;
+      }
+      return null;
+    }
+
+    function formatDate(date) {
+      if (!date) return "";
+      return new Intl.DateTimeFormat("ja-JP", {
+        year: "numeric",
+        month: "2-digit",
+        day: "2-digit",
+        hour: "2-digit",
+        minute: "2-digit"
+      }).format(date);
+    }
+
+    function escapeHtml(value) {
+      return String(value)
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;")
+        .replace(/'/g, "&#39;");
+    }
+
+    function escapeAttribute(value) {
+      return escapeHtml(value).replace(/`/g, "&#96;");
+    }
+
+    function escapeRegex(value) {
+      return value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+    }
+  </script>
+</body>
+</html>

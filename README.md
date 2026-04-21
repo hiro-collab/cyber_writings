@@ -14,6 +14,7 @@
 - `01_curated`: 断片を整理し、意味や論点ごとにまとめた文書
 - `02_manuscript`: 公開・構成済みの原稿
 - `docs`: 編集方針、運用ルール、公開戦略
+- `tools`: ChatGPT履歴の閲覧など、整理作業を補助するローカルツール
 - `.codex`: Codex運用用情報
 
 ## 基本ワークフロー
@@ -35,3 +36,4 @@
 - [docs/editorial_policy.md](docs/editorial_policy.md): 記録とエッセイの編集方針
 - [docs/publishing_strategy.md](docs/publishing_strategy.md): GitHub公開と収益化の考え方
 - [02_manuscript/outline.md](02_manuscript/outline.md): 仮の章立て
+- [tools/chatgpt_export_viewer.html](tools/chatgpt_export_viewer.html): ChatGPTエクスポート閲覧用ビューア
