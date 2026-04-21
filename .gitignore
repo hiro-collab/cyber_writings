@@ -1,0 +1,33 @@
+# Private raw exports and archives
+99_private/
+raw_exports/
+exports/
+chatgpt_export*/
+ChatGPT_export*/
+*.zip
+*.7z
+*.tar
+*.tar.gz
+
+# Common ChatGPT export files that may contain private data
+**/conversations.json
+**/message_feedback.json
+**/user.json
+**/shared_conversations.json
+**/model_comparisons.json
+
+# Codex local working notes. Keep directory placeholders.
+.codex/logs/*
+!.codex/logs/.gitkeep
+.codex/memory/*
+!.codex/memory/.gitkeep
+.codex/shared_notes/*
+!.codex/shared_notes/.gitkeep
+.codex/tasks/*
+!.codex/tasks/.gitkeep
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+*.tmp
+*.swp
