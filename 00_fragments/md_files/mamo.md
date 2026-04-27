@@ -1,0 +1,719 @@
+# Merged: all
+
+_Auto-merged for OpenAI Projects (<=20 files)._ 
+
+### Source: tweets_mamo_md/tweets_2018.md
+
+# Tweets 2018
+
+_Source: tweet.js → Markdown (yearly)_
+
+- [2018-06-08] `1005111951532277760`  動画をアップロードしました。 [TouchDesigner]Motion Sense Test https://t.co/lPOdofdRoj #TouchDesigner #TouchDesigner
+- [2018-11-09] `1060822598869643265` (RE)  @fuku_tw_ こちらこそフォローありがとうございます！私も勉強中で一緒に情報共有させて頂ければ幸いです^^よろしくお願いします！
+- [2018-12-15] `1073985563328339969`  Merry...#touchdesigner #Christmas https://t.co/i53AgDlwbJ #touchdesigner #Christmas
+- [2018-12-22] `1076315871692374016`  easy made #christmastree #christmas #touchdesigner #digitalart #projectionmapping https://t.co/A1ZvZqaSqL #christmastree #christmas #touchdesigner #digitalart #projectionmapping
+- [2018-12-22] `1076316676239482882` (RE)  お手軽クリスマスツリー#touchdesigner https://t.co/sS2Cj1fd0T
+- [2018-12-22] `1076317552270135296` (RE)  illust :Designed by Freepik https://t.co/uTfWVUM8BJ https://t.co/PAIAoZcFq2
+- [2018-12-23] `1076798200839729152`  動画をアップロードしました [TouchDesigner]27th Projection using sequence(English) https://t.co/6U737sQiGt 先日ツイートしたクリスマスツリーの投影映像の作り方です。 #touchdesigner #touchdesigner
+- [2018-07-01] `1013307491701014528`  動画をアップロードしました。 [TouchDesigner]24th Motion Senser Analyze(English) https://t.co/Uwky8eR93J #TouchDesigner #TouchDesigner
+- [2018-05-06] `992968834049978368` (RT)  RT @tatmos: TouchDesignerで音生成しているのってあんまりみたことないので、軽く解説してみます。 インタクティブミュージックの入門としても良いかもしれない。どうだろう？ TouchDesignerでchiptune https://t.co/vIVatML…
+- [2018-05-06] `992969198966992896` (RT)  RT @umezono_takashi: Touchdesigner使って現代で魔法使ってました。 https://t.co/hBod7Sgqid
+- [2018-09-16] `1041318668196503552`  動画をアップロードしました。 [TouchDesigner]25thプロジェクタ映像にカメラでモーションセンサを付ける https://t.co/pLNgkGRK8e #TouchDesigner #TouchDesigner
+- [2018-10-18] `1052955949248339969`  動画をアップロードしました [TouchDesigner]26th Butterfly particles mapping(English) 今回は英語で、3パートに別れています https://t.co/O5FwkH1N5H
+- [2018-05-23] `999279578286735365`  動画をアップロードしました。 [TouchDesigner]23日目おまけ4 6つ足エフェクト https://t.co/cgqDC8V6wA #TouchDesigner #TouchDesigner
+
+---
+
+### Source: tweets_mamo_md/tweets_2019.md
+
+# Tweets 2019
+
+_Source: tweet.js → Markdown (yearly)_
+
+- [2019-08-16] `1162272492007784451`  動画をアップロードしました 29th Split texts[TouchDesigner] https://t.co/Btgzh5xtVh テキストデータの処理についてです。今回は英語です。 #TouchDesigner #textanimation #TouchDesigner #textanimation
+- [2019-05-03] `1124218564922097664`  テスト撮影：設営からプロジェクションまでタイムアタックができるか検討するのに 準備や段取りをしないと難しいですね。あとは機具がグラグラして危なくならないようにとか、安全に気をつけないといけなそうです #TouchDesigner #projectionmapping  https://t.co/h3y1usltxi #TouchDesigner #projectionmapping
+- [2019-09-20] `1175197614393806848`  文化祭などでプロジェクターを床に投影しようとしたとき、置き場所がないため、傾けて置くの大変ですが、鏡使って反射させるのも良いらしいです...!少しだけ画像がぼけたり色が変わったりはするかもしれませんが https://t.co/FlM0WocTUX
+- [2019-09-20] `1175197660417888257` (RE)  ※こちらの記事参考にさせて頂きました ピアノプロジェクション♪ https://t.co/W3Qd0vx4DW
+- [2019-04-29] `1122670984505331713` (RE)  @Nagatsuki6301 いやいや、突然のフォロー逆にすいません💦もしよろしければ相互フォローさせてください!(^^)
+- [2019-04-29] `1122718362809917443`  Connected an audio signal to the projection mapping I made in the 28th youtube movie. https://t.co/hpE42Vqu0v #touchdesigner #projectionmapping #generativeart https://t.co/klxmGN6XiB #touchdesigner #projectionmapping #generativeart
+- [2019-04-29] `1122719700029333505` (RE)  先日の動画で作成したプロジェクションマッピングは音楽につなげればこんな感じで動かせます #touchdesigner #プロジェクションマッピング #generativeart https://t.co/7xaSDcQMeq #touchdesigner #プロジェクションマッピング #generativeart
+- [2019-04-29] `1122719858968240128` (RE)  .toe fileです https://t.co/KvHm1PaVOH
+- [2019-04-29] `1122723337057079296` (RE)  @NekokarasupP こちらからもフォローありがとうございます! マッピングされる方のようなのでフォローさせていただきました(&gt;&lt;) マッピングする同士で仲良くさせて頂ければうれしいです!^^
+- [2019-04-29] `1122771081746505728` (RE)  @nonnonkapibara ありがとうございます！ この手の奴はTouchDesignerだとすぐ出来るもので
+- [2019-04-29] `1122859719763173376` (RE)  @nonnonkapibara ぜひぜひ！(^^)/
+- [2019-08-05] `1158487082873917440` (RE)  @Ger0d0bad0 フォローとご視聴ありがとうございます! 始めるきっかけにしていただけたということで恐縮ですが(&gt;_&lt;)Touch仲間が増えたらなと思っていたので、うれしいかぎりです またツイッターで情報共有できればと思うのでよろしくお願いします！(^^)
+- [2019-08-12] `1160745888488271874`  for story tellers #touchdesigner #generativeart https://t.co/PQE0DGsmUF #touchdesigner #generativeart
+- [2019-08-12] `1160746496574148608` (RE)  物語向けに 三匹のこぶたです #touchdesigner #generativeart https://t.co/czX3JLpnuF #touchdesigner #generativeart
+- [2019-08-12] `1160746862648803328` (RE)  日本語でもいけました ももたろう です https://t.co/TOrk9XwEx3
+- [2019-08-03] `1157591074145218561`  Lyrics display test #touchdesigner I apreciate supporting Unicode. That makes this work easy. Japanese texts have whitespace between each phrase. https://t.co/NVCBXxj1Ly #touchdesigner
+- [2019-08-03] `1157591634269179904` (RE)  歌詞表示 テスト #TouchDesigner 日本語はフレーズごとにスペースが入るので楽 音源/歌詞は 魔王魂 様よりお借りしました https://t.co/moOo2bPAdq https://t.co/UL6UtShPL1 #TouchDesigner
+- [2019-08-03] `1157593661250498561` (RE)  .toeファイル https://t.co/f0frgvlT5m
+- [2019-08-10] `1160155332993269760`  Lyrics display with reaction diffusion. I watched "bileam tschepe" 's nice tut! https://t.co/RkjJH7wuwK lyrics is from Mao Damashi. #TouchDesigner #generative https://t.co/A5Wu5irPcy #TouchDesigner #generative
+- [2019-08-10] `1160156131689299968` (RE)  反応拡散 reaction diffusionで歌詞表示 bileam tschepe様のチュートリアルを参考にさせて頂きました 格好いいエフェクトです https://t.co/RkjJH7eT8a 歌詞と音源は再び魔王魂様よりお借りしています #TouchDesigner #generative https://t.co/tr694I5V00 #TouchDesigner #generative
+- [2019-12-28] `1210763226469658625`  two views from windows #unity #touchdesigner #Arduino #projectionmapping #argumentedreality https://t.co/OCWWyDmYKN #unity #touchdesigner #Arduino #projectionmapping #argumentedreality
+- [2019-12-28] `1210771132581761025` (RE)  2つのウィンドウ #TouchDesigner #unity #projectionmapping #Arduino #拡張現実 https://t.co/dpmBCQl93I #TouchDesigner #unity #projectionmapping #Arduino #拡張現実
+- [2019-12-28] `1210771942086606854` (RE)  2つ映っている1つがこちら https://t.co/6K4KwKgut7
+- [2019-12-28] `1210772104993329153` (RE)  もう1つがこちら https://t.co/nCjUHH9Knn
+- [2019-12-28] `1210772323097145346` (RE)  小包みの画像は christinahoober様 IMGBIN Pixabay Illustration PNGよりお借りしました https://t.co/bQdiFbJZRC
+- [2019-12-28] `1210795481267200000` (RE)  歯車が動き(action)を伝えていく(trans)するので 噛み合った歯車をトランザクション(transaction)と呼んでいます
+- [2019-02-23] `1099238731851223041`  Burning your moving point #touchdesigner #generativecoding https://t.co/lbFMdivDOd #touchdesigner #generativecoding
+- [2019-02-23] `1099239167249149952` (RE)  動くと燃やされる #touchdesigner #generativeart #generativecoding https://t.co/jpnP5v9xZL #touchdesigner #generativeart #generativecoding
+- [2019-02-23] `1099239930776084480` (RE)  toeファイル　未完成で動作が重い https://t.co/iZwLmesexV
+- [2019-02-23] `1099248618035236865` (RE)  NoiseのOperatorが便利で、組み合わせるだけで炎や雷のエフェクトにできました 雷.toeファイル #touchdesigner https://t.co/ISM7TWn7m3 … … #touchdesigner
+- [2019-03-09] `1104387938140475393`  trying some effect on puppet #Blender #touchdesigner #projectionmapping #generativeart https://t.co/nIsaRd0FlB #Blender #touchdesigner #projectionmapping #generativeart
+- [2019-03-09] `1104388485849309184` (RE)  いくつかエフェクトを試してみる #TouchDesigner #Blender #generativeart #プロジェクションマッピング https://t.co/qjMMCQdeDw #TouchDesigner #Blender #generativeart #プロジェクションマッピング
+- [2019-11-23] `1198045806369984512` (RE)  @S10r6 こちらこそフォローありがとうございます！情報共有させてもらえば幸いです(^^)よろしくお願いします！
+- [2019-10-12] `1183038181244932098`  play with midi controller #touchdesigner #projectionmapping #midi https://t.co/QG9JTzLtH8 #touchdesigner #projectionmapping #midi
+- [2019-10-12] `1183044146493186053` (RE)  midiコンで動かして遊んでみる #TouchDesigner https://t.co/1SNOXEuM4w #TouchDesigner
+- [2019-10-12] `1183044251724046336` (RE)  BGMはナチュックスピーカー様より"Op_002"をお借りしました フリーBGM 無料mp3ダウンロード | ナチュックスピーカー https://t.co/WAXTdAmN8Z
+- [2019-10-12] `1183045784641519616` (RT)  RT @satoruhiga: 先月やったmillennium paradeのライブでの3Dプロジェクション演出について、だいぶ色々R&amp;Dしたので知見を公開しないと勿体無いな～～と思っていたのを拙文ですが記事にまとめました！！！ワークフロー&amp;ライブ映像演出オタクの方向けの内容…
+- [2019-09-14] `1173020315850428416` (RT)  RT @satoru_okubo: Yngwie MalmsteenのEclips（Short Ver.）の 演奏をリアルタイムにビジュアライズした https://t.co/PC7ZVh9y2S @YouTubeさんから　ミスタッチはご愛敬(;'∀')
+- [2019-09-21] `1175333421561700354` (RE)  @ONEMOVIE1 どうも、いつも楽しそうな作品をツイッターで拝見してます！ やはりそうなんですね…!(お値段との相談ですね^^;)  毎回プロジェクターの固定のしかたは悩む所で、鏡なら何かしらスタンドとか駆使して固定できそうです
+- [2019-09-21] `1175376044057972737` (RE)  @dgaitsgo it reads just as you see:) "In the situation like a school festibal, it'll be a tough work to set your projector in the proper position, cas there shouldn't be enough space in your school class room.
+- [2019-09-21] `1175376062152232960` (RE)  @dgaitsgo Then, you can use a mirror to reflect the projection; I learnt it from an article. Though it makes the images  a little blurred, or color changed."
+- [2019-04-28] `1122325482056273925` (RE)  @nonnonkapibara フォローありがとうございます！ やってみると面白いですよね 作業手順の動画の方もよろしければ(^^) 私もマッピングするのが好きで仲間が増えればうれしいです！
+- [2019-04-28] `1122334546865688578` (RE)  @nonnonkapibara 何もしない"空のオペレータ"って意味でして、参照するのに便利なやつですね(^o^) 動画じゃ分かりにくいんですが、実際使ってくうちに、こいつが欲しくなってくる…
+- [2019-04-28] `1122334669154820096` (RE)  @nonnonkapibara ありがとうございます、ぜんぜんです！💦むしろ私もいろいろな方の動画で勉強させて頂いてる所なので一緒にマッピングとかやられる方が増えたらいいなーと思います！✨
+- [2019-04-28] `1122336550593761280` (RE)  @nonnonkapibara ありがとうございます！ 作品楽しみにしています✨ マッパー(何て言うんですかね?(笑))同士がんばりましょう！(^o^)
+- [2019-08-04] `1157971300700315650`  Practice for text animation. Applied a sequence. #touchdesigner #generative https://t.co/xYZ1X089jY #touchdesigner #generative
+- [2019-08-04] `1157971761998155776` (RE)  テキストアニメーション練習 シーケンスを使用 #touchdesigner #generative https://t.co/SMipMN6VxP #touchdesigner #generative
+- [2019-08-04] `1157972461838667780` (RE)  前回とおなじく音源/歌詞は 魔王魂 様よりお借りしました https://t.co/moOo2bPAdq
+- [2019-08-04] `1157977765187969024` (RE)  .toeファイル https://t.co/w4e9M5wE41
+- [2019-08-04] `1157996167923240963` (RE)  歌詞を入力するだけで、スペースで区切られた部分のテキストを順々にアニメーションをつけて表示していきます
+- [2019-08-11] `1160496123208880129`  Another lyrics display with particle. This is also from "bileam tschepe" 's tut. cool effect! https://t.co/Qxxkc4BMlI lyrics is from Mao… https://t.co/HzviEPZkEh
+- [2019-08-11] `1160496506022969345` (RE)  引き続き歌詞表示 こちらもbileam tschepe様のパーティクルのチュートリアルを参考にさせて頂きました https://t.co/Qxxkc4BMlI 歌詞は同じく魔王魂様よりお借りしています #TouchDesigner #generativeart https://t.co/i7Ebu3HmLe #TouchDesigner #generativeart
+- [2019-12-15] `1206109478036238343`  wanna cordinate some tech. ①twitter comments #projectionmapping with #touchdesigner ②Light On/Off control with #Arduino and relay switch and TouchDesigner ③#flexsensor (bend sensor) signal to Arduino and TouchDesigner https://t.co/NPzwmloaY0 #projectionmapping #touchdesigner #Arduino #flexsensor
+- [2019-12-15] `1206111819145728000` (RE)  ①Twitterコメント表示(TouchDesignerでプロジェクター映像制御)②照明器具をArduinoとリレースイッチ、TDでON/OFF制御③曲げセンサーで器具を動かしたのを検知、映像に反映 というのを同時に行い照明が会話しているように見せられないか検討中 https://t.co/Bz0pvHPqc5
+- [2019-12-15] `1206112021525098496` (RE)  分かりにくいですが動いてる丸が、はみ出した時に照明がONするようになっています
+- [2019-12-15] `1206155334017937411` (RE)  tweepyというのを使うとTouchDesigner内にTwitterのデータを読み込めます
+- [2019-12-22] `1208867105539579906`  window test and #merrychristmas #touchdesigner https://t.co/ZlxtuXLaCf #merrychristmas #touchdesigner
+- [2019-12-22] `1208867587431358464` (RE)  windowエフェクト練習かねて #MerryChristmas #touchdesigner https://t.co/1bBeOmEYxE #MerryChristmas #touchdesigner
+- [2019-12-22] `1208868635994779648` (RE)  家モデルはavinvij様より https://t.co/tGSrMWwf3G ロゴはFreepik様よりお借りしました。 Designed by Freepik https://t.co/uTfWVUM8BJ
+- [2019-01-27] `1089462082758569984`  Trying thunder. #touchdesigner #generativecoding https://t.co/cODZhWJSRb #touchdesigner #generativecoding
+- [2019-01-27] `1089462698511745024` (RE)  サンダーを練習中 #touchdesigner #generativecoding https://t.co/wbUe7ctT8i #touchdesigner #generativecoding
+- [2019-01-27] `1089464156242075649`  Trying fire. #touchdesigner #generativecoding https://t.co/wzpaMEkXCY #touchdesigner #generativecoding
+- [2019-01-27] `1089464418943922176` (RE)  ファイアを練習中 #touchdesigner #generativecoding https://t.co/dFj56ilLDa #touchdesigner #generativecoding
+- [2019-04-25] `1121423831489363968`  動画をアップロードしました 28thOriginal 3d model mapping[Blender TouchDesigner] 今回はこの前ツイートしたぬいぐるみへのプロジェクションマッピングです 日本語で4本構成になっています https://t.co/hpE42V8SBV #TouchDesigner #Blender #projectionmapping #TouchDesigner #Blender #projectionmapping
+- [2019-02-28] `1101102657400459264`  Anyway...Let's put gears. #Blender #touchdesigner #generativecoding #generativeart  #projectionmapping https://t.co/qZVRqp57Oe #Blender #touchdesigner #generativecoding #generativeart #projectionmapping
+- [2019-02-28] `1101103198713073671`  Projection on a puppet with CamSchnappr #Blender #touchdesigner #generativecoding #generativeart  #projectionmapping https://t.co/9DkYksaHzN #Blender #touchdesigner #generativecoding #generativeart #projectionmapping
+- [2019-02-28] `1101103722342494208` (RE)  とりあえずギアを配置 #Blender #TouchDesigner #creativecoding #generativeart #プロジェクションマッピング https://t.co/IBN1IvRGVl #Blender #TouchDesigner #creativecoding #generativeart #プロジェクションマッピング
+- [2019-02-28] `1101104333414817797` (RE)  CamSchnapprでポ◯デライ◯ンにマッピング #Blender3d #TouchDesigner #creativecoding #generativeart #プロジェクションマッピング https://t.co/93PfYsOjhh #Blender3d #TouchDesigner #creativecoding #generativeart #プロジェクションマッピング
+- [2019-01-03] `1080650361461968896`  #happynewyear #touchdesigner #謹賀新年 #いのしし #visualcode https://t.co/ISA2qAcxyY #happynewyear #touchdesigner #謹賀新年 #いのしし #visualcode
+- [2019-01-03] `1080651618448592896` (RE)  https://t.co/xG5z1qXvPo
+- [2019-01-03] `1080651715811074048` (RE)  本作はillustAC様の素材をご利用させていただきました。 https://t.co/J88mtAS2yL イラストレーター：おかか　様 https://t.co/qUfKcN381Z イラストレーター：銀舎　様
+- [2019-08-13] `1161373891127701504`  lyrics text animation and keyboard operation #touchdesigner #generativeart https://t.co/M6yjMhPb4M #touchdesigner #generativeart
+- [2019-08-13] `1161374983710359552` (RE)  歌詞のテキストアニメーションをキーボードで送っていきます #touchdesigner #generativeart  歌詞&amp;音源 魔王魂様より https://t.co/qnpBT40hZ4 #touchdesigner #generativeart
+- [2019-12-24] `1209601968265523200`  Why did they call it Microsoft "Windows"? #TouchDesigner #projectionmapping https://t.co/uJuLFiWq2O https://t.co/lrwEJDjkHw #TouchDesigner #projectionmapping
+- [2019-05-28] `1133348453679976448` (RE)  @batch1500 そんなに見ていただけるとは恐縮です！😃TDやジェネやる仲間が増えればと思っていましたのでうれしい限りです！出来た作品も、もし公開されるようでしたら楽しみにしています！
+- [2019-10-15] `1184110075884892161`  Lyrics projection with midi controller #TouchDesigner #midi https://t.co/WFYTjr3jbm #TouchDesigner #midi
+- [2019-10-15] `1184111607346954240` (RE)  midiコンで歌詞表示 #TouchDesigner #projectionmapping https://t.co/TGpxEuyMxy #TouchDesigner #projectionmapping
+- [2019-10-15] `1184111814058971136` (RE)  カワサキヤスヒロ様より音源をお借りしました "ランプ" by カワサキヤスヒロ https://t.co/i0xkOfq9Ld
+- [2019-12-18] `1207240676045287428` (RT)  RT @snufkinliberty: TouchDesignerのアドベントカレンダー投稿しました。説明不足な点は随時アップデートしていきます。https://t.co/1L0Fb0vUSc
+- [2019-12-18] `1207318662954311680`  #simulate flow velocity distribution with #flowsquare. And then, moved particles along that, with #TouchDesigner. https://t.co/JAMhf5R18g #simulate #flowsquare #TouchDesigner
+- [2019-12-18] `1207319632010301440` (RE)  #flowsquare で流速分布をシミュレーション →#TouchDesigner でパーティクルをそれに合わせて動かし中 https://t.co/sWKhXFRhoD #flowsquare #TouchDesigner
+- [2019-12-18] `1207321021289652225` (RE)  #flowsquare でこんな流速分布の画像が取得できるようだったので使ってみました https://t.co/JNJRuWUc1k #flowsquare
+- [2019-12-25] `1209789818068037633` (RT)  RT @santa_sukitoku: これ家に飾りたい． https://t.co/80hJLCkv5V
+- [2019-12-25] `1209794157587288064` (RE)  M i crosoftやん…
+- [2019-12-25] `1209794442997035010` (RE)  (P y thonのやり過ぎか…？)
+- [2019-02-13] `1095650864251863046`  thunder with #leapmotion #touchdesigner #generativecoding https://t.co/xLMJ3VEXwv #leapmotion #touchdesigner #generativecoding
+- [2019-02-13] `1095651504768278529` (RE)  #leapmotion でサンダー #touchdesigner #generativeart https://t.co/9eg2KmBrzm #leapmotion #touchdesigner #generativeart
+- [2019-02-13] `1095653755180089344` (RE)  https://t.co/72y8Cec4ys
+- [2019-02-27] `1100719102841290754`  practice: simple fbx model made with #Blender →CamSchnappr in #touchdesigner https://t.co/5E2gg7Ow1t #Blender #touchdesigner
+- [2019-02-27] `1100720195063078912` (RE)  #Blender で作った簡単なfbxモデルを #TouchDesigner のCamSchnapprで #プロジェクションマッピング する練習 #projectionmapping https://t.co/dyHZl3gwpm #Blender #TouchDesigner #プロジェクションマッピング #projectionmapping
+- [2019-06-05] `1136276516554170368` (RT)  RT @SeiichiSega: チュートリアル見ながらTouchDesignerでplexus。ポイント同士の距離の取り方がHoudiniに慣れている身としては信じられないやり方で目からうろこ… ↓こちらを参考にしました🙇‍♂️ https://t.co/POtxbmVXES…
+- [2019-10-30] `1189555486351228929`  Trying Z map scan with #TouchDesigner and camera and #projection But still, too rough and noisy. https://t.co/dPkEXs0Ajg #TouchDesigner #projection
+- [2019-10-30] `1189556248946954245` (RE)  Zマップをカメラとプロジェクター使って #TouchDesigner で取得を試みてますが、難しく、まだかなり粗い感じです https://t.co/CM45gQ3LHd #TouchDesigner
+
+---
+
+### Source: tweets_mamo_md/tweets_2020.md
+
+# Tweets 2020
+
+_Source: tweet.js → Markdown (yearly)_
+
+- [2020-08-14] `1294324839151316993`  粒同士の間に働く引力/斥力の大きさをコントロールして タタリ神っぽいエフェクト #touchdesigner https://t.co/0WSemDO58B #touchdesigner
+- [2020-08-14] `1294325038007504896` (RE)  エフェクト消して粒だけにするとこんな様子 https://t.co/CCI9ADor1y
+- [2020-08-14] `1294325215996989440` (RE)  引力/斥力をコントロールできます https://t.co/jLafW34ejG
+- [2020-08-14] `1294325311899803654` (RE)  Vincent Houzé様の動画を参考にしました https://t.co/r7U2O1fSbY
+- [2020-08-14] `1294325716989825025` (RE)  .toeファイルはこちら https://t.co/CNjr2VBk5U
+- [2020-08-28] `1299299887939424256` (RE)  @DougLilliequist https://t.co/l4p78hxRSW
+- [2020-01-03] `1212943527304400896`  火遁の術(ninja tech type fire)test. Set positions and triggers for the effect #projectionmapping #projector #touchdesigner #render #art #instaart #algorithm #visuals #digitalart #realtime #generativedesign #3d… https://t.co/M4tXa9fkJe #projectionmapping #projector #touchdesigner #render #art #instaart #algorithm #visuals #digitalart #realtime #generativedesign #3d
+- [2020-01-03] `1212944580066152448` (RE)  火遁の術(テスト) エフェクト位置とトリガー作成 #TouchDesigner #プロジェクションマッピング https://t.co/KpjWv692Ti #TouchDesigner #プロジェクションマッピング
+- [2020-01-03] `1213085143935672330`  雷遁の術(ninja tech; type thunder)test. Make connection between… https://t.co/T5TFlepd5w
+- [2020-01-03] `1213086229576605696` (RE)  雷遁の術(テスト) 点と点に繋がりを持たせる技術 #TouchDesigner #プロジェクションマッピング https://t.co/vZhQgPDx1l #TouchDesigner #プロジェクションマッピング
+- [2020-01-03] `1213153909197418502`  風遁の術(ninja tech; type wind)test. Arrange vector… https://t.co/PPTtqkfkUY
+- [2020-01-03] `1213154898461609984` (RE)  風遁の術テスト ベクトル空間を展開 #TouchDesigner #プロジェクションマッピング #忍術 https://t.co/JWEPbLeFij #TouchDesigner #プロジェクションマッピング #忍術
+- [2020-04-27] `1254561218896908290` (RE)  .toeファイル https://t.co/R4LWcL8dUJ
+- [2020-04-27] `1254563924097200129` (RE)  google assistantの方は →IFTTT →Pushbullet →Push2Run という流れで好きなソフト起動してくれます これでTouchDesignerを起動させてるだけで pythonの連携機能とかじゃないです。 お願いしてから雷だすまでにすごい時間かかっちゃってますね(^o^;)
+- [2020-04-27] `1254620406553571330` (RE)  おまけ 六連 #雷の呼吸 #霹靂一閃 https://t.co/UEXsTzbWAY #雷の呼吸 #霹靂一閃
+- [2020-10-19] `1318337971448246272`  ベクトルで操る練習とカメラを使ったモーションセンサ #TouchDesigner https://t.co/2sHJKWfL3h #TouchDesigner
+- [2020-04-11] `1248941901027225600` (RT)  RT @snufkinliberty: 順次、加筆修正しますが、昨日まで検証したオンラインDJ/VJの配信方法をまとめてます。 https://t.co/woON04shkO
+- [2020-04-11] `1248944356712562689`  zoomでQRコードのような白黒画像を送信、信号に変換を試してみました。遠隔のTouchDesignerを操作できたりしないかと。 https://t.co/vZKhTfcm7o
+- [2020-04-11] `1248944692244307970` (RE)  画像送信はTomoya様の記事を参考にさせて頂きました。https://t.co/4IXrILMfyu
+- [2020-04-11] `1248945333595324416` (RE)  .toeファイル https://t.co/RCSWy5TjS4
+- [2020-04-11] `1248952231178539010` (RE)  これmacでもできるんだろうか…？
+- [2020-04-18] `1251500783897460738`  zoom越しに #LeapMotion の信号を送り #TouchDesigner で動かす実験 信号を画像信号に変換→zoomで送り 遠隔で映像先のCGを動かせている https://t.co/HSChMkx2rW #LeapMotion #TouchDesigner
+- [2020-04-18] `1251501281018916864` (RE)  こちらはグレースケールではなくバーコードのように0/1の信号のみを送ったもの グレースケールの方が0/1で送るよりも、逆にカメラ情報量が少なく押さえられていいのかもしれない https://t.co/531TIj4lAS
+- [2020-04-18] `1251502076649037824` (RE)  .toe ファイル https://t.co/Qg8tLsygKd
+- [2020-04-18] `1251507888264105985` (RE)  ×映像先 ○配信先
+- [2020-04-18] `1251508664965332994` (RE)  こちらであれば(5本指+掌)X両手2つ分の合計12チャンネルで済む
+- [2020-04-18] `1251519417294286848`  音声だけでもこの手のやつは動かせるもので #touchdesigner https://t.co/6sETwKyaRF #touchdesigner
+- [2020-04-18] `1251519867695427585` (RE)  .toeファイル https://t.co/e1PqZoRkzq
+- [2020-02-01] `1223622265591353344`  OK、google、火遁 豪火球の術。 #touchdesigner #プロジェクションマッピング #generativeart #googlehome https://t.co/XTLc1eVYdm #touchdesigner #プロジェクションマッピング #generativeart #googlehome
+- [2020-02-01] `1223622452627922945` (RE)  google assistant →IFTTT →Pushbullet →Push2Run →TouchDesigner でTouchDesignerを起動するとできました  toe file: https://t.co/90yKJAS3Tq
+- [2020-02-29] `1233900128970240000`  動画をアップロードしました。 30th Fire Art[TouchDesigner](English) https://t.co/cO5c2qbcDK 火のエフェクトを作ります。 今回は英語です。#TouchDesigner #TouchDesigner
+- [2020-01-04] `1213330305559363584`  ジェネ系CGの技術を自分用に忍術みたいな形でまとめられないか思案中…もとい修行中 技術が欲しい… #TouchDesigner #プロジェクションマッピング #generativeart https://t.co/aKYSlF4JeH #TouchDesigner #プロジェクションマッピング #generativeart
+- [2020-01-11] `1215982102010716160`  #TouchDesigner メタボール試し #generativeArt https://t.co/TnG8cw6qgB https://t.co/Sd48FdGzwm #TouchDesigner #generativeArt
+- [2020-01-18] `1218473346490228737`  木遁の術(ninja tech; type wood) Recurrence relation, and L-system Manipulate the shape of trees.  #touchdesigner  #render #art #instaart #algorithm #visuals #digitalart #realtime #generativedesign #3d #interaction… https://t.co/2iFLFjCnCZ #touchdesigner #render #art #instaart #algorithm #visuals #digitalart #realtime #generativedesign #3d #interaction
+- [2020-01-18] `1218474141893836801` (RE)  木遁の術テスト 漸化式とLシステム #touchdesigner #忍術 マトに当たるように木の形を操れます https://t.co/NlAMuoTmDN #touchdesigner #忍術
+- [2020-01-18] `1218486913784373249` (RE)  3D方向に回転を加えると、より木っぽくなります https://t.co/L2qLJWSxqS
+- [2020-07-11] `1281846707794280448`  ルールを日本語にしたものは下記リンクの通り the rules tranlated in Japanese here https://t.co/ktMmWFkJim https://t.co/95zpBWmBGG
+- [2020-07-11] `1282050564692471808`  他の方の半分ほどのスコアしかとれずでした...恥ずかしい限りです
+- [2020-07-11] `1282050724310839297` (RE)  再来週少しでも追いつけるよう精進しようと思います
+- [2020-07-11] `1282051891753439232` (RE)  追って大会の様子は再公開されるようです。他の方の作品とかすごいのでぜひ! https://t.co/aXAhYzXQ1m
+- [2020-07-11] `1282059408541810688`  #TouchDesigner 大会感想①配信の方法や日程の組み方とかとても勉強に ②自分の作品を作ってる最中を評価してもらえるなかなか無い機会 ③競技中、他の方の作品作りは見ていられない→「お～これはすごいね!」みたいな声を聞くとすごい気になる ④短時間で作成する技術も一つの分野 ⑤英語力...! #TouchDesigner
+- [2020-07-25] `1287009186966978560`  いよいよ本日夜中の1時から TouchDesigner大会最終日 https://t.co/RtplwpTVXK 第3種目 美しさ部門 第4種目 技術部門 です。
+- [2020-07-25] `1287017828818665473` (RE)  ゲストにdeadmau5さんが出演!  ルールは以下だそうです。
+- [2020-07-25] `1287017936079577092` (RE)  第3種目 美しさ部門 競技者は素晴らしい(great)見た目のジェネレーティブ作品をTouchDesignerで作ってもらいます。この競技では、そのスタイル、ユニークな絵面、一貫性、ネットワークを作る方法とその技術が審査されます。
+- [2020-07-25] `1287017990672662528` (RE)  実物とそっくりの(photoreal;)映像となれば素晴らしいのですが、そうであるのが必須なわけではありません。参加者は自分のスタイルや特技、強みを大事にしてください。
+- [2020-07-25] `1287018164803387394` (RE)  第4種目 技術部門 デザイナーの皆さんは技術的なプロンプト(?)(technical prompt)を受け取って頂き、それを使いTouchDesignerで、とある課題を解決してもらいます。 あまり多くをお伝えはできないのですが…事前にルールを知らない事が競技の大事な所ですので。
+- [2020-07-25] `1287018237742342144` (RE)  お伝えできるのは、一歩先を行くような(next-levelな)PythonやGLSLを使うと、競技者はボーナスポイントがもらえるということ。「技術部門」で見ようとしているのは、それぞれのデザイナーがどれだけ創造性に富んだやり方で、TouchDesignerで技術課題を解決するかという事です。
+- [2020-07-25] `1287018503724097537` (RE)  The Interactive &amp; Immersive HQのElburzさんの文書を日本語に翻訳させて頂きました。
+- [2020-06-27] `1276767887928094720`  「30分以内で作品作り」というコンセプトでTouchDesigner作業動画をあげました ...時間内に間に合いませんでしたが(オイ) Texture3d TOPを使って文字を一つ一つ表示しています30min Time attack[TouchDesigner] https://t.co/tUVcGxsNZr @YouTubeより
+- [2020-06-27] `1276776929270489088` (RE)  作品がこちら #touchdesigner https://t.co/KI00ue5wkQ #touchdesigner
+- [2020-05-09] `1259083107530977281` (RT)  RT @foka22ok: 先日のTDSW Vol25でも紹介したFaceTrackingしてMTG参加するやつに、HandTrackingを追加してHangoutsに繋げてみました。 FaceもHandもMediaPipeの3D Trackingを利用。 TouchDesig…
+- [2020-11-14] `1327511277497827328` (RT)  RT @calmbooks: 技術や表現の実験としてつくっているプロトタイプの動画まとめです（なんとか10こ） https://t.co/lf2zAftM0z
+- [2020-11-14] `1327642995848450050`  Vincent Houzさんの"2d_fluid" BaseCOMPをお借りして使ってみました 水と風っぽい動きを練習するのに大変勉強になります #touchdesigner #leapmotion https://t.co/K8OAcNqRbt #touchdesigner #leapmotion
+- [2020-11-14] `1327643493531938816` (RE)  https://t.co/RtgKXNS0Rm のアセットファイルの "workshop_day_with_extra.toe"にある "2d_fluid" BaseCOMPをお借りしてます https://t.co/2a6x72nBgP
+- [2020-11-14] `1327644228738899974` (RE)  この方のパーティクルの作品すごいのに動画をmp4とかに圧縮しちゃうとパーティクルのツブツブが潰れてしまうので他の方にすごさが伝えづらい…! https://t.co/xkmpTgeNhO
+- [2020-11-28] `1332799019924344832` (RT)  RT @calmbooks: 光粒が飛び出したり戻ってきたりするクッション（再帰性反射テープで検知） #不思議のプロトタイプ https://t.co/LUICfFdLrR #不思議のプロトタイプ
+- [2020-04-12] `1249163479594012682`  試しにLeapMotionの信号だけで動かせるステージを作成してみました #TouchDesigner #OnlineStage https://t.co/93BmfeMsOZ #TouchDesigner #OnlineStage
+- [2020-04-12] `1249163908784500739` (RE)  .toeファイル https://t.co/ckPA5PUuGD
+- [2020-04-12] `1249317017435299840` (RE)  人形を #Blender3d で簡単に作って #LeapMotion 使って #TouchDesigner で動かしてみました(顔が怖い…)  ですがzoom使って信号送るのは50チャンネルオーバーぐらいになるとカクついてダメみたいでした… うまい方法があれば… https://t.co/bKYxCQ84kq #Blender3d #LeapMotion #TouchDesigner
+- [2020-04-12] `1249317471409991680` (RE)  .toeファイルとか人形の.fbxモデルとかです https://t.co/ANgKCpeZLw
+- [2020-04-12] `1249338911530217474`  とても分かりやすくて勉強させて頂きました！オンラインだとチャット機能が便利ですね 花火のように出来るというお話だったのでトライ #TDSW https://t.co/ii0l56Okbl #TDSW
+- [2020-04-26] `1254357800077029376`  OKグーグル、"雷の呼吸" #TouchDesigner #googleassistant #鬼滅の刃 #プロジェクションマッピング #Arduino https://t.co/9fpYZlrhQO #TouchDesigner #googleassistant #鬼滅の刃 #プロジェクションマッピング #Arduino
+- [2020-04-26] `1254358065568083968` (RE)  映画がやるそうなので便乗しました。 素敵な電撃の音源は音人様からお借りしました。 https://t.co/dI2SScbDsU
+- [2020-04-26] `1254358318107123712` (RE)  CG技術も緊急時の案内など、役に立てる事があるのではないかと模索しています。
+- [2020-04-26] `1254366345132511232` (RE)  .toeファイルです。すみません、スパゲティになっちゃってて読めるものではないのですが... https://t.co/6UdR9nZLKd
+- [2020-04-26] `1254369945057517569` (RE)  @Nach0_VR thx, following! yeah, you can do that with TouchDesigner, too:) google assistant →IFTTT →Pushbullet →Push2Run →TouchDesigner then, I only turn on the TD!
+- [2020-04-26] `1254410467155472385` (RE)  @oto_mura 無駄遣いされてなんぼのデジタルにそうろう(^^)楽しいですしね
+- [2020-04-26] `1254559939416035328` (RE)  雷、TouchDesignerのCHOP使うと意外と簡単にリアルタイムで書けます(グネグネしたヒモにbloomエフェクトとかのせるだけですので) https://t.co/c4MMV5RtfF
+- [2020-02-09] `1226522780289519616`  この手の操作は #touchdesigner では難儀してたのですが、ようやくできました。#プロジェクションマッピング https://t.co/UFtEaYHfdF #touchdesigner #プロジェクションマッピング
+- [2020-02-09] `1226524255157833728` (RE)  #OculusQuest のコントローラーでこれを操作するうまい方法はないものか… #OculusQuest
+- [2020-02-09] `1226526319841644546` (RE)  toeファイル https://t.co/Ae9iEP5em9
+- [2020-01-19] `1218842928560271361`  デスクトップ画像のプロジェクションマッピングを試し。マーク用にお札があると便利。https://t.co/7aeHmXgNfe https://t.co/JwVsJPrx5O
+- [2020-01-19] `1218843623665455108` (RE)  照明に重ねて電気代表示 (※電気代はちゃんとした計算ではなく適当なもの) https://t.co/w7CcHTgGhw
+- [2020-01-19] `1218849461167738885` (RE)  扇風機用には依然作った「風遁の術」を表示 扇風機がパーティクルを吹き飛ばしているように見える #touchdesigner #プロジェクションマッピング #AR #拡張現実 https://t.co/ka9KOpZrOm #touchdesigner #プロジェクションマッピング #AR #拡張現実
+- [2020-07-26] `1287353013112168450`  TouchDesigner大会すばらしい会でした! ・とても勉強になり、すごいアーティストの方の声が聴けてアワワワとなる ・60分の制限時間以内に仕上げる、というのは想像以上に頑張りが要りました ・いつもやっているパラメータ調整などもミスるミスる… ・狙った絵から大きくはずれてしまったりしました。
+- [2020-07-26] `1287353067571093504` (RE)  ・容量のいい設定方法や無意識にできるぐらい普段やってるテクニックが重宝しました。 ・また次回あったらリベンジできるだろうか… ・Thanks Elburz and all staffs!
+- [2020-07-26] `1287355300178059264` (RE)  DA XUさんの逃げるDATオペレータを追いかけるゲームがツボ Mr. DA XU's chasing DAT Op game is killing me https://t.co/L0hD89mA9p
+- [2020-05-03] `1256795071833206785`  ジェネ系CGは思い通りの形にするための技術がありますが どんな技術か口で説明しづらいため、技術を共有/コラボしにくいのが悩みでした。 そこでゲームの魔法のように属性になぞらえて分類してみました。 https://t.co/1N9plrjvbx https://t.co/ydv2LpRwB4
+- [2020-05-03] `1256795339987681280` (RE)  中二病のようでなにやら恥ずかしいですが、分かりやすく伝えるのも大事だなと思ったりします。 もっとかっこいいたとえ方がないかとは思う所😅 https://t.co/KfaDmGnhrx
+- [2020-05-03] `1256796505513418758` (RE)  https://t.co/6bEpbkB6nG
+- [2020-05-03] `1256796563906555904` (RE)  https://t.co/qC4loycUHj
+- [2020-05-03] `1256800897285320704` (RE)  この分け方に当てはまらない技術も当然いくらでもあるもので。 つど新しい「属性」を加えたり、分類の仕方を変えたりいろいろしつつ なんとか技術が、より親しみやすく、応用しやすくなったらいいと思います。
+- [2020-05-03] `1256823244444688384` (RE)  火:トリガー制御 作例 https://t.co/EkyY0UABtq
+- [2020-05-03] `1256825987402051585` (RE)  雷:線をわたす(配線) 作例 https://t.co/DJ8Lkm3slM
+- [2020-05-03] `1256826681475477504` (RE)  風:ベクトル制御 作例 https://t.co/4VNIU7nIMa
+- [2020-05-03] `1256827511582801922` (RE)  水:モノ同士の相互作用 作例 (Boids系とか) https://t.co/9aNs7f7Jzr
+- [2020-05-03] `1256828287277338624` (RE)  木:生成したものからさらに生成(漸化式) 作例 https://t.co/tBHiS0Eixw
+- [2020-05-03] `1256828717889806336` (RE)  土:形状変形 作例 https://t.co/DrmMvcSyln
+- [2020-05-03] `1256829371056222208` (RE)  金:ゲイン・遅れ制御(硬さ・粘りけ制御) 作例 https://t.co/BUe7tpRly7
+- [2020-05-03] `1256900180449783808` (RE)  作例は全てTouchDesignerで作成しています
+- [2020-04-09] `1248250408759255040`  CG内に劇場 #TouchDesigner  お祭り、催しなどが出来ない分、オンラインとか色々なイベントが開けるといいのですが CG活用して出来ることがあれば… https://t.co/ymSCDKsArM #TouchDesigner
+- [2020-04-09] `1248250678759190528` (RE)  .toe file https://t.co/gKnLy3nvIM https://t.co/zsYsvMe4B9
+- [2020-04-09] `1248250807620759552` (RE)  3dtextures様から素敵なテキスチャをお借りしました! https://t.co/67RuzdF8ua https://t.co/mjKmGdd722 https://t.co/APCXwAYBAA
+- [2020-12-24] `1342108428802478082`  #MerryChristmas2020 TDSWセミナー比嘉了さまの素晴らしいシステムと KOOLAさまのSnow Example Projectを使い遊ばせて頂きました。 #TouchDesigner #UnrealEngine 組み合わせ https://t.co/hGr3D16HyS #MerryChristmas2020 #TouchDesigner #UnrealEngine
+- [2020-12-31] `1344679730880991233`  あけましておめでとうございます！良い年となりますよう #HappyNewYear2021 #touchdesigner #UnrealEngine https://t.co/0A9GEdvjif #HappyNewYear2021 #touchdesigner #UnrealEngine
+- [2020-12-31] `1344680724633276416` (RE)  下記の方のYouTubeカウントダウンライブ動画をテクスチャへ飛ばして使わせて頂きました。 from Revive Music https://t.co/UvXDCmIO7N and Sgt_BiNghia https://t.co/Gp3mK638nt
+- [2020-01-02] `1212636018869817351` (RE)  @Anne90619842 こちらこそフォローありがとうございます！投影にご興味あるということで、よろしければこちらでぜひ情報共有させて頂ければ幸いです😃
+- [2020-01-02] `1212683545296228352`  Happy New… https://t.co/aTT4melRpC
+- [2020-01-02] `1212684145437970437` (RE)  新年につきまして #TouchDesigner #あけおめ https://t.co/3d2UF1EYR7 #TouchDesigner #あけおめ
+- [2020-01-02] `1212885037252694016`  #projectionmapping #TouchDesigner network on floor and adjust position https://t.co/YlUrVDbyRd #projectionmapping #TouchDesigner
+- [2020-07-09] `1281241405881331713`  #TouchDesigner チャンピオンシップ(The Interactive &amp; Immersive Championship)という なにやら面白そうな大会があったので どんなものかと思い切って出場してみる事にしました... https://t.co/NLdTGA3FvP #TouchDesigner
+- [2020-07-09] `1281241574052032513` (RE)  The Interactive &amp; Immersive HQという団体のTwitchで 初めての試みのようですが、やるそうです eスポーツ的なイメージで#TouchDesigner の技術を競うのを目指しているとのこと https://t.co/aXAhYzXQ1m https://t.co/s2FpakZVHs
+- [2020-07-09] `1281241648467329025` (RE)  日本時間で今週7/12(日)と再来週7/26(日)の どちらも深夜1時～明け方5時半 時差がすごい...
+- [2020-07-09] `1281241767652626434` (RE)  プロの方々についていけるのか そもそもまず司会の方々の英語が聞き取れるのか 不安しかないのですが... 清水の舞台から飛び降りる気持ちです (I'm gonna cross the Rubicon.)
+- [2020-07-09] `1281243506468507651` (RE)  種目は全部で4つあり、 第1、第2種目は下記の通り 第3、第4種目はこれから公開
+- [2020-07-09] `1281243563192442885` (RE)  第1種目:インタラクティブ性 制限時間：約60分 センサー(例えばMicrosoft Kinect, Leap Motion, Viveトラッカーなど)か、その他リアルタイムな入力(キーボード、マウス、ゲームコントローラーなど)を操作のメインとして作品に仕込む事。
+- [2020-07-09] `1281243606561390599` (RE)  競技前にあらかじめ得意なセンサーのドライバの導入やテスト接続をしておき、動作を確認し万全にしておこう。 ※課題詳細は直前に公開
+- [2020-07-09] `1281243675062722566` (RE)  第2種目:組み込み 制限時間：約60分 1)とあるTouchDesignerのコンポーネントが提供されるので、課題をクリアするのに使うかどうか選ぶ事ができる。コンポーネントはDiscordサーバに課題直前に投稿されるのでダウンロードする。 2)課題ではインターネットに接続する仕掛けが含まれているので、
+- [2020-07-09] `1281243716443725826` (RE)  TouchDesignerのアプリケーションがOSのファイアーウォールに引っかからないか確認しておく事。 3)課題を完成するにあたり、最低でも一つの、さらに別のアプリケーションを使いTouchDesignerと組み合わせないといけない。リアルタイムのアプリとの組み込み(Notch, Unity, Unreal, Max,Abelton Live,
+- [2020-07-09] `1281243801646796800` (RE)  Processing, OpenFrameworks, Web frameworksなど)ができたらボーナス点をもらえる。けれども、オフラインのアプリとの組み込み(Houdini, C4D, Photoshopなど)も使ってよい。組み上げたものがリアルタイムに近いほどよい。
+- [2020-07-09] `1281243845473169408` (RE)  4)作品の50%はTouchDesigner上で動いているようにする事。TouchDesignerがただメディアプレーヤーとしてだけ使われている場合はもらえる点数が低くなる。 ※課題詳細は直前に公開
+- [2020-07-09] `1281244720803405825` (RE)  細かいルールはこんな感じ ルール間違えて失格にならないように頑張ろう... https://t.co/2GXl4ysHa1
+- [2020-07-09] `1281246962499481600` (RE)  他の出場者の方の作り方とかも見て勉強させて頂ければ…
+- [2020-07-09] `1281258238319583232` (RE)  @ihopeenterwased ありがとうございます！そうだったんですね リアルタイム重視なのもうなずけます
+- [2020-07-09] `1281258956355063808` (RE)  大会中にその場で組み上げていくようなプロセスが、採点では重要視されるようです
+- [2020-07-09] `1281343451183759361` (RE)  @ihopeenterwased なるほどnotchはそうやって勉強されてるんですか！初めて知りました😯TouchDesignerのファイルもアップロードされてましたね チュートリアルではなくファイル読み解いて理解するのはガッツがいりますね
+- [2020-07-16] `1283683933436043264`  だから動かなかったのね… (#touchdesigner から #unity へ #OSC 通信) https://t.co/Vhc92M6ai1 #touchdesigner #unity #OSC
+- [2020-10-22] `1319383691781496832`  ハロウィン、仮装で行列も出来ないので代わりにジェネレイティブCGでお化けを作成  いつものCGに目玉をつけるだけ(雑)　#TouchDesigner #ハロウィン #ジェネレイティブお化け https://t.co/oHJbG9nUgt #TouchDesigner #ハロウィン #ジェネレイティブお化け
+- [2020-10-22] `1319383961143963648` (RE)  火の玉おばけ https://t.co/LfrBT5QOrV
+- [2020-10-22] `1319384093507764224` (RE)  雷おばけ https://t.co/GqvwPt7sMN
+- [2020-10-22] `1319384490637049856` (RE)  素敵なハロウィン画像をYuri_B/132images様よりPixabayからお借りしました。 https://t.co/Ci5WPfGCKW
+- [2020-10-22] `1319385266696540160` (RE)  目玉の.toeファイルなど https://t.co/IJq8MQl4Fg
+- [2020-10-29] `1321749791643070464` (RE)  @atsonic コメントありがとうございます！いつものに目玉と口をのせてみました
+- [2020-08-04] `1290646863813713923`  ちなみに先月のTouchDesigner大会で競技開始直前に公開された問題詳細は下記のようなものでした。 ①好きなリアルタイム入力デバイス(Leap motion、キーボード、マウスなんでもOK)やセンサーを使ってインタラクティブなゲームを作ってください。エフェクトやflair(?)、面白味があればボーナスポイント
+- [2020-08-04] `1290646969535397891` (RE)  ②Twitchチャンネルに投稿されたコメントを、リアルタイムに出力するTouchDesignerコンポーネントを渡されます。これを使って
+- [2020-08-04] `1290647002573869057` (RE)  Twitchと別のシステム(Notch, Unity, Unreal, Max, Ableton Live, Processing, openFramworksなどなんでもOK。リアルタイムで動作するシステムあればボーナスポイント)が連携できるようにシステムへの組み込みを行ってください。
+- [2020-08-04] `1290647039756378114` (RE)  ③60分の制限時間内に見た目に美しいTouchDesigner作品を製作してください。
+- [2020-08-04] `1290647183168090115` (RE)  ④1900年初頭から世界中であったUFOの目撃情報データ8万件(目撃日時,場所,UFO形状,あらすじ)を渡されるので、面白いと思ったやり方でデータ抽出をしてジェネレーティブ作品を作ってください。  …皆さんだったらどのような作品を60分で作られるでしょうか？
+- [2020-08-04] `1290647977258885124` (RE)  みんなが投稿するコメントは!blue !red !green !black !white !square !circle !triangle　の8種類のコマンドとします
+- [2020-08-04] `1290651520644636678`  ちなみに先月のTouchDesigner大会で競技開始直前に公開された問題詳細は下記のようなものでした。皆さんだったらどのような作品を60分で作られるでしょうか？ https://t.co/tbQXX1N7AX
+- [2020-02-25] `1232311720523100162`  ツイッター表示 #TouchDesigner 前作の"火遁"の応用例 https://t.co/RUfWh8Ir9R https://t.co/I2tqsz3Wce #TouchDesigner
+- [2020-04-29] `1255454777821007872` (RT)  RT @thorikawa: 昨日のMediaPipeのやつ、AR Foundationと組み合わせて、こういう手から魔法を放つ表現がiPhoneだけでできる！嬉しい。 https://t.co/0VAJCtwJUc
+- [2020-01-08] `1214937814636400642`  "火遁の術"(ninja skill type Fire)application; twitter comment boxes It sets those point positions, and twitter appears with the… https://t.co/n20y2z3P4p
+- [2020-01-08] `1214938454309494784` (RE)  火遁の術 応用 twitter吹き出し #TouchDesigner 点の位置を操り、トリガーをきっかけにツイッターを表示する https://t.co/UUKCfH2NNR #TouchDesigner
+- [2020-01-08] `1215033157960908800`  他の方のジェネ作品を「この人の作品に仕込まれてる風遁の術すごい」とか切り分けて考えながら見てると楽しい#generativeart
+- [2020-07-22] `1285929297752944642`  最近"いいね"が一つでは足りないことが多いので　#touchdesigner https://t.co/LMNfMwgf3E #touchdesigner
+- [2020-10-28] `1321437694476472322` (RE)  "ハロウィン"させてみた #TouchDesigner #ハロウィン #ジェネレイティブお化け https://t.co/BRv1oACP4b #TouchDesigner #ハロウィン #ジェネレイティブお化け
+- [2020-10-28] `1321441602334720000`  "ハロウィン"させてみた #TouchDesigner #ハロウィン #ジェネレイティブお化け https://t.co/2FKwLwlQy4 #TouchDesigner #ハロウィン #ジェネレイティブお化け
+- [2020-10-28] `1321446379797897217` (RE)  @t_mao_p RTありがとうございます！丸い目玉をつけるだけなんですけどね(笑)コスプレの代わりにできれば✨
+
+---
+
+### Source: tweets_mamo_md/tweets_2021.md
+
+# Tweets 2021
+
+_Source: tweet.js → Markdown (yearly)_
+
+- [2021-08-20] `1428727615003643909`  touchdesignerで制限時間以内に作品を作るスピード制作の競技大会 今年もやるようです リンク先の"Watch Live"のリンクからTwitchで見れるようですが 日本だと8/22(日)と8/23(月)の深夜1時とあいにく遅い時間…でも生で見ればコメントもできるようです https://t.co/wu87YunX5n
+- [2021-08-20] `1428731241285636104` (RT)  RT @1null1: We are very excited to partner with @ImmersiveHq and @notchvfx to bring you 2021's live eSports Interactive and Immersive Champ…
+- [2021-08-20] `1428732747292442625` (RE)  制作のお題詳細は競技開始直前に公開と思われます 去年はこんなお題でした 今年はどんなお題が出るのでしょうか…?!  高評価点の勝者の方が得られる賞品はTDとNotchの有料ライセンス  制作過程を見れるのも面白い所 https://t.co/CU9zZ0yQbk
+- [2021-12-24] `1474520722223824897`  #メリークリスマス がてらに朝のプロジェクション #上野公園 サンタお疲れ様です https://t.co/Y3ScgnmOYz #メリークリスマス #上野公園
+- [2021-12-24] `1474521238907535360` (RE)  雨が降るのと格闘しながらでした 止んでよかった… https://t.co/WYrA2dhymj
+- [2021-04-26] `1386699867783786500`  前回に続き、雷の術(配線)のデモ #touchdesigner #プロジェクションマッピング https://t.co/8fKEZSWOnZ https://t.co/BSnDj1t84W #touchdesigner #プロジェクションマッピング
+- [2021-04-26] `1386801805489709058` (RE)  .toe file https://t.co/PT7H06auyu
+- [2021-12-27] `1475452368024387587`  L-systemにて枝の世代を数字にしてみるテスト #touchdesigner https://t.co/v2tmgbgNCY #touchdesigner
+- [2021-02-15] `1361245379094716417`  今回のTouchDesignerアップデート豪華!
+- [2021-01-11] `1348535077320314880`  #UnrealEngine のキャラに机の上で明かりを操作してもらいました。 #touchdesigner というソフトで #OSC という方法で信号をやり取りして #プロジェクションマッピング してみました https://t.co/ghLFzTtxuY #UnrealEngine #touchdesigner #OSC #プロジェクションマッピング
+- [2021-01-11] `1348537028393136128` (RE)  明かりは #Arduino とリレースイッチモジュールというので操作してます。 #Arduino
+- [2021-07-26] `1419600475108745217` (RT)  RT @Cacophanus: This is at the Bandai Spirits office in Tokyo, in case you are wondering... https://t.co/vSUr45TiRt
+- [2021-11-08] `1457720251848663050`  もしこんな補償が出来たらきれいなプロジェクションマッピングができますね https://t.co/SAQ2ZxbPpf
+- [2021-11-15] `1460175448957075457` (RE)  @predawnmusic お役に立ったようでしたら何よりでしたΣ(´∀｀)よろしければお試しください… 投影仲間が増えてくれたらなと思ってます！
+- [2021-11-15] `1460238570036219914` (RE)  @theyoutab Thx!🙌
+- [2021-11-15] `1460268949057069057` (RE)  ポータルX ポータブル○
+- [2021-09-20] `1439859551747018755`  リツイートしたい時のために #touchdesigner #projectionmapping https://t.co/qKZmPZwF7u #touchdesigner #projectionmapping
+- [2021-09-20] `1439863887667425280` (RE)  [ベクトル場(風)の技術の一]オブジェクトがおこすベクトル場 の練習でやっています
+- [2021-08-07] `1424144955577028610`  @brunoimbrizi 様チュートリアルの流体エフェクトを この前の炎に組み合わせた所 よりリアルな感じに #touchdesigner https://t.co/H60OaJem31 #touchdesigner
+- [2021-08-07] `1424145169763377152` (RE)  炎に組み合わせよりリアルな感じに https://t.co/7c7o8QYkFz
+- [2021-08-07] `1424145530398015493` (RE)  .toeファイル https://t.co/YhxXG813AK
+- [2021-08-07] `1424145715287105548` (RE)  https://t.co/6QBjQWuo3B
+- [2021-08-07] `1424145903951048706` (RE)  をこれに https://t.co/JlJ9oZGpXK
+- [2021-08-14] `1426515607395004419` (RT)  RT @ryotakob: #今日のTouchDesigner  簡単なベクトル解析っぽいことができるコンポーネントを作成。 これを使ってなにかするかどうかは未定。 https://t.co/j70uzQQLbE #今日のTouchDesigner
+- [2021-08-14] `1426596918189121537`  お盆の夜なので人魂を出します #touchdesigner #プロジェクションマッピング https://t.co/4BaIf3j2lU #touchdesigner #プロジェクションマッピング
+- [2021-08-14] `1426656258610790403` (RE)  3つの技の組み合わせで作ってます(チュートリアル感謝)  ["相互作用"の技術の一]Boids(玉の動き) ["配線"の技術の一]軌跡線(尾ひれ) ["ベクトル場"の技術の一]流体運動(炎っぽい所)
+- [2021-08-14] `1426656855221161986` (RE)  技術を分類してみつつ https://t.co/Wwpv5uUJkX
+- [2021-12-04] `1466931823553150978` (RT)  RT @satoruhiga: jitto + amana + BACKSPACEのリアルタイムVFX共同RnDの様子 まだまだ雑い所沢山あるけど、とりあえず楽しいです🤣 #realtimevfx #UnrealEngine #TouchDesigner https://t.c… #realtimevfx #UnrealEngine #TouchDesigner
+- [2021-12-11] `1469615768887525379`  渋谷 代々木公園にて 屋外プロジェクション #プロジェクションマッピング #touchdesigner https://t.co/ZjqUJHj8Sb #プロジェクションマッピング #touchdesigner
+- [2021-12-11] `1469617844719874049` (RE)  花を咲かせてみました 今回は 木の術:漸化式 からL-system https://t.co/7Fmu1FPj0n
+- [2021-12-11] `1469617876080689154` (RE)  AkikoYamashita様のTouchDesigner植物チュートリアル ＠ TDSWを参考にさせていただきました
+- [2021-12-11] `1469618890825428997` (RE)  遠くから見た所 https://t.co/boj4tTxB2l
+- [2021-12-25] `1474680847471345673` (RE)  間に合えばこのような映像にできたらと思っていました 葉っぱに違う文字を付ける機能(L-systemのstamp)を先ほど把握し作製 #touchdesigner https://t.co/xuOWgISSiX https://t.co/4s6eB5mwFL #touchdesigner
+- [2021-12-25] `1474689437250748419` (RE)  おまけ このようにメッセージを表示するのに使えます #touchdesigner #lsystem https://t.co/PAXnVwdonU #touchdesigner #lsystem
+- [2021-06-12] `1403665260251271168`  リチウムイオンバッテリー持ち込んで電源のないスタジオでもプロジェクター撮影 touchdesigner 映像を外でも https://t.co/Y2GfS36Umq
+- [2021-06-26] `1408685943574327303` (RE)  撮影イベント（池袋サンシャインシティ）にも持ち込めました https://t.co/hiaIjHEfwk
+- [2021-03-27] `1375839013773340685`  polyhop先生の新作がすごい 紙に書いた線に合わせてリアルタイムに風の流れをシミュレーションされてます！ https://t.co/TiReBtVPh9
+- [2021-10-16] `1449392135304667157`  Boidsの良いチュートリアルなんでしょうか…!見てみようかと https://t.co/4U9pLxQc8p
+- [2021-10-16] `1449394905487319040` (RE)  Boids: (Bird-oid)「鳥もどき」という意味だそうで、いい感じに生き物の群れっぽい動きを沢山の点にさせる奴です https://t.co/QyYAJfLGfz
+- [2021-10-30] `1454341382529634310`  This is Hallo... &lt;"ストップ"&gt; ...」 「...」 「...」「...」 #TouchDesigner #This_is_Halloween #oculusquest #ハロウィン #プロジェクションマッピング https://t.co/bIV9Q72CnM #TouchDesigner #This_is_Halloween #oculusquest #ハロウィン #プロジェクションマッピング
+- [2021-10-30] `1454341580395978753` (RE)  今回は トリガー制御(火)の技術の一 シーケンス制御　で指揮をしてみました
+- [2021-10-30] `1454344183930503170` (RE)  ハロウィンでよく流れてるこの曲です https://t.co/D2jSipS2fM
+- [2021-10-30] `1454374006857994243` (RE)  .toe ファイルです https://t.co/gZE2fkCgM7
+- [2021-04-04] `1378568251886555137`  火の術(トリガー制御)のデモ #touchdesigner #プロジェクションマッピング https://t.co/zN4XWpy9nT https://t.co/mAgcWsvrgo #touchdesigner #プロジェクションマッピング
+- [2021-04-04] `1378569907244126208` (RE)  .toe file https://t.co/7O2GAUs4ul
+- [2021-08-01] `1421725883564314625`  キツネのお面を呪われてるっぽくするエフェクト #touchdesigner https://t.co/RoUJmgmYsp #touchdesigner
+- [2021-08-01] `1421726102272167942` (RE)  Bruno Imbrizi様の流体エフェクトのチュートリアルをもとに作らせて頂きました Thank you for good tutorial! https://t.co/bDsYUiZp7M
+- [2021-08-01] `1421839172726181893` (RE)  .toe ファイル(シェーダー忘れてたので再up) https://t.co/0XrO6hu7QX
+- [2021-02-21] `1363419896076374017`  信号を渡す練習 "燃焼" #touchdesigner https://t.co/6QdWXL5OPR #touchdesigner
+- [2021-02-21] `1363420107133784074` (RE)  信号を渡す練習 "燃え移し" #touchdesigner https://t.co/dprwDOPxzb #touchdesigner
+- [2021-02-21] `1363420758131703808` (RE)  炎はこの動画で作ってたものを使用 https://t.co/cO5c2qbcDK
+- [2021-02-21] `1363422773633118208` (RT)  RT @kiyossy0715: 魔法道具 “火消しライター” を AR と スマート家電で実現しました。 家に置かれた照明達から光を集めたり、戻して灯せます。 #AR #XR #Unity #ハリーポッター https://t.co/zd0Z3wxNoW #AR #XR #Unity #ハリーポッター
+- [2021-02-28] `1365947775515430915`  テキストの重なりを自動で少なくできないか挑戦 #touchdesigner  .toe file https://t.co/MnlgXexjY2 https://t.co/4FBCONQ9gT #touchdesigner
+- [2021-02-28] `1366019001466245121` (RT)  RT @owendeery: adding lots of eye candy to a tech article #screenshotsaturday #gamedev #indiedev https://t.co/DigQCFzqBj #screenshotsaturday #gamedev #indiedev
+- [2021-07-04] `1411584571708121088` (RE)  ゲーミングノートPC使うと外出先でもこれぐらいの処理はできそう  PCが熱くならないよう気をつけつつ #touchdesigner https://t.co/RZowq0dEVC https://t.co/ZOxbXrv7MQ #touchdesigner
+- [2021-07-04] `1411585316108922883` (RE)  .toeファイルhttps://t.co/RZowq0dEVC
+- [2021-07-04] `1411659779118821377` (RE)  https://t.co/PVQNZc82Al
+- [2021-07-04] `1411660003174326280` (RE)  https://t.co/KYLPZe8to6
+- [2021-07-04] `1411660152982306817` (RE)  https://t.co/ivudCMPcbv
+- [2021-07-25] `1419160962460880899`  このしばりで屋外投影にトライ ・一人で運搬できる荷物量 ・ひとつの場所の専有時間は45分以内(設置15分 撮影15分 撤収15分) https://t.co/XYZO0e2RPo
+- [2021-07-25] `1419161181097398277` (RE)  ・400Whの持ち運びバッテリー(suaoki)と ・1000lm 100Wのプロジェクター(epson ef11)と ・ゲーミングノートPC 50Wで 2時間は投影できました
+- [2021-07-25] `1419164610985304064` (RE)  https://t.co/f816Ufk5QZ
+- [2021-03-28] `1376113014437421060`  演武ならぬ演ジェネ(?)に挑戦中 #touchdesigner  .toe file https://t.co/oI4maE97Tb  #プロジェクションマッピング #RealTime https://t.co/gakafzBqSi #touchdesigner #プロジェクションマッピング #RealTime
+- [2021-03-28] `1376126109906046976` (RE)  こちらの技術の分けかたに合わせて連続で作品を出していってます https://t.co/Wwpv5uD8tp
+- [2021-03-28] `1376313700433362947` (RE)  素晴らしいチュートリアルを参考させて頂きました water: boids: matthew ragan(td forum site), paketa12 wind: static wind-そよ風: vincent houze tree: L-system: yxo dellab, akiko yamashita(TDSW tut) clay: height map: bileam tschepe noto the talking ball metal: wave propagation: noto
+- [2021-11-14] `1459809022048030726`  屋外投影テスト 88リットルの大きい旅行カバンにポータルバッテリーを入れつつ、パソコンデスク代わりに 荷物減らして移動しやすく https://t.co/eqkKEjoCfP
+- [2021-09-12] `1436996009184268295`  これクラブで流れてたら感動すると思う #pv_tdsw https://t.co/jM8EGsjA1D #pv_tdsw
+- [2021-09-12] `1437046531522285574` (RT)  RT @satoruhiga: 管理者権限で "C:\Program Files\Derivative\TouchDesigner\bin\python.exe" -m ensurepip を実行するとTouchDesignerにpipがインストールできるのに気付いた これは便利
+- [2021-09-26] `1442077534833676293`  手で風を起こしてスイッチを押したい時に #touchdesigner #プロジェクションマッピング https://t.co/3M7KssmV9Z #touchdesigner #プロジェクションマッピング
+- [2021-09-26] `1442077872995246083` (RE)  .toeファイル https://t.co/fyrUF4KvkI
+- [2021-09-26] `1442086937880252420` (RE)  @brunoimbrizi 様チュートリアルの流体エフェクトから"pressure"とあるTOPをひっぱり出して使うと面白いです https://t.co/RFFUc92VNG
+- [2021-09-26] `1442087108085096452` (RE)  [ベクトル場(風)の技術の一]パルスウェーブ の練習でやっています
+- [2021-12-30] `1476399477519187970`  L-systemという機能でニョキニョキ木を生やせます。葉っぱに文字を置いて文書にしてみました。「帰りに牛乳買ってきて」と書いてあります。 #touchdesigner #プロジェクションマッピング https://t.co/Jhv4PUep1Y #touchdesigner #プロジェクションマッピング
+- [2021-12-30] `1476404868302925825` (RE)  今回は 木の術: 漸化式の Lシステム  地の術:アウトプットの マッピング  を使ってます
+- [2021-12-30] `1476434686524411904` (RE)  "L-system (Lシステム)"と書くと何やら知らない呪文のようですが、 このやり方を考えた人のイニシャルが「L」だったので、"Lシステム"と呼ばれているそうです。 (2枚目写真のリンデンマイヤーさんLindenmayer)  植物っぽい形がシンプルに描けるので便利 https://t.co/0QhOabafLB
+- [2021-04-27] `1387001909047791616` (RE)  音源は以下HPよりお借りしています。 小森 平 様 https://t.co/FTpxYbUlQa on-jin 音人様 https://t.co/dI2SScbDsU また6つ目のTrace lineにてKen-ichi KAWAMURA(TDSW)さんのチュートリアルを大変参考にさせて頂いています。感謝…
+- [2021-04-27] `1387004530357772294` (RE)  例えばこういう使い方にて https://t.co/DH43tPIhw8
+- [2021-03-23] `1374376079293476871`  何でかboids(群れっぽい奴)がぷるぷるしてしまう…#touchdesigner https://t.co/VgKRMGbAaV #touchdesigner
+- [2021-08-11] `1425597115523211268` (RT)  RT @sleepJam: TouchEngineめっちゃ簡単ですね。ずれがどれぐらいあるか次第だけど、まだわからない。 #TouchDesigner #TouchEngine https://t.co/RwHL8ik8fp #TouchDesigner #TouchEngine
+- [2021-12-29] `1476124051626409986` (RE)  L-systemで文書を表示してみるテスト #touchdesigner https://t.co/gnSLpSHiqp #touchdesigner
+- [2021-12-29] `1476165478267899912` (RT)  RT @CH1H160: 【自作myCobot15日目】 カーテンレールを活用しロボットアームを天井から吊るしてみた。これでプロジェクターの映像が部屋のどこへでも投影可能だ！ #myCobot #M5Stack #自作myCobot https://t.co/mQLYZbwWmQ #myCobot #M5Stack #自作myCobot
+- [2021-11-03] `1455867797406318596`  Sprng SOPが滑らかな形作るのに便利でした #touchdesigner https://t.co/PdPPHawYNK #touchdesigner
+- [2021-11-03] `1455870440274989059` (RE)  今回は ゲインディレイ制御(金)の術より ゲイン(=バネ硬さ)制御 を使ってます
+- [2021-11-03] `1455871436753498119` (RE)  模様をつけて遊んでみましょうかね https://t.co/dVBdSE7HSZ
+- [2021-11-03] `1455871578386796552` (RE)  .toeファイルです https://t.co/NUH3KvzHtq
+- [2021-11-03] `1455876289873604611` (RE)  X Sprng ○Spring
+- [2021-11-24] `1463478960990216198`  かっこよい！映像がずれないで車にぴったりあってるのもすごいです https://t.co/sXL4n10Nh2
+
+---
+
+### Source: tweets_mamo_md/tweets_2022.md
+
+# Tweets 2022
+
+_Source: tweet.js → Markdown (yearly)_
+
+- [2022-08-19] `1560587845558943745` (RE)  「TouchDesignerとかでコントロールする技を属性ワザにたとえて親しみやすくしたいシリーズ」 "土"属性(並列処理)の技の一つ「マップ」の一形 「高さマップ」(Zマップとも) 面の高さの分布を2次元の画像で表現します  動画のようにマップの白黒の濃さが面上の対応する部分の高さになります https://t.co/QgRvqRLRXx
+- [2022-07-08] `1545250961362280453` (RE)  たとえばこちらのように映像を背景にしたプロジェクター撮影などに使ってみたりしてます 炎🔥とか雷⚡出すと楽しい感じですね  ※今回モデルはゆに様にご協力いただきました。素敵なモデルをありがとうございました。 https://t.co/AyheXPca8S https://t.co/flxlWgqVtA
+- [2022-07-08] `1545331233982275584` (RE)  こちらは電源のあるスタジオで撮影したものでしたが…
+- [2022-07-08] `1545337625556295680` (RE)  屋外でも電源無しで出来るので、色んな方に見ていただいたり映像前で撮影頂くこともできました。 https://t.co/3mc978vOsZ
+- [2022-07-08] `1545365921207701505` (RE)  上記URLの記事にも書きましたが Webカメラを一緒に使うと動きに合わせて炎とか雷出したりインタラクティブなものも出来て面白いです ※モデルは同じくゆに様にご協力頂いています https://t.co/TQefDZf4jZ
+- [2022-07-08] `1545370141747056640` (RE)  こんな感じですね。Webカメラをクランプで固定してます。  映す範囲と映像の重ね合わせ(マッピング)に5〜10分ほどかかるので設置時間に余裕がある時限定で https://t.co/bkbIdVGcql
+- [2022-07-08] `1545379125543636993` (RE)  同じく、マイクで音を拾ってもインタラクティブに出来ます こちらのような感じで https://t.co/KRYkbgAWOO
+- [2022-07-08] `1545547955368693760` (RE)  上記画像のプロジェクター撮影のやり方はこちらのサイト様などにて勉強させて頂きました https://t.co/1FNciZtZhL
+- [2022-06-10] `1535209466391449601` (RT)  RT @CitronSeason: 最新のTouchDesignerのAnnotate機能めちゃくちゃ見やすいわね... https://t.co/ER61MRks3R
+- [2022-11-18] `1593416705165836289` (RE)  上画像のように 歩きながら投影できるプロジェクターセット 作成はこんな感じ #プロジェクター撮影 (以下返信欄に) https://t.co/TwtTd5S4LB #プロジェクター撮影
+- [2022-11-18] `1593417191528943616` (RE)  ①スーツケースにポータブルバッテリーを入れます ※定格出力(ワット数)が十分か確認 https://t.co/Uf9nEJ63ZO
+- [2022-11-18] `1593417509012615170` (RE)  ②スーツケースのジッパーを少しだけ開けて スキマから三脚を差込みます https://t.co/8PDBqH5dpx
+- [2022-11-18] `1593417892879486977` (RE)  ③三脚にプロジェクターを取り付けて バッテリーからのばした電源ケーブルとミラーリングデバイスをつなぎます https://t.co/HckyIOvwdv
+- [2022-11-18] `1593420119119581184` (RE)  ④スマホの映像をミラーリング機能を使って無線でプロジェクタに映します 外に出て周囲の迷惑にならない場所を探索 投影します🎥 https://t.co/pyO9ssaVYX
+- [2022-11-18] `1593569096020336640` (RE)  ※④で言ってるミラーリングは こんな感じでスマートフォンの画面をそのまま無線でプロジェクターに飛ばせます (今回はAnyCastというデバイスをHDMIに挿してます。 画像では写真撮ってるカメラの画面が映ってます。) https://t.co/tpQn4drWqF
+- [2022-08-15] `1559041074659594245` (RE)  「TouchDesignerとかでコントロールする技を属性ワザにたとえて親しみやすくしたいシリーズ」 "月"属性の技では映り方、見られ方を操るワザを扱います。 月が太陽の光を反射し見えることから 信号やモノが反射したり、保護色で隠れたりするのもこちらで 動画は「マテリアル設定」で見た目を変える様子 https://t.co/eTlaNUlPcg
+- [2022-08-15] `1559100155290300416` (RE)  「TouchDesignerとかでコントロールする技を属性ワザにたとえて親しみやすくしたいシリーズ」 "天"属性の技では、欲しい情報を集めてインプットするワザを扱っています 動画はtwitterのコメント文を取得して上から流している様子 https://t.co/J6gfIweUjh
+- [2022-08-15] `1559108796009435136` (RE)  「TouchDesignerとかでコントロールする技を属性ワザにたとえて親しみやすくしたいシリーズ」 "地"属性の技では、ある情報を欲しい所に届けたり、アウトプットするワザを扱っています 動画は出力する映像をぬいぐるみの位置に合わせ込んだ「マッピング」というワザの例 https://t.co/51SRK2G3VO
+- [2022-08-15] `1559126987167256576` (RE)  「TouchDesignerとかでコントロールする技を属性ワザにたとえて親しみやすくしたいシリーズ」 "雷"属性の技の一つ 「輪郭線contour・流線stream line」  模様の形や、濃淡が変化する方向に沿って線をひく技です  カゲに沿って線を書けば動画のように電気をまとったエフェクトが作れます https://t.co/RkRxOlnPpu
+- [2022-08-15] `1559142603018637312`  「TouchDesignerとかでコントロールする技を属性ワザにたとえて親しみやすくしたいシリーズ」 11属性のご案内をまとめました  各属性のワザ例はリプ欄でご参照頂けます  https://t.co/JtG3i9GLiE
+- [2022-08-15] `1559143006912925696` (RT)  RT @art_djb: 「プロジェクションの危険性・安全対策について はじめに」を公開しました。  今回はプロジェクション基礎知識編として ・排熱や光線・明滅等、どんな危険性があるのか ・各種設置方法や配慮すべき点は何か といったことに、全般的にふれています。  ぜひご覧くだ…
+- [2022-08-15] `1559144411136532480` (RE)  https://t.co/s1MJbKrUAw
+- [2022-08-29] `1564210715505745920` (RE)  「TouchDesignerとかでコントロールする技を属性ワザにたとえて親しみやすくしたいシリーズ」 "金"属性(硬さ(ゲイン)・粘り(ディレイ)制御)の技の一つ 「ロックLock」 特定の場所や値に"固定"します  移動の大きさのゲインをほぼ0に  取りうる状態を限定します https://t.co/N0KXA3CVBO
+- [2022-12-05] `1599554224874221569` (RE)  まとめ動画 ①屋外で歩きながらプロジェクター映像投影 ②スマホでPCをリモート操作。ノートPCを手で抱える苦労がいらず、持ち運びしやすいが、映像を音に合わせてインタラクティブに動かしたりマッピングしたりできる https://t.co/m8VUyxOo2M
+- [2022-01-03] `1477909907789983744`  紅白歌合戦の紙ふぶきを見ていたら 花ふぶきがやりたくなったので #touchdesigner #プロジェクションマッピング #ジェネレイティブアート  今回は風の術(ベクトル制御)で風の向きを調整 https://t.co/mIVePNATXc #touchdesigner #プロジェクションマッピング #ジェネレイティブアート
+- [2022-01-03] `1477912249713192960` (RE)  人が横に立って一緒に映るときはプロジェクターの向きを縦にできたほうが大きく映せそうですね (いつものように横にすると写真2枚目のような感じ) プロジェクターからの映像って横長なので https://t.co/B3wOe1nYXN
+- [2022-01-10] `1480553412765057024`  氷エフェクトに挑戦中 リアルにするにはどうしたものか #touchdesigner .toeファイル https://t.co/6qQBWtMaSz https://t.co/cH0IwF3jTX #touchdesigner
+- [2022-01-17] `1483073927022739457`  ジェネレイティブCGでやってる技術を魔法っぽくたとえて人に伝えやすくしよう、という試み  「魔法というよりは怪しい占い師かエセ陰陽師みたいだね」と言われる感じになってしまったので  もう開き直ってエセ陰陽師っぽくまとめてみました  作例は #touchdesigner にて作製 https://t.co/kl3QCMpdfQ #touchdesigner
+- [2022-03-28] `1508278873305206789` (RE)  こちらでまとめた分け方で、CGをあやつる技をゲームの魔法属性のようになぞらえて分類してます https://t.co/WdBxC5U0Fd
+- [2022-03-28] `1508379740423393281` (RE)  去年のと比べてワザ数を増やすことが出来ました https://t.co/Yi9QDOfYMK
+- [2022-11-14] `1592262653522903041` (RE)  屋外で雷の映像を投影してみる #プロジェクター撮影 https://t.co/Oc9IqIpidt #プロジェクター撮影
+- [2022-11-14] `1592263010252644352` (RE)  壁に雷の映像を投影して動かした様子 #プロジェクター撮影 https://t.co/GEjBYIXE5i #プロジェクター撮影
+- [2022-11-28] `1597240386409226241` (RE)  上記で、試しに朝 公園にて #touchdesigner 画面を #プロジェクター投影 しスマホで操作してみた ノートPCを机で操作するよりも移動が楽に 歩きながら投影もできそう https://t.co/ZpGn9UaTjM #touchdesigner #プロジェクター投影
+- [2022-09-12] `1569322527385874433` (RT)  RT @Scott_Allen__: 2020年からTouchDesignerの授業用無言キャプチャを限定公開にして自身のサイトに貼ってたんですが，学生から復習用にYouTube上でプレイリストにして欲しいという要望があったので，この際もう公にしちゃおうということで公開しました…
+- [2022-08-13] `1558311945375125504`  TouchDesignerとかでコントロールする技をなんとか親しみやすくできないか…という悩みから 属性ワザにたとえて親しみやすくしてみる試み(リンク先のもの)  ためしに11種類(属性)にまとめてみたのをちょっとずつ記載してみようかと思います https://t.co/5q4LdtnRnC https://t.co/hm9o51g08Z
+- [2022-08-13] `1558312565414850560` (RE)  「TouchDesignerでコントロールする技を属性ワザにたとえて親しみやすくしたいシリーズ」 "日"属性では 見えないモノを見えるようにするためのワザ(参照信号)を扱ってます 下記はライトを使った例 https://t.co/6KCwDKvBJc
+- [2022-08-13] `1558313182988406785` (RE)  "日"属性の技の一つ "レンダーrender"(描き出す) 設置した3dCGを画面で見れるようにするワザ 3dCGは、設置してもそのままでは見えないので、これを行い見えるようにします https://t.co/ZdM1t1ujuF
+- [2022-08-13] `1558313474316414976` (RE)  [TouchDesignerとかでやる技を属性ワザにたとえて親しみやすくするシリーズ] "日"属性の技の一つ 「プリントprint()」 文字とか数字を見て確認できるようにするワザ  とりあえず"Hello World!"と書かせるのがお約束 きっと多くの方が一番最初に習うコード(言語)系のワザ https://t.co/iYkdH1rBRw
+- [2022-08-13] `1558314234986913793` (RE)  "日"属性の技の一つ 「ライトLight」暗くて見えない所を明かりで照らして見えるようにするワザ  同じモノでも、明かりの設定を変えることで見えるものが異なることがあります https://t.co/6RGwdWuj44
+- [2022-08-13] `1558315081846231042` (RE)  「TouchDesignerでコントロールする技を属性ワザにたとえて親しみやすくしたいシリーズ」 "火"属性の技ではトリガー制御を扱います。設置して好きなときに点火するイメージです。  こちらは音量が"しきい値Threshold"を超えるのをトリガーにON/OFFしてみた例 https://t.co/LdoNrjyiuQ
+- [2022-08-13] `1558326588348846081` (RE)  「TouchDesignerでコントロールする技を属性ワザにたとえて親しみやすくしたいシリーズ」 "火"属性の技の一つ 「スイッチ SW」 設定した条件でON/OFFを切り替えられるようにします コード(言語)系では「if(イフ)」などとも 動画は、指を鳴らした回数がもし奇数ならON、偶数ならOFFにしている例です https://t.co/SvhWRFkwki
+- [2022-08-13] `1558329180772700161` (RE)  「TouchDesignerでコントロールする技を属性ワザにたとえて親しみやすくしたいシリーズ」 "火"属性の技の一つ 「NOTトリガー」 普通トリガーは、ある条件でONにしますが、こちらはある条件で逆にOFFにします 火がつく事と同じくらい、火がつかないようにする事も大事 例:炎に触れたら炎をOFFにする https://t.co/aZV24LowQB
+- [2022-08-13] `1558341880667971584` (RE)  「TouchDesignerでコントロールする技を属性ワザにたとえて親しみやすくしたいシリーズ」 "火"属性の技の一つ 「リレーRelay,中継」 何かがONになったのをきっかけに自分もONになるトリガー 合図を伝えるのに便利  トランジスタなんかが一般的  動画は隣の火がつくと、自分も点火するリレースイッチ例 https://t.co/9EkhKfEOF7
+- [2022-08-13] `1558345820704890885` (RE)  https://t.co/JzyU9iBlkx
+- [2022-08-13] `1558347394751684608` (RE)  「TouchDesignerとかでコントロールする技を属性ワザにたとえて親しみやすくしたいシリーズ」 "雷"属性では 点から点に向かって線(あるいは面)を引いたり 線に沿ってモノなんかを動かしたりするワザ(配線)を扱ってます  プラスからマイナスに電気が流れるイメージで  動画は3つの点から線を引いた例 https://t.co/bMFCMot4Vj
+- [2022-08-13] `1558355465792237568` (RE)  「TouchDesignerでコントロールする技を属性ワザにたとえて親しみやすくしたいシリーズ」 "風"属性のワザではその場の空間(場,フィールド)に流れとかを作って力を及ぼします(ベクトル場) 動画の例では、その場に横向きの流れを作って、花びらを動かしています https://t.co/obexmu0J8k
+- [2022-08-13] `1558362351031619584` (RE)  「TouchDesignerでコントロールする技を属性ワザにたとえて親しみやすくしたいシリーズ」 "雷"属性の技の一つ 「点と点を選んで結ぶ」 たくさん点がある中で欲しい線を書くには、始まりの点と終わりの点を選びだすワザが必要です 例:玉のモデルから1番近くにある点を選び、線を引いて雷玉を作ってます https://t.co/bo6U7SLXkK
+- [2022-08-13] `1558364027809452032` (RE)  雷玉の例、こっちの方が一番近い点を選んでいる様子が分かりやすかったかもしれません https://t.co/3GFD9SK28r
+- [2022-08-13] `1558377860829630464` (RE)  「TouchDesignerとかでコントロールする技を属性ワザにたとえて親しみやすくしたいシリーズ」 "風"属性の技の一つ 「収束・発散divergence」 あるエリアに向かって引き寄せられる流れ(ベクトル)と 反対にエリアから引き離される流れを制御します https://t.co/aczRfHcDlW
+- [2022-08-13] `1558383232021700609` (RE)  「TouchDesignerでコントロールする技を属性ワザにたとえて親しみやすくしたいシリーズ」 "風"属性の技の一つ 「渦巻きcurl, vorticity」 あるエリアに対してグルグル回る動きを制御します https://t.co/yw73XBsefC
+- [2022-08-13] `1558391111814488065` (RE)  「TouchDesignerでコントロールする技を属性ワザにたとえて親しみやすくしたいシリーズ」 "水"属性のワザでは動くモノ同士の間に働く力の及ぼしあい(相互作用)を扱います  動画は粒同士が距離を取ったり同じ向きに動こうとする例(Boids鳥もどき) https://t.co/0iGyZvGF9S
+- [2022-08-13] `1558428013473067008` (RE)  「TouchDesignerとかでコントロールする技を属性ワザにたとえて親しみやすくしたいシリーズ」 "水"属性の技の一つ 「引力・斥力」 粒子(パーティクル)同士に引き付け合う力を働かせたり 反発し合う力を働かせたりします https://t.co/qKgJPeOU6N
+- [2022-08-20] `1560829751660490753` (RE)  「TouchDesignerとかでコントロールする技を属性ワザにたとえて親しみやすくしたいシリーズ」 "土"属性(並列処理)の技の一つ 「ランプramp, 坂」 一面にならんだ分布に、全体的に傾斜をつけます ある場所からある場所に向かって、なだらかに変化をつけられて便利 動画後半のように段差stepにすることも https://t.co/p23d5NkMSV
+- [2022-08-20] `1560831795679047680` (RE)  ランプRamp→坂 ランプLamp→明かり 最初混乱します
+- [2022-08-20] `1560971094768513025` (RE)  上のはこちらで見ても分かりやすいかもしれません…! https://t.co/d1X1KW2VpE
+- [2022-12-03] `1599018704649715713`  プロジェクタ用に作る動画素材は背景が黒 #TouchDesigner https://t.co/U2sxK2xpFL #TouchDesigner
+- [2022-12-24] `1606639279060717569`  #メリークリスマス の東京街中 #プロジェクション撮影  新宿より https://t.co/WX8QrhrPLv #メリークリスマス #プロジェクション撮影
+- [2022-12-24] `1606652556822085633` (RE)  #メリークリスマス の東京街中 #プロジェクション撮影  渋谷より https://t.co/PSd4505ua7 #メリークリスマス #プロジェクション撮影
+- [2022-12-24] `1606653162362114049` (RE)  #メリークリスマス の東京街中 #プロジェクション撮影  新宿　東横より https://t.co/OSkLkL0eLs #メリークリスマス #プロジェクション撮影
+- [2022-12-24] `1606661774182584321` (RE)  #メリークリスマス の東京街中 #プロジェクション撮影  歌舞伎町　より https://t.co/xf8i1KTKtg #メリークリスマス #プロジェクション撮影
+- [2022-12-24] `1606792588195160065` (RE)  #メリークリスマス の東京街中 #プロジェクション撮影  思い出横丁　より https://t.co/Q7obYFnPAF #メリークリスマス #プロジェクション撮影
+- [2022-12-24] `1606796147259236352` (RE)  #メリークリスマス の東京街中 #プロジェクション撮影  新宿駅前　より https://t.co/ez4OaAwQ9i #メリークリスマス #プロジェクション撮影
+- [2022-02-12] `1492405923964284931`  杖から風を出す練習 収束させたり発散させたり 渦をおこしたり #touchdesigner #プロジェクションマッピング https://t.co/96mKN2Gf7u #touchdesigner #プロジェクションマッピング
+- [2022-02-12] `1492406567282491394` (RE)  今回は風の術:ベクトル制御　より 「発散・渦」を使用しました
+- [2022-02-12] `1492406647792173063` (RE)  3倍速です
+- [2022-02-12] `1492410535719014401` (RE)  .toeファイル https://t.co/oWGpslN2aC
+- [2022-01-22] `1484732697968726018` (RE)  ボタンで花咲かせる .toeファイル https://t.co/PrpjiOu9aI
+- [2022-07-09] `1545742499863334912` (RE)  2021年度版　(リンク整理) https://t.co/vLxOTJ0kw0
+- [2022-03-05] `1500090456121622530`  @elekktronaut bileam tschepe(elekktronaut)さまのチュートリアル 霜が走るような動きが出来て素敵でした https://t.co/JxV2dSa4po https://t.co/J0o7Ocu7KU
+- [2022-03-05] `1500091271372632065` (RE)  今回は"木"の技術(漸化式)より "拡散反応"になります
+- [2022-03-05] `1500093770393477124` (RE)  こんな霜の模様が作れるんです #touchdesigner https://t.co/j6UqSaVGjm #touchdesigner
+- [2022-11-05] `1588851198664511489`  ハロウィンとかで街を歩きながら 旅行カバン1つでプロジェクター投影できるように改良 ・PC持って歩くのはさすがに辛かったのでAnyCastというデバイス使って、手持ちのスマホから映像を無線送信 ・三脚をバッテリー入りの旅行カバンのチャック部分に挿す ・試しに足元から雷が出てる感じに https://t.co/8KUVnxQqlG
+- [2022-11-05] `1588892311194587137`  すごいぜ… https://t.co/pPqN6wq3pL
+- [2022-11-19] `1593816024457306112`  公園にて #プロジェクター撮影 https://t.co/kE9vPLluZo #プロジェクター撮影
+- [2022-11-19] `1593905872140324864`  バッテリーで屋外プロジェクター 投影してみるとかなり目立ち映えるので 道先導や広告に使っても良さそうです #プロジェクター撮影 https://t.co/5aaU5uUEOn #プロジェクター撮影
+- [2022-11-19] `1593906246628671488` (RE)  動画だとこのように 暗くて分かりにくいですが公園のベンチにためしに投影してみてます https://t.co/QV1hZWKHSN
+- [2022-11-19] `1593906962638721024` (RE)  この手の文字動画はスマホで10分ぐらいで作れるのでアプリ様々です (これも暗いですが公園のベンチに投影してます) https://t.co/ZnZCI0DXfT
+- [2022-11-19] `1593916109865951232` (RE)  ポータブルバッテリーとプロジェクターを旅行カバンで運びながら投影 持ち歩きに負担なく 道を歩きながら投影もできる 400whバッテリーで少なくとも2時間ぐらいは投影できる #プロジェクター撮影 https://t.co/0Pdu8mD7ZY #プロジェクター撮影
+- [2022-11-26] `1596508868493733889`  ノートPCから映した #touchdesigner 画面をスマホで操作 リモート操作アプリを使用  旅行カバンに ・ポータブルバッテリー ・ルーター ・ノートPC(閉じた状態) を詰め込み プロジェクターで歩きながら映像投影→スマホで操作 というのができないかと試し中 白い壁さえあれば頑張って操作できそう？ https://t.co/5zFE0UUC02 #touchdesigner
+- [2022-08-14] `1558639382411653120` (RE)  「TouchDesignerとかでコントロールする技を属性ワザにたとえて親しみやすくしたいシリーズ」 "水"属性の技の一つ 「Boidボイド, 鳥もどき」 上記の「引力と斥力」に加えてもう1つ、「粒子同士の進む向きが揃うような相互作用」を加えてあげると、鳥とか虫とか魚の群れみたいな動きが作れます https://t.co/cEsCx0G04o
+- [2022-08-14] `1558646692450160640` (RE)  「TouchDesignerとかでコントロールする技を属性ワザにたとえて親しみやすくしたいシリーズ」 "木"属性の技では、小さな種一粒から複雑な草木が生えてくるように 簡単な命令をもとに、複雑・たくさんの動きをさせる(展開させる)ためのワザ(漸化式)を扱ってます https://t.co/iHrfWlNPGm
+- [2022-08-14] `1558661828753776641` (RE)  「TouchDesignerとかでコントロールする技を属性ワザにたとえて親しみやすくしたいシリーズ」 "土"属性のワザでは、まとめて並行してやるワザ(並列処理)を扱います。 たくさんあるもの、並んであるものは範囲指定してまとめて処理できると便利です。 形状変形させるときなどにも使います https://t.co/nC2ZB0J5gP
+- [2022-08-14] `1558677208729669632` (RE)  「TouchDesignerでコントロールする技を属性ワザにたとえて親しみやすくしたいシリーズ」 "金"の技では威力(ゲイン,硬さ)やタイミング(ディレイ,粘りけ)を調節できるようにします ハガネを作るときも、この硬さと粘り気の調節が大事らしく 伝える信号や動きの変化も、これがあると扱いやすくなります https://t.co/pZzahnVF5Q
+- [2022-08-14] `1558709497199198210` (RE)  こちらを並べて使い"金"属性の技でご紹介した「ディレイ(遅れ)」と組み合わせると たとえば導火線のような動きが出来ます https://t.co/9l7ViT0W0Q
+- [2022-08-14] `1558717771306872832` (RE)  あるいは"風"属性の技としてご紹介したのと同じ感じで、一面のエリアに敷きつめて使うと、一面に燃え広がるような動きになります https://t.co/kV3ymueG9k
+- [2022-08-14] `1558735671379996673` (RE)  「TouchDesignerとかでコントロールする技を属性ワザにたとえて親しみやすくしたいシリーズ」 "木"属性の術の一つ 「Lシステム」 構造を式で書くと、それが繰り返し展開され、草木のようにニョキニョキ生えてくる術です 動画は「枝が伸びてねじれたら葉っぱと、自分と同じ枝を生やす」と式で書いたもの https://t.co/D9fzTBX8rN
+- [2022-08-14] `1558739159262515202` (RE)  詳細更新(リンク整理) https://t.co/Dh5RCA9xTM
+- [2022-08-14] `1558742029957341184` (RE)  Lシステムの「L」は考案された方(?)の名前だそうです https://t.co/Uq8gn8NYuq
+- [2022-08-14] `1558757425821335553` (RE)  「TouchDesignerでコントロールする技を属性ワザにたとえて親しみやすくしたいシリーズ」 "火"属性の技の一つ 「ANDスイッチ」 何か2つのスイッチが同時にONになった時だけ自分もONになるスイッチ 直列につないだスイッチでも同じ事ができます 動画はオレンジの火2つが同時につくと赤い火がつく例 https://t.co/mfwLTvu6wL
+- [2022-08-14] `1558758515413397504` (RE)  「TouchDesignerでコントロールする技を属性ワザにたとえて親しみやすくしたいシリーズ」 "火"属性の技の一つ 「ORスイッチ」 ANDと違い、こちらは2つのスイッチのいずれかがONになれば自分もONになります 並列につないだスイッチと同じです  動画はオレンジの火2つのどちらかがつくと赤い火がつく例 https://t.co/fOauAwSlhl
+- [2022-08-14] `1558779883668455424` (RE)  「TouchDesignerとかでコントロールする技を属性ワザにたとえて親しみやすくしたいシリーズ」 "木"属性の技の一つ 「for」 Repeat for〜 、〜まで繰り返し 木の術で構造を際限なく生やすと収集がつかなくなってしまうため生える回数に制限を設けます  コード(言語)系の技では動作を繰り返すのに多用
+- [2022-08-14] `1558800232711802880` (RE)  「TouchDesignerでコントロールする技を属性ワザにたとえて親しみやすくしたいシリーズ」 "雷"属性の技の一つ 「線に沿って動かす」 https://t.co/eonHn8VHlY
+- [2022-08-14] `1558810316732960768` (RE)  「TouchDesignerでコントロールする技を属性ワザにたとえて親しみやすくしたいシリーズ」 "雷"属性の技の一つ 点から点へ「信号を送る」 https://t.co/tJ2g8SKKin
+- [2022-08-14] `1558816665881563136` (RE)  「TouchDesignerとかでコントロールする技を属性ワザにたとえて親しみやすくしたいシリーズ」 "木"属性の技の一つ 「reactive diffusion反応拡散」 "風"属性のやり方と組み合わせたもの  白が黒に食われたり、黒が白に食われたりする反応を繰り返させ、場の中で広げさせると、独特な模様が作れます https://t.co/YVe1oGqT37
+- [2022-08-21] `1561344443554283520` (RE)  @hoko_artlover ご視聴ありがとうございます！こちらこそよろしくおねがいします😊
+- [2022-12-04] `1599346036321161217` (RE)  上セットにてプロジェクターを屋外で歩き回りながら投影できる様子 #プロジェクター撮影 TouchDesignerをPCで動かしてます →スマホで拾った音声に合わせて映像を動かしたりできる 400whポータブルバッテリーを使って少なくとも2時間ぐらいは投影できてます https://t.co/F1n14IkRhQ #プロジェクター撮影
+- [2022-12-04] `1599353548978139137` (RE)  スマホをツンツンして音を出すと映像が動くように https://t.co/tp2KXuLRe9
+- [2022-12-04] `1599372741479895041` (RE)  白い壁とか以外にも、こんな地面や落ち葉とかに投影してみても楽しい #プロジェクター撮影 https://t.co/KRAwNnRhqa #プロジェクター撮影
+- [2022-12-04] `1599373950353801216` (RE)  スマホとプロジェクターでのTouchDesignerの操作の様子 慣れると映像のマッピングや台形補正(stoner)もこれでできた https://t.co/SLmXHSKoXz
+- [2022-02-13] `1492698269167718400`  杖から雷を出す練習 飛んでいく跡をなぞるように線を描いてから 雷っぽく加工してます #touchdesigner #プロジェクションマッピング https://t.co/xW7AYSTzuc #touchdesigner #プロジェクションマッピング
+- [2022-02-13] `1492698679639097344` (RE)  今回は雷の術:配線　より 「なぞる線(軌跡線)」を使用しました
+- [2022-02-13] `1492741254190231553`  杖からエフェクトまとめ 炎🔥風🌀雷⚡ #touchdesigner #プロジェクションマッピング https://t.co/iJjS9KrsfK #touchdesigner #プロジェクションマッピング
+- [2022-02-13] `1492758260163571715` (RE)  順に 火🔥っぽい技術(トリガー制御)の「しきい値調整」 風🌀っぽい技術(ベクトル制御)の「発散・渦」 雷⚡っぽい技術(配線)の「トレース(なぞり)線」 というワザをそれぞれ使ってます
+- [2022-01-02] `1477450793381134340`  あけましておめでとうございます 今年もよろしくおねがいします  木の術にてお年賀を #新年 #賀正 #あけおめ #touchdesigner https://t.co/Htr02jHHcV #新年 #賀正 #あけおめ #touchdesigner
+- [2022-01-23] `1485092373273088003`  形状変形の練習 #touchdesigner https://t.co/FTJWhkBAVo #touchdesigner
+- [2022-01-23] `1485149649862156289`  白黒を拡散させてこのマーク→☯を作ってみる #touchdesigner  太極図(yin-yang symbol)って名前らしいですよ https://t.co/dKqRirpM9k #touchdesigner
+- [2022-01-23] `1485150316639055872` (RE)  今回は 木の術:漸化式 より 「拡散反応系」と 土の術:形状変形 より 「高さマップ」 を使ってます
+- [2022-06-19] `1538422130835984384`  久しぶりの　#pvtdsw ですが カッコいい！ https://t.co/bYM3c2tfXk #pvtdsw
+- [2022-03-13] `1503031787810787330`  プロジェクターの映像に加えて、下から色付きライトで照らしてみた。途端に雰囲気がでますね #touchdesigner #projectionmapping #projectionart https://t.co/CBmb0Ea0E3 #touchdesigner #projectionmapping #projectionart
+- [2022-03-13] `1503150246469140482` (RE)  今回は下リプライにある図での "天"の入力(インプット) の技術の "カメラ入力" と "地"の出力(アウトプット)の技術の "マッピング" を使いました https://t.co/PoM7yCLAEm
+- [2022-03-20] `1505359098551803904`  属性ワザにたとえるシリーズ "金"のワザ(ゲイン/ディレイ制御)から バネ https://t.co/b3Tk3vVMGq
+- [2022-03-20] `1505359340630282250` (RE)  .toeファイル https://t.co/zOgn5PfMmj
+- [2022-03-27] `1508214188799234049`  属性ワザにたとえるシリーズ  また基本のワザを演武の型みたいに連続して挑戦 #touchdesigner #プロジェクションマッピング https://t.co/6z7DChXPEy #touchdesigner #プロジェクションマッピング
+- [2022-05-15] `1525704435162181633`  基本ワザを練習　AND  属性ワザにたとえるシリーズ 火属性=トリガー制御 にて #touchdesigner #projectionmapping https://t.co/1PwrJ2lnUx #touchdesigner #projectionmapping
+- [2022-05-15] `1525705133459312640` (RE)  続いて　OR ANDと違い、どちらかのオレンジの炎がついていれば、赤い炎がつくことができるというアレ https://t.co/kTJynjB3dg
+- [2022-05-15] `1525719990506205184`  属性ワザにたとえるシリーズ "火"のワザ→トリガー制御 のAND/ORの練習  AND:スイッチが両方ONの時ON ってヤツを "直列つなぎ"というので表現  オレンジ炎が両方ついたときだけ赤炎がONになります #touchdesigner #projectionmapping https://t.co/Qfs8VPE7A0 #touchdesigner #projectionmapping
+- [2022-05-15] `1525758355934830592` (RE)  ↑の続き AND/ORの練習 OR:2つのスイッチのどちらか一つでもONならON は "並列"という形でつないだものでできるというヤツ  2つのオレンジ炎が一つでもついていれば赤い炎が点灯 https://t.co/MMXz9sF6wf
+- [2022-05-15] `1525792175706890241` (RE)  ↑これを変則ワザに https://t.co/V05kits8Uj
+- [2022-05-15] `1525792354354860032` (RE)  これの変則ワザになります https://t.co/2ziOloPjW9
+- [2022-05-15] `1525793162039525378` (RE)  その他の"火🔥":トリガー制御 のワザ https://t.co/bzfZxSToGp
+- [2022-11-13] `1591762838556930053` (RE)  街中で一瞬だけ投影して #プロジェクター撮影 (雷と炎の映像) 機材をそのまま持ち運べるので設置撤収のゴタゴタがいらない https://t.co/PUQhlrpz4W #プロジェクター撮影
+- [2022-11-20] `1594256068158554112`  #プロジェクター撮影 の時 ノートPC使えば、TouchDesignerで、アドリブで瞬時に映像切り替えるやり方(インタラクティブ)もできるけど、PCを抱えて歩く必要あり  一方で、スマホ使えば移動が楽。歩きながら投影も可能。ただ素早いプログラミングにはキーボードかマウスが欲しい なので…(1/2) https://t.co/OCrALJoYtd #プロジェクター撮影
+- [2022-11-20] `1594257935903109121` (RE)  本当は歩きながらフリーハンドで素早くプログラミングが出来たら映像を、さらに自由に動かせそうな所。  ただ、VRコントローラデバイスとかが流行ってきて、手の形や位置検出精度が上がってきてますので 歩きながらプログラム操作可能なツールが登場する日も来るかもしれません(2/2)
+- [2022-09-11] `1568900456382078976` (RE)  こちら↑のCG映像を制御するワザのように  「モノやデータが求める状態となるよう、(手足のように)意のままに操るための技や術」のことを 「サイバー技術」というのかもしれません
+- [2022-09-11] `1568900698536054787` (RE)  「TouchDesignerとかでコントロールする技を属性ワザにたとえて親しみやすくしたいシリーズ」  "金"属性(硬さ・粘り)の技の一つ 「ロックLock」の応用ワザ 「操り人形puppet」 人形やCGモデル、ロボットなどの動きをコントローラにロックLockします。コントローラを動かして人形を自在に操ります https://t.co/v8iDcVPdgi
+- [2022-09-18] `1571372165618085891` (RE)  「TouchDesignerでコントロールする技を属性ワザにたとえて親しみやすくしたいシリーズ」 "火"属性の技の一つ 「Latchラッチ(つっかえ棒)」の変化 「flip-flopフリップフロップ(ギッコンバッタン)」 変化させた値をそのまま固定し 2つのボタンでオンオフを切り替えます  一時的な記憶もこれで行えます https://t.co/G5EYyZZX8M
+- [2022-09-18] `1571373702163607554` (RE)  こういうスイッチに似たイメージな気がしますね (ロッカースイッチ) https://t.co/26HArV8td2
+- [2022-08-18] `1560288629590675457` (RE)  「TouchDesignerでコントロールする技を属性ワザにたとえて親しみやすくしたいシリーズ」 "土"属性(並列処理)の技の一つ 「マップmap」 一面にならんだものの配置に合わせて値などの分布を2次元の画像(あるいは3次元のモデル)で表します。 模様(パターン)をつけたり、変形を表現するときに便利です https://t.co/29KsA2qDex
+- [2022-12-08] `1600812371596804096` (RT)  RT @rainage: New prototype: StreetRPG @Lumen_world device + ARCore #Geospatial API, we could show the AR items, monsters to the street.  #d… #Geospatial
+- [2022-01-06] `1479090062784876545` (RT)  RT @ponboks: 卓上ライトから飛び出して動きまわる光たち（合体や分裂もします） https://t.co/ZP9jxpxTiy
+- [2022-07-07] `1545174722115092482`  いつもの電池を使ったプロジェクターセットの組み方を記事にまとめてみました  屋外の電源無い色々な場所でもプロジェクター投影ができたらと思い  周りに迷惑にならないよう短時間(3分ぐらい？)で設置できるようにした奴です https://t.co/BA6a6x2f23
+- [2022-07-14] `1547541733726363648` (RE)  @ynmyuyu_twit こちらこそありがとうございました！かっこいい絵にさせて頂き、おかげさまで他の方にもご好評頂けました😂 モデル活動の方、引き続きご活躍を願ってます✨
+- [2022-07-28] `1552634030683607041` (RT)  RT @mktechlab_net: daibondさんのUE4ゲーム制作コースのダンジョン探索ゲームをカスタマイズ。主人公の動きに合わせてプロジェクターの投写位置を制御。 UE4からTouchDesignerへの画像共有はSpout、通信はOSCを使用。TouchDesign…
+- [2022-03-17] `1504605586683441172`  "木"の技でやった、広がってく動き(フィードバック)で "風"でやってる流れ(ベクトル)を操作する練習 BrunoImbrizi様のチュートリアルの流体の動きに、破裂する圧力を加えて炎っぽく #touchdesigner #projectionart https://t.co/vQM0bEj5km #touchdesigner #projectionart
+- [2022-03-17] `1504606132333031436` (RE)  Thx great tut Bruno様のチュートリアル https://t.co/bDsYUiZp7M
+- [2022-03-17] `1504606479948558341` (RE)  色違い2種 黒(影)もいいですね https://t.co/KuqhY9muok
+- [2022-11-17] `1593084111308324864` (RE)  朝の日の出、夕方の日の入りの時間をみはからうと、ちょうど良い明るさになりますね #プロジェクター撮影 https://t.co/iNjaf9u3E3 #プロジェクター撮影
+- [2022-11-17] `1593085082843353090` (RE)  上画像では花の映像を屋外で投影 #プロジェクター撮影 https://t.co/YhvBKdVplu #プロジェクター撮影
+- [2022-11-24] `1595569101946368000` (RE)  オーディオスペクトルのスマホアプリを試しに屋外で投影 スマホにマイクがあるのでそのままインタラクティブになりますね #プロジェクター撮影 https://t.co/8e1w12rujl #プロジェクター撮影
+- [2022-11-24] `1595761850712748033` (RE)  上の投影の様子　11/24 朝6:30頃 https://t.co/S6aioUobLo
+- [2022-04-05] `1511364038881517569` (RT)  RT @UnrealEngineJP: Unreal Engine 5.0 をリリースしました。 これより全ての開発者が #UE5 を利用できるようになります！ https://t.co/tT7D3atzWl #UE5
+- [2022-08-16] `1559509343472496640` (RE)  「TouchDesignerとかでコントロールする技を属性ワザにたとえて親しみやすくしたいシリーズ」 "雷"属性(配線)の技の一つ 「他のデバイス」 異なるディスプレイやデバイス(ドメイン,領域)との間で線をつなぎます https://t.co/WJ864zqhrl
+- [2022-08-16] `1559539375020511232` (RE)  「TouchDesignerとかでコントロールする技を属性ワザにたとえて親しみやすくしたいシリーズ」 "雷"属性(配線)の技の一つ 「ハッチングHatching, 網掛け」  網のように線を敷き並べて面を埋めます https://t.co/jvV0GibIon
+- [2022-12-20] `1605170194636476416` (RT)  RT @1null1: We are wrapping up the year by releasing a major update to our TouchEngine for UE plugin! Read on to learn more about the new f…
+- [2022-02-08] `1491074436640182272`  炎出し練習 #touchdesigner #プロジェクションマッピング https://t.co/NSZDg2hCX9 #touchdesigner #プロジェクションマッピング
+- [2022-01-18] `1483439543411896327` (RT)  RT @MitamaSakumaru: フィギュアエイトっていう8の字を描くといいながら無限を描く技があるんですが、"本物のフィギュアエイト"っていう8の字を描く技を考えました。 見た目に反してめちゃくちゃむずいです。パクれたらパクってみてください。 https://t.co/…
+- [2022-11-15] `1592621833060130816` (RE)  水曜朝5時の公園でReactive Diffusion #プロジェクター撮影 https://t.co/LMc3VrMZKp #プロジェクター撮影
+- [2022-11-15] `1592648689574895616` (RE)  上記の公園での動画での様子 #プロジェクター撮影 https://t.co/2HZGGnNkKY #プロジェクター撮影
+- [2022-04-13] `1514215461965115394` (RE)  何やってんのか説明足して YouTubeの方にも転載 https://t.co/GgniFOK4oh
+- [2022-02-02] `1488857458009272320` (RT)  RT @ShogoNu: なるほど。オブジェクトの位置にTHETAがあるんですね。アイデア良い😮
+- [2022-01-26] `1486354437341790219`  広がる勢いの練習 #touchdesigner https://t.co/C6XYvdWXhx #touchdesigner
+- [2022-07-13] `1547164769550946305` (RE)  2021年度版(リンク整理) https://t.co/MVpak9MRB6
+- [2022-11-30] `1597745095658258437` (RE)  上セットにて スマホのカメラ映像とマイク音声がDroidCamというアプリでPC のTouchDesignerにWiFiで飛ばせました 音声でインタラクティブにもできそう https://t.co/RbMHnIEncn
+
+---
+
+### Source: tweets_mamo_md/tweets_2023.md
+
+# Tweets 2023
+
+_Source: tweet.js → Markdown (yearly)_
+
+- [2023-05-05] `1654504605311700992` (RE)  ポータブルバッテリーを使って 街中で屋外プロジェクター投影  本日は大阪 新世界・通天閣前にて https://t.co/tqEZ34q4e8
+- [2023-05-05] `1654525744570310662`  ミュージックビデオっぽいことをTouchDesignerでやる際の参考に #TouchDesigner https://t.co/hRfg3RXtxw #TouchDesigner
+- [2023-05-05] `1654619095067938816` (RE)  なりそうでしたのでメモ
+- [2023-09-01] `1697458307462775093`  ハロウィンに使える コウモリを作成中  飛び回る速度をリアルタイムで調整 #TouchDesigner https://t.co/SZe7V8wlWt #TouchDesigner
+- [2023-08-21] `1693593669616779547` (RE)  プロジェクター映像を連れて歩く様子 https://t.co/GtHc45X1lQ
+- [2023-12-25] `1739076768529842636` (RE)  上記投影した映像はこちらの一式  ハロウィンからクリスマス 仕様に変更するのにドクロにサンタ帽をかぶせてます ちょっと不気味  その場で絵を変化できるようにすると色んな背景に合わせられます  バッテリーを使い #渋谷 #ハチ公前 を歩きながらプロジェクター投影したもの #MerryChristmas https://t.co/zdIya7AHGD #渋谷 #ハチ公前 #MerryChristmas
+- [2023-02-13] `1624923353244114945` (RE)  上動画の全体写真 midiコントローラが光るとプロジェクター映像と同じく目を引きそうです 使用ソフトはTouchDesigner https://t.co/G3dS8n7ZKm
+- [2023-02-13] `1625063056085757952` (RE)  @gimapapa コメントありがとうございます！ こちらもいつも素敵な作品と分かりやすいチュートリアルで勉強させて頂いてます プロジェクターを使われている作品も今後もっとポピュラーになればですね
+- [2023-02-13] `1625063622039994368` (RE)  上の構成を斜めからみた画像 凸凹のある地面にプロジェクターを照射すると、映像にもその陰影が出ます https://t.co/S9BoNqMg64
+- [2023-01-02] `1609735958135713792`  #あけましておめでとうございます #謹賀新年 今年もよろしくお願いいたします 気軽に #プロジェクター撮影 動画もスマホで2分で作製 https://t.co/MtkaJSmkew #あけましておめでとうございます #謹賀新年 #プロジェクター撮影
+- [2023-01-23] `1617396141150318593` (RE)  @mktechlab_net 家中に表示できたら楽しそうです きっと次世代のスマートアシスタントや遠隔サポートもこんな感じかもしれませんね！
+- [2023-07-03] `1675825661829869569` (RE)  屋外プロジェクターの全体像撮影 プロジェクター＋ポータブルバッテリーをスーツケースに載せて、投影しながら運べるようにした状態 @ 東京渋谷 金王橋 下(渋谷川) https://t.co/QOx0pbAYtS
+- [2023-07-03] `1675826158267674625` (RE)  資料用に
+- [2023-03-27] `1640456287308898304` (RE)  歩きながらプロジェクター投影していると 小さいお子さんが、映像に触ろうと後ろからついてきてしまったりも https://t.co/eiGyjBbITo
+- [2023-10-16] `1713897034741326333` (RE)  青いオーラはこちらのチュートリアルの流体で作製 https://t.co/Jdb1yy7cnT
+- [2023-10-16] `1713899773353472494` (RE)  ガイコツを歩き投影してると 小学生ぐらいのお子さんに 「なんか、悪霊に取り憑かれてる人がおるー」と言葉を頂いたりも #TouchDesigner #Streetprojector https://t.co/R7eNRu8FGb #TouchDesigner #Streetprojector
+- [2023-10-16] `1714039915422589220` (RE)  街中プロジェクター投影 #国際展示場 #東京ビッグサイト にて #MFT2023 MakerFaireTokyo2023に遊びに 面白い展示がたくさん見られました https://t.co/u1k0toGy98 #国際展示場 #東京ビッグサイト #MFT2023
+- [2023-09-11] `1701383304359117019` (RE)  ハロウィン向けに プロジェクター投影用素材を作成 火が走るやつ #TouchDesigner https://t.co/IjKMCgggW9 #TouchDesigner
+- [2023-09-18] `1703600861811966181` (RE)  #大阪 #梅田 にて 街中プロジェクター投影まとめ  ポータブルバッテリー使ってます  阪神優勝で盛り上がってました  ご興味頂いた方 ご足労まで頂いた方本当にありがとうございました https://t.co/Iisbm5hzsr #大阪 #梅田
+- [2023-08-19] `1692829170211094559` (RE)  「制御する技術を属性技にたとえてとっつきやすくする」 …の図のイメージを動くようにしてみた https://t.co/YgpNSXyiby
+- [2023-08-26] `1695342643960836312` (RE)  傘さしてプロジェクターを運ぼうとした様子… いや、ちょっときついな…！ https://t.co/HOo5qPaZsV
+- [2023-08-26] `1695427627761496185` (RE)  街中歩きながらプロジェクター投影 本日は東京 上野 https://t.co/O7AHte56QT
+- [2023-12-30] `1741016708104770043` (RE)  @dsXPbZyJfdL6Pdn ご興味ありがとうございました！こういった映像にご興味ある仲間が増えてくれればと思います
+- [2023-12-30] `1741041049429291464` (RE)  街中でバッテリー使って歩きながらプロジェクター 今年の投影収めに  今年もお疲れ様でした https://t.co/6nEK5c3nHe
+- [2023-01-21] `1616819579753496579`  屋外プロジェクターで歌詞表示  街中いろんな所で好きな時に歌の歌詞を表示できる  PCを使えば #touchdesigner のようなソフトで色とかコントロールできる スマホだとこれが出来ない  コントローラーはmidiコントローラをUSBでつなぎます https://t.co/2ozlziQEm6 #touchdesigner
+- [2023-01-21] `1616944779342000129` (RE)  屋外プロジェクターで歌詞表示in公園  街中いろんな所で、好きな時に歌の歌詞を表示できます  PCを使えば #touchdesigner のようなソフトで色とかコントロールできますが スマホだとこれが出来ません  コントローラーはmidiコントローラをUSBでPCにつないでます https://t.co/2C8tsIm626 #touchdesigner
+- [2023-01-28] `1619305348908879873` (RE)  街中でプロジェクターにて歌詞を表示 スーツケースひとつでプロジェクター投影が出来るので通行人の妨げにもなりにくくなります https://t.co/X68JZvG26K
+- [2023-01-28] `1619312623367118848` (RE)  屋外プロジェクターで歌詞表示  1m四方以上の大きさで3時間ほど投影するもバッテリーは半分以上あまる  プロジェクター: ef-11 epson製 明るさ1000lm 消費電力100w バッテリー: BN-RB62 JVC製 電気容量626wh 重さ6.5kg https://t.co/ZCcWApXhbo
+- [2023-06-24] `1672550335200780289`  バラード曲に合うようなジェネ系CGってないだろか  ストリートミュージシャンが歌ってる曲の多くはバラードっぽい  これに合わせて路上でプロジェクター映像を出すなら  バラードに合うCGだと良いんですが、あんまり見つからない…  クラブだとEDMとかポップに合わせて映像を流すこと多そうですが https://t.co/MOc10xzfg0
+- [2023-06-24] `1672635786351742978` (RE)  動画の投影映像は、雪や木漏れ日の光っぽい映像を作成したもの  雪はパーティクル(粒)、 光は放射形状ブラー(ぼかし)を使えば簡単に作れるやつです  ソフトはTouchDesignerを使用 https://t.co/f8il1S1YjK
+- [2023-06-24] `1672698579310505984` (RE)  上記はこちらを参考させて頂きました AfterEffectの記事ですが TouchDesignerでもできます https://t.co/Inq6t885KL
+- [2023-03-04] `1632045838171279364`  新宿・原宿・渋谷の街中を歩きながらプロジェクター投影  投影場所に配慮しつつ キャリーケースでコンパクトに運べるので人混みでも邪魔にならずに済んでます また、ポータブルバッテリーが意外に、もってくれるので何時間も余裕で投影出来てます https://t.co/nlI5oMq03S
+- [2023-03-04] `1632053463684358145` (RE)  道中ご興味頂けた方ありがとうございました！ プロジェクター投影仲間が今後増えてくれればと思います
+- [2023-05-06] `1654767205681369095` (RE)  ポータブルバッテリーを使って 屋外 街中プロジェクター投影  大阪 旧堺港 高架下にて https://t.co/0nLmRayRj6
+- [2023-10-28] `1718169074319200725`  池袋などにて ハロウィンイベント巡り https://t.co/H4ot6xGznx
+- [2023-10-28] `1718175689684426977` (RE)  ハロウィン用に 火の玉　ガイコツ　コウモリ を作製 #TouchDesigner 街中を歩きながらプロジェクター投影 https://t.co/yuq6ZrORfD #TouchDesigner
+- [2023-10-28] `1718233799459582363` (RE)  続いて新宿にて ハロウィン 街中プロジェクター投影 https://t.co/v2lAQmwAJp
+- [2023-09-02] `1697918847905575080` (RE)  ハロウィン向けのコウモリ素材 試しに投影して動かしてみる #TouchDesigner @大崎駅 https://t.co/fbYRkWeMCS #TouchDesigner
+- [2023-09-02] `1698113250507071599` (RE)  ハロウィン向けに作製したコウモリ 街の公園で投影してみる #TouchDesigner @池袋駅前公園  実際に投影してみると いろいろ調整するのが楽しみやすく https://t.co/zwCi45hPwN #TouchDesigner
+- [2023-09-09] `1700523568763941213` (RE)  歩きながら街中プロジェクター 本日は東京 #御茶ノ水 楽器店がたくさんあります！ https://t.co/F14b4Fvv3Z #御茶ノ水
+- [2023-09-16] `1702958459820614032`  プロジェクター投影を人に見せる時は 遠近法(パースペクティブ)で書いた絵にしてしまうと 斜めから見ている人には絵が歪んで見えて 見づらくなってしまいます  周りにいる観衆はどの角度から絵を見るか分かりません 投影面も斜めになったりします  そこで  (画像https://t.co/FD8UNqp6WQ) https://t.co/V7jpLQtHf5
+- [2023-09-16] `1702961033609162798` (RE)  (続き)そこでプロジェクターで投影する時は  遠近法的な表現よりも  日本画やスーパーマリオのような 面とレイヤーを使った空間表現や  タトゥーのような空間表現が  使われることが多いような気がしています https://t.co/ySoCpyo3E2
+- [2023-09-16] `1702962528782094601` (RE)  (続き)SNSやYouTubeに投稿される映像はスマホ越しに見るので正面アングルから見るのを前提とした絵が使われていますが  プロジェクターで 同じようなコンテンツを見せようとした時に  色んな角度から見てもきれいに見えるようにするとどうなるか  考えてみると面白いかもしれません https://t.co/KW8XDQhsq9
+- [2023-09-16] `1703042457049718915`  再び 大阪 道頓堀に到着 歩きながらプロジェクター投影中
+- [2023-04-02] `1642490208083124225` (RE)  屋外歩きながらプロジェクター投影 渋谷ハチ公前も桜が散り始め https://t.co/zycGqGm6oe
+- [2023-08-20] `1693245639004692912` (RE)  バッテリーで屋外歩きながらプロジェクター投影 #新宿中央公園 にて https://t.co/YLOkNEoYej #新宿中央公園
+- [2023-08-27] `1695759557841260815` (RE)  ポータブルバッテリーを使い 街中を歩きながらプロジェクター投影 本日は #下北沢 ミュージシャンの方がたくさんいらっしゃいますね  路上ライブの歌詞表示などにいかがでしょうか #TouchDesigner https://t.co/yOLOB4bh1i #下北沢 #TouchDesigner
+- [2023-08-27] `1695762579384340662` (RE)  @Neko_Hakusyaku 本日はご興味いただきありがとうございました！またプロジェクター映像仲間が増えてくれればと思います☺️音楽活動もがんばってください
+- [2023-08-27] `1695902738251649315` (RE)  ご通行の方に 街中でプロジェクター投影するやり方をご質問頂きましたが  こちらなどでご紹介してます https://t.co/ReobWa8s8k
+- [2023-08-27] `1695925439641088388` (RE)  歩きプロジェクターに使用している  機材などの詳細はこちらの記事をご覧いただけます https://t.co/1qxI1VyXtH
+- [2023-12-24] `1738910919974080985`  街中で歩きながらプロジェクター投影 クリスマスにて #渋谷 の #代々木公園 ではきれいなイルミネーションが https://t.co/pk7aEEbVdT #渋谷 #代々木公園
+- [2023-12-24] `1738926271885971606` (RE)  上のは #青の洞窟 というイベントでした こちらは #ハチ公前 にて街中プロジェクター投影  ご家族連れに楽しんで頂けたり https://t.co/ckBEb76VER #青の洞窟 #ハチ公前
+- [2023-02-12] `1624784444191301633`  NOVATION社のLaunchpadというmidiコントローラーで映像を操ってみました 光ってるので操ってる様子が分かりやすいですね  ポータブルバッテリーを使い屋外でプロジェクターで投影  VJシステムはギマヒロシゲ様のチュートリアル動画を参考にさせて頂きました https://t.co/waPMvbywZ3 https://t.co/4Ilc6r0ADN
+- [2023-02-26] `1629792477992587265` (RE)  QRコードをプロジェクターで表示し読み取るのも、上記の屋外プロジェクターセットでできました  ストリートミュージシャンの方が歌詞を表示したり、自分のInstagramのアカウントを紹介したりするのに便利そう  QRコードは白黒にしてコントラスト大きくした方が読み取りやすい  渋谷 代々木公園にて撮影 https://t.co/B1bpU5vQuN
+- [2023-01-22] `1616953997205835777` (RE)  「TouchDesignerでコントロールする技を属性ワザにたとえて親しみやすくしたいシリーズ」 "火"属性の技ではトリガー制御を扱っています。  技の一つ「合図 que」 準備しておいた動きを、トリガーをきっかけにタイミングよくスタートさせます  動画では歌に合わせてボタンを押し歌詞表示をさせてます https://t.co/TE7u8nkAdB
+- [2023-01-22] `1616957056514412545` (RE)  上の動画でやってる、歌詞とかをタイミングよく、ボタンなんかをきっかけに表示させるワザも、モノを操るときにはよく使われるワザです  トリガー制御の「合図 que」 https://t.co/MQHoJ5YFWf
+- [2023-01-22] `1617108148464254978` (RE)  @mktechlab_net 突然のコメントにて失礼します 素晴らしいマッピング技術と精度で感動しました…！ 家電の操作をキャラクターに行わせる表現なども、これなら部屋中での操作が可能になりそうです https://t.co/s8FVqIwF7z
+- [2023-01-22] `1617108594939555841` (RT)  RT @mktechlab_net: 自作の天吊パンチルトプロジェクターで、部屋の中を走り回るキャラクターを試してみる。ジャンプの際の上下の動きも良い感じ。 #UnrealEngine #M5Stack https://t.co/cEjLOwEPBz #UnrealEngine #M5Stack
+- [2023-06-04] `1665324908543463427` (RE)  最近はグラボ無しの軽いノートPCを使用(グラボ無しでもTouchDesignerは動かせる)。 HDMIケーブルで直接PCからプロジェクターにつなげています。  スマホから映像出すより色んな操作ができて、 無線で映像をキャストするより、ヌルヌル映像を動かせる。 (過去の構成はこちら) https://t.co/Vh9JNNg1Bi
+- [2023-06-25] `1672760126795808769` (RE)  路上プロジェクターというのはこちらの試みです ポータブルバッテリーを使用 https://t.co/CWNVGHHN8X
+- [2023-06-25] `1672790653833707520` (RE)  上の投影の様子 全体ではこんな感じになる https://t.co/J1uNc6pMFB
+- [2023-03-26] `1639851238585159680` (RE)  歩きながらプロジェクター投影 in 上野公園 お花見会場 https://t.co/IBHYdHLfIa
+- [2023-03-26] `1639862298843160578` (RE)  歩きながらプロジェクター投影 秋葉原駅前にて https://t.co/UwBa2SLC1h
+- [2023-11-26] `1728761753016922604` (RE)  太極図(陰陽yin yangマーク☯)というのがありますが  wikiによると「黒白の色が陰陽両儀を表す。円環内を上下に貫く黒白の2線は、陰が極まれば陽が生じ、陽が極まれば陰が生じることを表し、円環全体で気が生生して息まず、永遠に循環することを示している」  これもなんだかこの反応拡散のようですね https://t.co/dB7HYhvzgO
+- [2023-10-15] `1713545826205847716`  本日は #MakerFaireTokyo2023 に遊びにお邪魔しました #東京ビッグサイト https://t.co/bsN9Cc51EU #MakerFaireTokyo2023 #東京ビッグサイト
+- [2023-10-15] `1713546406055837783` (RE)  思いがけず プロジェクターシステムでずっとお会いできたらと思っていた @mktechlab_net 様に 持っていたプロジェクターを見て まさかのお声がけ頂いてしまいまして 頭が追いつかなくなってしまいましたが 拝見したいと長く思っていたシステムを詳細まで見せていただきました！ #MakerFaireTokyo2023 https://t.co/s55xRth4Ly #MakerFaireTokyo2023
+- [2023-10-15] `1713546770930881000` (RE)  @mktechlab_net ロボットアームがプロジェクターを色んな向きに投影し 映像のゲームキャラがそれに同期して部屋の中とかを歩き回れるようにする奴です！ すごいコンパクトなのに普通に動かせる… #MakerFaireTokyo2023 https://t.co/wIIK66C7uv #MakerFaireTokyo2023
+- [2023-10-15] `1713546943958532324` (RE)  @mktechlab_net 色々お話きかせていただきありがとうございました…！
+- [2023-10-15] `1713556599451836909` (RE)  https://t.co/KpdUJHDUuS
+- [2023-10-15] `1713703699519099366` (RE)  ハロウィン向けに作成した ガイコツも 持ち歩きプロジェクターで テスト投影できました #東京ビッグサイト #MakerFaireTokyo2023 にて #TouchDesigner https://t.co/jK81Rlxgfn #東京ビッグサイト #MakerFaireTokyo2023 #TouchDesigner
+- [2023-09-10] `1700709372584923511` (RE)  #御茶ノ水 街中にてプロジェクター投影 #TouchDesigner ポータブル電源で  映像を切り替え 動かします https://t.co/UDTGOFKxyU #御茶ノ水 #TouchDesigner
+- [2023-09-10] `1700797292683698269` (RE)  映像を まわりに合わせて制御・操れるようにする 「サイバー(かじ取り)技術」が  あまりに親しみにくいので 「陰陽師」と「属性技」にたとえて 親しみやすくしたく  こちらは「陰(0)」と「陽(1)」の組み合わせ(デジタル)で 色んな表現ができますと かこつけて説明した動画 https://t.co/enru3NAUBf
+- [2023-09-10] `1700798531748217167` (RE)  黒と白のみ(2値化)にしてて分かりにくいですが キツネが野原で寝転んでる画像です
+- [2023-09-10] `1700845149067313312` (RE)  プロジェクターは明るさ1000lm 電力消費100Wですが ポータブルバッテリーが600Whなので 600Wh÷100W＝5時間強 は連続で使えていますね
+- [2023-09-17] `1703299752048406658`  大阪 梅田でプロジェクター投影中 色んなところで阪神優勝記念やってますね https://t.co/iBn4y5lSVZ
+- [2023-09-17] `1703335143312904548` (RE)  @t0noshake はじめまして ご興味ありがとうございます😀  バッテリーが残り1/3で2時間ぐらいなのですが20時ぐらいまでは駅のヨドバシカメラ近くを歩き回ってるかと思いますよ！  すみません、動き回っているのでもしかしたら他のところにも行っている場合がありますがご了承ください
+- [2023-09-17] `1703340501200666750` (RE)  街中プロジェクター投影 大阪梅田駅にて こんな感じの阪神優勝パネルがたくさん https://t.co/gOr0Qa9UY0
+- [2023-09-17] `1703350401779765341` (RE)  @t0noshake 探して頂いてしまいまして恐縮です！💦 だいたい同じエリアを行ったり来たりしているかと思いますのでお見かけしましたら
+- [2023-09-17] `1703368973814034562` (RE)  @t0noshake 申し訳ありません、たった今バッテリーが上がってしまいました😭 ヨドバシカメラ側(御堂筋線入口)駅前ストリートミュージシャンがいらっしゃる辺りだったのですが…  やはり梅田は人と落ち合うには困難な場所でしたね…
+- [2023-09-17] `1703369939766436251` (RE)  @t0noshake せっかくいらして頂いたので よろしければ せめてご挨拶をと思います💦
+- [2023-09-17] `1703443316413694415` (RE)  上記の 火が走るエフェクトを 街中(大阪梅田)で実際に投影してみる  激しい動きが目立ちます #TouchDesigner https://t.co/CFuxFfIYoT #TouchDesigner
+- [2023-08-24] `1694848919216513292`  プロジェクター投影は吸血鬼に似ています  ・日の光のあたる所では出来ない(周りが明るいと見えない)  ・雨や水の中を歩けない(機材が濡れて死ぬ)  ・許可の無い場所に入ることは出来ない(私有地などへの投影は許可をとってから) https://t.co/Of5OGBONjB
+- [2023-08-24] `1694861792760238529` (RE)  (「プロジェクター投影は吸血鬼に似ている」…の続き) ・教会や寺社 ・鳥居(とりい)や、しめ縄で囲まれた中 ・警備員や駅員さんが立っている場所も勝手には避けられます (許可いりますね) https://t.co/GVDRbv85K1
+- [2023-08-31] `1697046702543561154` (RE)  「プロジェクター投影は吸血鬼に似ている…続き」  "吸血鬼だいたい明るさ1000ルクスぐらいから危機感を覚える"説がありました (知らんけど)  私も1000ルーメンのプロジェクター使ってますが そのぐらいから映像消えて見えなくなりますね (だいたい1m×1m弱ぐらいの面積にて)  https://t.co/HkJGHwqbfj
+- [2023-08-31] `1697178659550011630` (RE)  夜の公園(明るさ10ルクス以下？)とかだと1000ルーメンのプロジェクターでも  こんなに大きく投影して見えるので かなり目立ちますね  吸血鬼にたとえるなら 暗闇にいて すごい元気な状態でしょうか  https://t.co/qEKamJ9fsv https://t.co/bP89og0JSx
+- [2023-05-04] `1654141524064567296` (RE)  ポータブルバッテリーを使って街中で屋外プロジェクター 本日は大阪 道頓堀にて https://t.co/FVfvgPsWcX
+- [2023-08-22] `1693921768329859095` (RE)  屋外プロジェクターで 映像を連れて歩く様子 https://t.co/lgw4x1UPxr
+- [2023-08-23] `1694304884492050838` (RE)  路上でプロジェクターを持ち歩き投影する様子 https://t.co/25WkQIS9YL
+- [2023-08-30] `1696886471955730874` (RE)  普通のプロジェクターなら 機材納入・設営までに 本番の数日前～数時間かかってしまうこともあるそうで 場所の確保がなかなか大変ですが  上記の 「歩きながらプロジェクター」ですと 運んで投影するまでの時間がいりません 数秒で済むので 楽です (参考)https://t.co/5r14aZNZX0
+- [2023-01-04] `1610632134334775296`  プログラミング教育で「こういう機能が出来ると何がいいの？」という疑問に答えるのには苦労します そんな「操る機能」(サイバー技術)の位置づけを属性ワザにたとえてやすく出来ないかと考えています https://t.co/bYdsbXIIZo https://t.co/fSv0AkX8jC
+- [2023-01-04] `1610632288181850116` (RE)  「TouchDesignerとかジェネとかでコントロールする技を 属性ワザにたとえて親しみやすくしたいシリーズ」 https://t.co/qAoKdbcbZA
+- [2023-01-04] `1610655192047054848` (RE)  たとえばこちらの例だと次のように属性ワザで説明します  姉:10秒後に文字を赤くしてどうするの？  投稿者:(鬼滅の刃でたとえるなら)"日"の呼吸(参照信号)の 弐の型 「インジケータ」という"ワザ"が使えるようになり「状態を見てわかるように」できます  姉:("日"の呼吸…？) https://t.co/0QzZjsSoQN
+- [2023-01-04] `1610655348972720130` (RE)  (分かりやすいか…？)
+- [2023-01-04] `1610655753731440640` (RE)  中二病のようでなにやら恥ずかしいですが、分かりやすく伝えるのも大事だなと思ったりします。 もっとかっこいいたとえ方がないかとは思う所😅
+- [2023-05-03] `1653785565706489856` (RE)  ポータブルバッテリーを使って街中で屋外プロジェクション 今回は大阪へ 画像は梅田にて https://t.co/pXoO13kxbk
+- [2023-09-06] `1699226070967607751` (RE)  プロジェクター投影を VJシステム(名前あってる？あるいはシーンチェンジャー？)を使って 街中で色々映像を切り替えながら していると 「まるで魔法のようだ」と言って頂けることがあります https://t.co/bMc44UStlR
+
+---
+
+### Source: tweets_mamo_md/tweets_2024.md
+
+# Tweets 2024
+
+_Source: tweet.js → Markdown (yearly)_
+
+- [2024-04-08] `1777279306600976539` (RE)  街中プロジェクター投影 #上野公園 お花見会場にて 文字を映せば たとえば歌の歌詞の表示なども https://t.co/GCaQv7Sow4 #上野公園
+- [2024-04-29] `1784802876583559224`  新型の Leap motion センサーを使って ハンドジェスチャーで いつものプロジェクター映像を動かしてみる  指をチョキにして左右に振ると色変更 四本指でサイズ変更 など  検出範囲が広くなって使いやすくなりました  TouchDesigner ポータブルバッテリーを使い 街中でプロジェクター投影 東京 渋谷にて https://t.co/1UTBTZgjrH
+- [2024-04-29] `1784813759867043912` (RE)  画面右下にあるノートPC画面に操作画面を表示  システムはTouchDesignerで作成  こっちでは Leap motionで検出した 手の位置や 指先同士の距離で操作してみています  道にプロジェクターで投影している映像を切り替えたり動かしたり  動画は倍速ですが ボタン操作ができました https://t.co/WuJ4071Rrp
+- [2024-04-29] `1784891366130225328` (RE)  leap motionでは 右手と左手を区別してくれるので  たとえば 右手でプロジェクターで投影する映像のサイズ・色調整 左手で表示する映像や文書を切り替えたり といった両手操作もできました  TouchDesignerで スライダーやボタンの方は作製できました https://t.co/0CDHaWLnY3
+- [2024-04-29] `1784902375742074926` (RE)  Leap motion自体は軽かったので 上コメの投影時は スマホ撮影用のスタンドつかって立てられました  スマホをはさむ所に USBケーブルの先っぽをはさむだけで  ピンマイクのような感覚でしょうか https://t.co/a5DovDRdgZ
+- [2024-04-29] `1784913889320473012` (RE)  いつもは上のようなLeapMotionを使ってではなく Midiコントローラーを使って 街中でプロジェクター投影をして映像を動かしています https://t.co/5YEREzFiHV
+- [2024-09-30] `1840863819792597356`  下コメントのように、街中で歩いてプロジェクターを投影できるかやってきましたが 最近は画像の矢印のような流れと理由でプロジェクターは明るさ1,000ルーメン、バッテリー容量500Whぐらいはあるといいなあ…と思うようになってます (拡大画像)https://t.co/u7qg2BXP21 https://t.co/Vnk2tFEdwM
+- [2024-09-30] `1840864379518271622` (RE)  実際に街中で1,000lmの明るさで投影したのがこんな感じhttps://t.co/Bp2CJrzMI7
+- [2024-04-06] `1776607238531998048` (RE)  ポータブルバッテリーを使って 街中歩きながらプロジェクター投影 去年に引き続き #上野公園 花見が見頃です https://t.co/jsejhp844k #上野公園
+- [2024-04-07] `1776811409793548429` (RE)  ポータブルバッテリー使って街中歩きながら #プロジェクター撮影 #上野公園 花見会場  桜があると春っぽいコンテンツが映えます  動画は蝶々のパーティクルを使った映像 https://t.co/wxUzXqsVcn #プロジェクター撮影 #上野公園
+- [2024-07-21] `1814868498965016873`  inputを「天」、outputを「地」とたとえるという話は 同じことを考えた人も昔からいらしたようですね  "y=f(x)の中国語訳は，地＝函（天）だった" https://t.co/nz1z4Pyrsm RIMS, Kyoto University https://t.co/DRl0pZLW0D 近代日本における, 函数の概念とそれに関連したことがらの受容と普及
+- [2024-07-21] `1814869002113740865` (RE)  ↑こんな風にプログラミングで操るワザを属性ワザにたとえて整理するやり方を考えています https://t.co/XrzFVL8KKv
+- [2024-07-21] `1814870233343271412` (RE)  "関数"という言葉は「"関わる数"ってなんだ？」と不思議になってしまいますが  元々は"函"数で (何かをinputしたら何かがoutputする)「函(はこ)のように扱えるもの」という意味でした  英語のfunctionともまた違うニュアンスで面白いですね
+- [2024-06-16] `1802195880050934007`  Blankensmith様がPatreonで公開されている #TouchDesigner で動くAIコンパニオンが面白く 試しにプロジェクター投影してみました  デフォルトでは「Sherlock Scones」と名付けられてます @blankensmithing  光って浮いてて お願いを聞いてくれるので まるで式神のようですね https://t.co/stooMdQGrI https://t.co/63ESAIgebn #TouchDesigner
+- [2024-06-16] `1802209009342292347` (RE)  自己紹介の頼み方が「クラシックな奴だね」と言われたのでどう尋ねるのがいいのか 今度は尋ねました https://t.co/vUdUeF7Twn
+- [2024-06-16] `1802224808459211095` (RE)  TouchDesignerでのAIコンパニオンを プロジェクター投影  英会話の練習にもなってくれました https://t.co/xx5waSezSm
+- [2024-06-16] `1802288653861036153` (RE)  上のTouchDesignerで動くBlankensmith様のAIコンパニオンは こんな仕組みで動いてました  ①質問の声を文字に起こすのは、OpenAI社のwhisperというシステムをAPI※を通じて使用  ※API : アプリのソフトが別のソフトやシステムを使えるようにするプログラムのこと (続きます)
+- [2024-06-16] `1802351675866579219` (RE)  ②その質問文から回答文を作製するのは、同社のChatGPTのシステムを使用  ③さらに回答文を良い声で喋る音声を生成するのをElevenlabs社の音声生成システムを使用  という流れでした
+- [2024-06-16] `1802438484189495574` (RE)  動く顔はnoto: The talking ball様のTouchDesignerワザを使われています https://t.co/YhquvkEOqU
+- [2024-02-29] `1763333348855021983` (RE)  カバンに三脚を差し込めば 歩きながら投影もできたり https://t.co/0pySpeOufQ
+- [2024-02-29] `1763334390560821669` (RE)  カメラは素人なのですが 撮影例です https://t.co/AfMhAhGOQz
+- [2024-04-30] `1785153691487756615` (RE)  上から見てるので分かりにくいですが こんな感じで屋外で プロジェクターとLeap motion(手の動きを見るセンサー)を設置できました  (東京 渋谷にて) https://t.co/GpZdUayuVh
+- [2024-12-24] `1871685832605876592` (RE)  街中プロジェクター投影でメリークリスマス 渋谷ハチ公前にて https://t.co/SQn83SWXgx
+- [2024-12-31] `1873964917075960255`  ポータブルバッテリーを旅行カバンに入れて  街中プロジェクター投影 2024年投影収め  今年も 投影中ご興味いただいた方がた 撮影・紹介にご協力いただいた方 こんな活動があるよ、となど情報共有いただいた方 さまざまありがとうございました  来年も良い年になりますよう https://t.co/SSRlXB8yy2
+- [2024-06-18] `1802857269404868738` (RE)  プロンプトを編集すれば ある条件下でAIコンパニオンにコードのような特定の文字列を言わせることもできるようです
+- [2024-06-25] `1805589653774549106` (RE)  @XIANMO248371 ご興味いただきありがとうございます！ Blankensmith様のこちらのコンテンツは下記チュートリアルでご紹介されてます https://t.co/37isVFMEl7
+- [2024-06-25] `1805589809307713973` (RE)  @XIANMO248371 三脚で設置できるプロジェクター投影のやり方はこちらからご覧いただけます https://t.co/yZg40p3i1T https://t.co/gYwUbAHVib
+
+---
+
+### Source: tweets_mamo_md/tweets_2025.md
+
+# Tweets 2025
+
+_Source: tweet.js → Markdown (yearly)_
+
+- [2025-04-04] `1908197745866973563` (RE)  simplex4DというのをGLSLで書けば立体ノイズ模様が描けて、時間変化もさせられるらしくやり方を調べ中。 https://t.co/ej0tEvNnQZ
+- [2025-02-14] `1890370603711905801`  Happy Valentine バレンタインのプロジェクター投影 @東京池袋  ポータブルバッテリーで歩きながら街中プロジェクター投影 使用ソフト:TouchDesigner https://t.co/E4uOT1IEee
+- [2025-02-14] `1890392009212395569` (RE)  バレンタインのプロジェクター映像はコントローラとTouchDesignerで動かしつつ https://t.co/Mzwzzo91xF
+- [2025-01-03] `1875091699233620470` (RE)  @nyankodama @nyankodama コメントありがとうございます! いつもプロジェクター撮影の美しい作品を拝見してます!  こちら三脚付きのプロジェクターを、ポータブルバッテリー入れた旅行カバンのファスナーの隙間に突き刺すだけで屋外撮影などが気軽にできるようになる、というのを広める活動になります！(1/2)
+- [2025-01-03] `1875092618000134498` (RE)  @nyankodama 猫足様のように、プロジェクター撮影で活躍されてるアーティスト様にご興味いただきうれしい限りです 持ち運び投影仲間が今後広まっていく一助になれば幸いです(2/2)
+- [2025-01-03] `1875144492120158267`  あけましておめでとうございます 2025ヘビ年にちなんでヘビっぽく動く街中プロジェクター投影を https://t.co/thj4vAmcL5
+- [2025-04-07] `1909275083832705419` (RE)  ボクセル練習続き  立体の渦巻き(ボクセルvoxcelのベクトル場)で生き物の群れみたいに動くオブジェクト(Boids)を操ってみる  カメラを広角にしてみたのが動画の左の映像  立体的に漂っているものを操りたい時には便利 #Touchdesigner https://t.co/TNWMtbkqgR #Touchdesigner
+- [2025-04-07] `1909383944526758179`  BYD社が自社のセンサシステムを「天神之眼」と名付けたそうで  どうもやはりセンサなどで入力を操る技術は,何かしら「天」から全体をくまなくみるイメージと結びつきやすいようです  入力inのワザを「天」,出力outを「地」とおくと技術整理時にイメージを持ちやすそうです https://t.co/B9Ze2vlbuA
+- [2025-04-07] `1909385643475845521` (RE)  下記「操るワザを属性技になぞらえて親しみやすくするシリーズ」にて  上記の立体渦巻も「風」属性の巻でやってた「ベクトル場」のワザの応用の一つになってます  ボクセルの立体マス上に並べた「ベクトル場」というワザで操ってます https://t.co/ocMN9dxMIo
+- [2025-04-07] `1909395312936177919` (RT)  RT @madoka55537: 8bit、16bit、32bitって何が違う？  自分でもよくわかっていなかったので、勉強しながらまとめました。 TouchDesignerユーザーだけでなく、映像や画像を扱う方にも伝わるように書いています。 bitの基礎から、表現・精度・処理…
+- [2025-04-14] `1911921345316983063` (RT)  RT @karaage0703: MCPサーバの代表格（？）のBlenderMCPサーバも試してみました。「簡単なビル作って」というプロンプトだけで、ここまで作るのやり過ぎでは？？ https://t.co/hdDJeVWuVp
+- [2025-04-14] `1911923186800968009`  MCPサーバーの話題が気になる  動画のようなプロジェクターの投影映像もAIを使ってその場で(現場で)調整、変化させられるようになったりできないだろうか  PCを座って広げずに、スマホだけで立ったまま編集ができたら便利なので https://t.co/l8o4YSRgoz
+- [2025-04-28] `1916818837452026119` (RT)  RT @8beeeaaat: @moma42105016 やっとリリースに漕ぎ着けました！
+- [2025-04-28] `1916818908029325746` (RT)  RT @8beeeaaat: @1null1 #TouchDesigner MCP is finally out! 🚀 It took a lot of work (and a lot of coffee ☕), but I’m super excited to share i… #TouchDesigner
+- [2025-04-28] `1916857725738516943`  @8beeeaaat 様にて TouchDesignerでmcpサーバーを開発されたとのこと  さっそく試させていただいたところ Claude AIにお願いするだけで映像が変更できました!  動画ではプロジェクターで映された文字のサイズを拡大→さらに文字をHello Worldに変更できてます すごい将来性！  偉大な開発に感謝 https://t.co/n33lzP6Wkc https://t.co/042Y2XOD1F
+- [2025-04-28] `1916858246188663110` (RE)  @8beeeaaat @8beeeaaat  すごいです！ついに完成したんですね！  さっそく試させていただきました AIにお願いするだけで映像が変更で来て感動でした！ https://t.co/HkuAq8aUqR
+- [2025-04-05] `1908486239386558936` (RE)  ボクセルの練習続き  64x64x64個ならんだ立体マス(ボクセルvoxcel)をうねうねうごかしてみる  位置やサイズの値に"ノイズ"というランダムな値を加えてます https://t.co/pK8U8TYTVc
+- [2025-04-26] `1916144691256660202` (RE)  立体マス(ボクセルvoxel)の練習続き  3D 空間に立体的に流れを作り 浮かんでいる粒子の動きを操ります #TouchDesigner https://t.co/Xo9ayPryjk #TouchDesigner
+- [2025-04-26] `1916146252389224697` (RE)  立体マス(ボクセルvoxel)の練習続き  64x64x64個の形で立体的にたくさん矢印をならべて その向きに流れを作り 浮かんでいる粒子の動きを操ってみました  動画が圧縮されてしまい分かりにくいですが 矢印が並んでいます 向きと大きさによって色を変えてみてます #TouchDesigner https://t.co/h2jYhCTRtQ #TouchDesigner
+- [2025-02-15] `1890567189264028014`  昨日、街中で映像投影中にご興味頂いた方々はありがとうございました  プロジェクターを、ポータブルバッテリーを使って、歩きながらでも投影できるようにしたシステムですが  旅行カバンなど、こちらの記事に記載のモノ(一般的な品物)を使い、簡単に構築可能です https://t.co/BA6a6xjQqD https://t.co/qqRJY9LRvy
+- [2025-02-15] `1890594638521618775` (RE)  上記記事に加えて さらに最近では  プロジェクターをのせた三脚を、旅行カバンのファスナーの部分に差し込んでいます  カバンと三脚を一体にして持ち運べるので  歩きながらプロジェクター投影ができるようにもなっています https://t.co/kQdX3oKrxA
+- [2025-02-15] `1890629947078676712` (RE)  歩きながら投影できるプロジェクターは、設置時間を短縮できるのも利点で  動画のように設置→撤収にほとんど時間がかからないため  会場を利用できる時間が短いイベントでもプロジェクターをすぐに投影できます https://t.co/297RKJfi4b
+- [2025-06-07] `1931268432097669329` (RT)  RT @1null1: 2025 Experimental builds are now available for download! 🚀  Check out these highlights - New Point Operator family - POPs - New…
+- [2025-05-10] `1921226271704432755` (RE)  立体マス(ボクセルvoxel)で流れを操る練習 流す粒のマテリアルをさらに調整 流れを矢印表示 #TouchDesigner https://t.co/PiewiO8z9m https://t.co/v3r4MYBKzD #TouchDesigner
+- [2025-04-06] `1908853479978008801` (RE)  ボクセル練習続き  立体マス(ボクセルvoxcel)を使って、流れてほしい方向を立体的に指定してみる(3D ベクトル場)  生き物の群れみたいに動くオブジェクト(Boids)を好きな向きで、渦巻き状に動くように操作 #Touchdesigner https://t.co/ilPBjinIsv #Touchdesigner
+- [2025-04-27] `1916449555056652420` (RE)  立体マス(ボクセルvoxel)の練習続き 立体的に流れを描いて粒子を操る  粒のマテリアルを調整し渦っぽくしてみる  #TouchDesigner https://t.co/sBLsaz6O9E #TouchDesigner
+- [2025-04-03] `1907789376328970548`  voxel(ボクセル)の練習中 512x512px の画像は64x64x64px に分割できるので X方向64px Y方向64px Z方向64px の配置を表すのに使えそう  動画は小さいオブジェを64x64x64個ならべてそれぞれの大きさを調整。大きな玉に見えるようにできた  #Touchdesigner https://t.co/0i5OVKKlE2 #Touchdesigner
+- [2025-01-30] `1885095157311439268`  屋外でプロジェクター投影してますが  旅行カバンのファスナー部にカメラ用の三脚を差し込んでプロジェクターを載せて投影する方法が今の所最も楽に感じました  この良い所は設置→撤収にほとんど時間がかからない所。  動画では わずか22秒でプロジェクターを設置して投影、撤収まで完了しています https://t.co/lGsQD0krRu
+- [2025-04-08] `1909564267629846708` (RE)  ボクセルvoxelを使った立体マスで流れを描写して操る練習&gt;再度続き  3Dベクトル場で作った「風」で 向きもいろいろ変えつつ 粒を渦巻状に流してます  流される粒の数を増やすと迫力がでますね #Touchdesigner https://t.co/1IJzpEOJ6n #Touchdesigner
+- [2025-04-15] `1911978302396678318` (RT)  RT @8beeeaaat: Hello, world! #TouchDesigner 🤝 #MCP https://t.co/ebyXzUBeaa #TouchDesigner #MCP
+- [2025-04-15] `1911980130941194615` (RE)  Touchdesignerのmcpサーバー(AIからのコーディングツール)を作成する取り組みをされてるそうで https://t.co/hoiGFlymfA
+- [2025-04-15] `1911992466242420846` (RE)  @8beeeaaat こちらこそフォローいただきありがとうございます！ TDユーザーみなさんに喜ばれるすばらしい取り組みだと思います✨ ぜひ応援＆拝見させていただきます！
+- [2025-04-15] `1912137027493220540` (RT)  RT @shogohayashi: MCPのこの図解、めちゃくちゃ分かりやすい。  MCPは、”規格” https://t.co/mT5bV1C424
+- [2025-04-29] `1917053185065423209`  TouchDesigner、 ・コードがグラフで、分かりやすくみんなと共有できる ・命令を変えたら即反映（JIT） ・座標／データ変換ツールが豊富  だから、これがAIサポート付きで動けば、空間表現や試作がもっと速くカタチにできそう
+- [2025-04-09] `1909758407617470840` (RE)  ×　ボクセルvoxelを使った立体マスで流れを描写 〇　立体マス(ボクセルvoxel)を使って流れを描写
+
+---
+

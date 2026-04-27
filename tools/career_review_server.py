@@ -75,6 +75,29 @@ def main() -> int:
     parser.add_argument("--rebuild", action="store_true", help="Rebuild the candidate index before serving.")
     parser.add_argument("--build-only", action="store_true", help="Build the candidate index and exit.")
     parser.add_argument(
+        "--export-markdown",
+        action="store_true",
+        help="Export labeled conversations to Markdown files under the derived topic directory.",
+    )
+    parser.add_argument(
+        "--export-statuses",
+        nargs="+",
+        default=["include", "maybe"],
+        choices=LABEL_STATUSES,
+        help="Label statuses to export when --export-markdown is used.",
+    )
+    parser.add_argument(
+        "--export-chatgpt-bundle",
+        action="store_true",
+        help="Create a ChatGPT-friendly Markdown bundle from labeled conversations.",
+    )
+    parser.add_argument(
+        "--bundle-max-chars",
+        type=int,
+        default=1_800_000,
+        help="Approximate maximum characters per full-text bundle part.",
+    )
+    parser.add_argument(
         "--min-score",
         type=int,
         default=8,
@@ -95,6 +118,19 @@ def main() -> int:
         print(f"Using existing index: {paths.index_path}")
 
     ensure_labels_file(paths.labels_path)
+
+    if args.export_markdown:
+        counts = export_markdown(paths, args.export_statuses)
+        summary = ", ".join(f"{status}={count}" for status, count in counts.items())
+        print(f"Exported Markdown extracts: {summary}")
+        return 0
+
+    if args.export_chatgpt_bundle:
+        counts = export_chatgpt_bundle(paths, args.export_statuses, args.bundle_max_chars)
+        summary = ", ".join(f"{status}={count}" for status, count in counts.items())
+        print(f"Exported ChatGPT bundle: {summary}")
+        print(f"Bundle directory: {paths.derived_dir / 'career_for_chatgpt'}")
+        return 0
 
     if args.build_only:
         return 0
@@ -448,6 +484,334 @@ def write_candidates_csv(path: Path, records: list[dict[str, Any]]) -> None:
                     "notes": "",
                 }
             )
+
+
+def export_markdown(paths: Paths, statuses: list[str]) -> dict[str, int]:
+    records = read_index(paths.index_path)
+    labels = read_labels(paths.labels_path)
+    export_statuses = [status for status in statuses if status in LABEL_STATUSES and status != "unread"]
+    output_root = paths.derived_dir / "extracts"
+    output_root.mkdir(parents=True, exist_ok=True)
+
+    manifest: list[dict[str, Any]] = []
+    counts = {status: 0 for status in export_statuses}
+    for record in records:
+        conversation_id = str(record.get("id") or "")
+        label = labels.get(conversation_id)
+        if not isinstance(label, dict):
+            continue
+        status = str(label.get("status") or "unread")
+        if status not in export_statuses:
+            continue
+
+        detail = load_conversation_detail(paths, conversation_id)
+        if not detail:
+            continue
+
+        status_dir = output_root / status
+        status_dir.mkdir(parents=True, exist_ok=True)
+        filename = extract_filename(detail["record"])
+        output_path = status_dir / filename
+        output_path.write_text(extract_markdown(detail, label, status), encoding="utf-8", newline="\n")
+
+        counts[status] += 1
+        manifest.append(
+            {
+                "id": conversation_id,
+                "status": status,
+                "title": record.get("title") or "",
+                "path": str(output_path.relative_to(paths.derived_dir)).replace("\\", "/"),
+            }
+        )
+
+    manifest_payload = {
+        "generated_at": datetime.now(timezone.utc).replace(microsecond=0).isoformat(),
+        "source_index": paths.index_path.name,
+        "source_labels": paths.labels_path.name,
+        "statuses": export_statuses,
+        "counts": counts,
+        "items": manifest,
+    }
+    write_json_atomic(output_root / "manifest.json", manifest_payload)
+    return counts
+
+
+def extract_filename(record: dict[str, Any]) -> str:
+    created = str(record.get("created") or record.get("updated") or "")
+    date_prefix = created[:10].replace("-", "") if len(created) >= 10 else "undated"
+    conversation_id = str(record.get("id") or "unknown")
+    title = safe_filename(str(record.get("title") or "untitled"), max_length=48)
+    return f"{date_prefix}_{conversation_id[:8]}_{title}.md"
+
+
+def safe_filename(value: str, max_length: int = 64) -> str:
+    cleaned = re.sub(r'[<>:"/\\|?*\x00-\x1f]+', "_", value).strip(" ._")
+    cleaned = re.sub(r"\s+", "_", cleaned)
+    if not cleaned:
+        cleaned = "untitled"
+    return cleaned[:max_length].rstrip(" ._") or "untitled"
+
+
+def extract_markdown(detail: dict[str, Any], label: dict[str, Any], status: str) -> str:
+    record = detail["record"]
+    messages = detail.get("messages") or []
+    notes = str(label.get("notes") or "").strip()
+    tags = label.get("tags") if isinstance(label.get("tags"), list) else []
+    hit_terms = record.get("hit_terms") if isinstance(record.get("hit_terms"), list) else []
+
+    lines = [
+        "# " + str(record.get("title") or "Untitled"),
+        "",
+        "## Metadata",
+        "",
+        f"- status: {status}",
+        f"- conversation_id: {record.get('id') or ''}",
+        f"- created: {record.get('created') or ''}",
+        f"- updated: {record.get('updated') or ''}",
+        f"- source: {record.get('source_file') or ''} #{record.get('source_index')}",
+        f"- score: {record.get('score') or 0}",
+        "- hit_terms: " + ", ".join(str(term) for term in hit_terms),
+        "- tags: " + ", ".join(str(tag) for tag in tags),
+        "",
+        "## Review Notes",
+        "",
+        notes if notes else "(none)",
+        "",
+        "## Messages",
+        "",
+    ]
+
+    for message in messages:
+        role = str(message.get("role_label") or message.get("role") or "unknown")
+        created = str(message.get("created") or "")
+        text = str(message.get("text") or "").rstrip()
+        lines.extend(
+            [
+                f"### {role} - {created or '時刻なし'}",
+                "",
+                text,
+                "",
+                "---",
+                "",
+            ]
+        )
+
+    return "\n".join(lines).rstrip() + "\n"
+
+
+def export_chatgpt_bundle(paths: Paths, statuses: list[str], max_chars: int) -> dict[str, int]:
+    records = read_index(paths.index_path)
+    labels = read_labels(paths.labels_path)
+    export_statuses = [status for status in statuses if status in ("include", "maybe")]
+    output_root = paths.derived_dir / "career_for_chatgpt"
+    full_root = output_root / "full"
+    full_root.mkdir(parents=True, exist_ok=True)
+
+    selected: dict[str, list[tuple[dict[str, Any], dict[str, Any], dict[str, Any]]]] = {
+        status: [] for status in export_statuses
+    }
+    for record in records:
+        conversation_id = str(record.get("id") or "")
+        label = labels.get(conversation_id)
+        if not isinstance(label, dict):
+            continue
+        status = str(label.get("status") or "unread")
+        if status not in selected:
+            continue
+        detail = load_conversation_detail(paths, conversation_id)
+        if detail:
+            selected[status].append((record, label, detail))
+
+    index_text = chatgpt_bundle_index(selected)
+    (output_root / "00_index.md").write_text(index_text, encoding="utf-8", newline="\n")
+
+    for status in export_statuses:
+        digest_name = "01_include_digest.md" if status == "include" else "02_maybe_digest.md"
+        digest_text = chatgpt_bundle_digest(status, selected[status])
+        (output_root / digest_name).write_text(digest_text, encoding="utf-8", newline="\n")
+        write_full_parts(full_root, status, selected[status], max_chars=max_chars)
+
+    counts = {status: len(items) for status, items in selected.items()}
+    manifest = {
+        "generated_at": datetime.now(timezone.utc).replace(microsecond=0).isoformat(),
+        "source_index": str(paths.index_path.name),
+        "source_labels": str(paths.labels_path.name),
+        "max_chars": max_chars,
+        "counts": counts,
+        "files": sorted(path.name for path in output_root.glob("*.md"))
+        + [f"full/{path.name}" for path in sorted(full_root.glob("*.md"))],
+    }
+    write_json_atomic(output_root / "manifest.json", manifest)
+    return counts
+
+
+def chatgpt_bundle_index(
+    selected: dict[str, list[tuple[dict[str, Any], dict[str, Any], dict[str, Any]]]]
+) -> str:
+    generated = datetime.now(timezone.utc).replace(microsecond=0).isoformat()
+    lines = [
+        "# Career Conversation Bundle Index",
+        "",
+        f"- generated_at: {generated}",
+        "- source: ChatGPT export derived career labels",
+        "- purpose: ChatGPTに転職関連ログを読ませるための索引",
+        "",
+        "## Recommended Reading Order",
+        "",
+        "1. `00_index.md`",
+        "2. `01_include_digest.md`",
+        "3. `02_maybe_digest.md`",
+        "4. 必要に応じて `full/*.md` の該当パート",
+        "",
+        "## Files",
+        "",
+        "- `01_include_digest.md`: includeスレッドの軽量版",
+        "- `02_maybe_digest.md`: maybeスレッドの軽量版",
+        "- `full/include_part_*.md`: includeスレッド本文",
+        "- `full/maybe_part_*.md`: maybeスレッド本文",
+        "",
+        "## Counts",
+        "",
+    ]
+    for status, items in selected.items():
+        lines.append(f"- {status}: {len(items)}")
+    lines.extend(["", "## Threads", ""])
+    for status, items in selected.items():
+        lines.extend([f"### {status}", ""])
+        for index, (record, label, _detail) in enumerate(items, start=1):
+            title = str(record.get("title") or "Untitled")
+            updated = str(record.get("updated") or "")
+            conversation_id = str(record.get("id") or "")
+            terms = ", ".join(str(term) for term in record.get("hit_terms") or [])
+            notes = first_line(str(label.get("notes") or ""))
+            line = f"{index}. {updated[:10]} `{conversation_id}` {title}"
+            if terms:
+                line += f" / terms: {terms}"
+            if notes:
+                line += f" / note: {notes}"
+            lines.append(line)
+        lines.append("")
+    return "\n".join(lines).rstrip() + "\n"
+
+
+def chatgpt_bundle_digest(
+    status: str, items: list[tuple[dict[str, Any], dict[str, Any], dict[str, Any]]]
+) -> str:
+    lines = [
+        f"# Career {status} Digest",
+        "",
+        "このファイルはChatGPT投入用の軽量版です。AI要約ではなく、メタデータ、レビュー注記、ヒット語、抽出スニペットを並べています。",
+        "",
+    ]
+    for index, (record, label, detail) in enumerate(items, start=1):
+        title = str(record.get("title") or "Untitled")
+        lines.extend(
+            [
+                f"## {index}. {title}",
+                "",
+                f"- status: {status}",
+                f"- conversation_id: {record.get('id') or ''}",
+                f"- created: {record.get('created') or ''}",
+                f"- updated: {record.get('updated') or ''}",
+                f"- score: {record.get('score') or 0}",
+                "- hit_terms: " + ", ".join(str(term) for term in record.get("hit_terms") or []),
+                "- tags: " + ", ".join(str(tag) for tag in label.get("tags") or []),
+                f"- messages: {len(detail.get('messages') or [])}",
+                "",
+                "### Review Notes",
+                "",
+                str(label.get("notes") or "(none)").strip() or "(none)",
+                "",
+                "### Snippets",
+                "",
+            ]
+        )
+        snippets = record.get("snippets") if isinstance(record.get("snippets"), list) else []
+        if snippets:
+            for snippet in snippets:
+                role = str(snippet.get("role") or "")
+                created = str(snippet.get("created") or "")
+                text = str(snippet.get("text") or "").strip()
+                lines.extend([f"- {role} {created}: {text}", ""])
+        else:
+            lines.extend(["(none)", ""])
+    return "\n".join(lines).rstrip() + "\n"
+
+
+def write_full_parts(
+    full_root: Path,
+    status: str,
+    items: list[tuple[dict[str, Any], dict[str, Any], dict[str, Any]]],
+    max_chars: int,
+) -> None:
+    for old_part in full_root.glob(f"{status}_part_*.md"):
+        old_part.unlink()
+
+    part_index = 1
+    current_lines = full_part_header(status, part_index)
+    current_size = len("\n".join(current_lines))
+    for item_index, (_record, label, detail) in enumerate(items, start=1):
+        block = full_thread_block(item_index, detail, label, status)
+        block_size = len(block)
+        if current_size > len("\n".join(full_part_header(status, part_index))) and current_size + block_size > max_chars:
+            write_part(full_root, status, part_index, current_lines)
+            part_index += 1
+            current_lines = full_part_header(status, part_index)
+            current_size = len("\n".join(current_lines))
+        current_lines.append(block)
+        current_size += block_size
+
+    write_part(full_root, status, part_index, current_lines)
+
+
+def full_part_header(status: str, part_index: int) -> list[str]:
+    return [
+        f"# Career {status} Full Text Part {part_index:03d}",
+        "",
+        "このファイルはChatGPT投入用の分割本文です。必要なパートだけ読ませる想定です。",
+        "",
+    ]
+
+
+def write_part(full_root: Path, status: str, part_index: int, lines: list[str]) -> None:
+    path = full_root / f"{status}_part_{part_index:03d}.md"
+    path.write_text("\n".join(lines).rstrip() + "\n", encoding="utf-8", newline="\n")
+
+
+def full_thread_block(index: int, detail: dict[str, Any], label: dict[str, Any], status: str) -> str:
+    record = detail["record"]
+    lines = [
+        f"## {index}. {record.get('title') or 'Untitled'}",
+        "",
+        f"- status: {status}",
+        f"- conversation_id: {record.get('id') or ''}",
+        f"- created: {record.get('created') or ''}",
+        f"- updated: {record.get('updated') or ''}",
+        f"- source: {record.get('source_file') or ''} #{record.get('source_index')}",
+        f"- score: {record.get('score') or 0}",
+        "- hit_terms: " + ", ".join(str(term) for term in record.get("hit_terms") or []),
+        "- tags: " + ", ".join(str(tag) for tag in label.get("tags") or []),
+        "",
+        "### Review Notes",
+        "",
+        str(label.get("notes") or "(none)").strip() or "(none)",
+        "",
+        "### Messages",
+        "",
+    ]
+    for message in detail.get("messages") or []:
+        role = str(message.get("role_label") or message.get("role") or "unknown")
+        created = str(message.get("created") or "")
+        text = str(message.get("text") or "").rstrip()
+        lines.extend([f"#### {role} - {created or '時刻なし'}", "", text, "", "---", ""])
+    return "\n".join(lines).rstrip() + "\n"
+
+
+def first_line(value: str, max_length: int = 80) -> str:
+    text = value.strip().splitlines()[0].strip() if value.strip() else ""
+    if len(text) > max_length:
+        return text[: max_length - 1] + "..."
+    return text
 
 
 class ReviewServer(ThreadingHTTPServer):
