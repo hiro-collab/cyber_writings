@@ -4,7 +4,7 @@
 
 ここに置く文章は、読者に見せることを前提にする。ただし、完成稿だけでなく、公開前レビュー中の下書きも置いてよい。
 
-## 現在の本文ドラフト
+## 現在の正本
 
 - [00_overview.md](00_overview.md): 文書の位置づけ、仮タイトル、まえがき案
 - [01_why_retranslate_digital_terms.md](01_why_retranslate_digital_terms.md): 第1部 なぜ訳し直すのか
@@ -14,11 +14,21 @@
 - [05_virtual_being_and_ai.md](05_virtual_being_and_ai.md): 第5部 仮想存在と AI
 - [06_smart_devices_magic_and_jinn.md](06_smart_devices_magic_and_jinn.md): 第6部 スマートデバイス、魔法、魔人
 
+上記の章別ファイルを、現在の本文修正対象とする。
+[01_curated/research_overview_20260427.md](../01_curated/research_overview_20260427.md) は切り出し元の参照用スナップショットであり、本文修正対象にはしない。
+
 ## 補助ファイル
 
-- [research_overview_20260427.md](research_overview_20260427.md): 2026-04-27 時点の統合ドラフト。章別ファイルの切り出し元として残す。
-- [outline.md](outline.md): リポジトリ全体の仮の章立て。症状記録やサイバー論を含む大きな構成案。
-- [90_revision_notes.md](90_revision_notes.md): 採用しない整理、README 草案、記事案、要確認事項などの作業メモ。
+- [outline.md](outline.md): リポジトリ全体の仮の章立て。症状記録やサイバー論を含む大きな構成案であり、現在の章別本文そのものではない。
+- [90_revision_notes.md](90_revision_notes.md): 採用しない整理、記事案、要確認事項などの作業メモ。
+
+## `00_overview.md` と `outline.md` の違い
+
+[00_overview.md](00_overview.md) は、現在の本文ドラフトに含める入口である。
+文書の位置づけ、仮タイトル、まえがき案を置き、本文として編集する。
+
+[outline.md](outline.md) は、リポジトリ全体の大きな構成を考えるための設計メモである。
+症状記録、脳機能、サイバー論、公開戦略まで含むため、現在の章別本文とは別に扱う。
 
 ## 原稿化の基準
 
