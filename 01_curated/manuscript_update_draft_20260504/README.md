@@ -24,6 +24,8 @@
 - `06_virtual_being_and_ai_updated_draft.md`: 第6部 仮想存在と AI エージェント
 - `07_smart_devices_magic_and_jinn_updated_draft.md`: 第7部 スマートデバイス、魔法、魔人
 - `90_omissions_and_abstractions.md`: 捨象・保留・薄めた内容のログ
+- `91_reference_sources.md`: 参考ソースと主張対応表
+- `92_related_document_check.md`: 関連文書再点検メモ
 
 ## 現行 `02_manuscript` との主な違い
 
