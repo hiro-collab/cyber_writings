@@ -87,8 +87,55 @@
 確度:
 
 - 高: 論文の掲載情報、節構成、模倣ゲームの位置づけ。
-- 中: `computer` を「演算役」「代理演算役」と読むこと。語義史と Turing 論文の訳語を追加確認する。
+- 高: Turing 1950年論文が、デジタルコンピューターを human computer が行う操作を実行する機械として説明していること。
+- 中: `computer` を「演算役」「代理演算役」と読むこと。これは本文側の説明語であり、一般訳を置き換える確定訳ではない。
 - 要確認: 既存邦訳の有無と品質。必要なら自訳候補を別ファイルで作る。
+
+## computerの訳語とhuman-computer
+
+本文での使い方:
+
+- 第6部 6.3 で、`computer` を「電子計算機」とだけ訳すと落ちる歴史的な幅を、必要な翻訳の重要例として確認する。
+- AI エージェントを「代理演算役」と呼ぶ根拠を補強する。
+- ただし、本書全体を `computer` 訳語論にはしない。
+- あわせて、「コンピューター」「電子計算機」「計算機」を誤訳とは言わない。
+
+主張:
+
+- `computer` は現在では通常、プログラム可能な電子装置を指すが、語義としては「計算するもの」を含む。
+- 電子コンピューター以前、`computer` は手計算を行う職務名として使われた。
+- Turing 1936年論文は、人が実数を計算する過程を機械になぞらえるところから計算機械を説明している。
+- Turing 1950年論文は、デジタルコンピューターを human computer が行える操作を実行する機械として説明している。
+- 日本語では「コンピューター」「コンピュータ」の表記揺れがあり、一般向けには「コンピューター」が穏当とする国語研の説明がある。
+- 「電脳」は「電子頭脳」の略、または中国語の computer 相当語として参照できるが、AI を人格化・脳化しすぎるため本文の主語にはしない。
+- JIS X 0001:1994 の用語定義では、`computer` は「計算機、コンピュータ」と対応づけられ、算術演算・論理演算を含む計算を人手の介入なしに行う機能単位として説明される。
+
+ソース:
+
+- [Merriam-Webster: “computer”](https://www.merriam-webster.com/dictionary/computer)
+- [Merriam-Webster: “compute”](https://www.merriam-webster.com/dictionary/compute)
+- [NASA: “When Computers Were Human”](https://www.nasa.gov/centers-and-facilities/jpl/when-computers-were-human/)
+- [NASA: “‘Computer’ Conducts Data Analysis”](https://www.nasa.gov/image-article/computer-conducts-data-analysis/)
+- [A. M. Turing, “On Computable Numbers, with an Application to the Entscheidungsproblem” PDF](https://www.cs.virginia.edu/~robins/Turing_Paper_1936.pdf)
+- [Oxford Academic: A. M. Turing “Computing Machinery and Intelligence”](https://academic.oup.com/mind/article/LIX/236/433/986238)
+- [国立国語研究所 ことば研究館「コンピューター」と「コンピュータ」どちらで書いてもよいのでしょうか](https://kotobaken.jp/qa/yokuaru/qa-94/)
+- [コトバンク「電脳」](https://kotobank.jp/word/%E9%9B%BB%E8%84%B3-6553)
+- [JIS X 0001:1994 情報処理用語（基本用語）掲載ページ](https://www.ny.ics.keio.ac.jp/ipsjts1/2nd-ver/htm/x0001.htm)
+
+ローカル文書:
+
+- `00_fragments/md_files/programming_translation_jp.md`: `computer` の原義と、`演算体` などを仮案に留める方針。
+- `00_fragments/md_files/046ma.md`: `compute` を「勘定する」に近い語として見るメモ、計算機の基本動作メモ。
+- `00_fragments/md_files/single_threads/2026-05-04T07-16-21_プログラミング_-_陰陽とサイバネティクス.md`: `computer` を「演算者」「補助者」と見る会話ログ。
+
+確度:
+
+- 高: `computer` が「計算するもの/人」を含む語であり、human computer の歴史的用例があること。
+- 高: Turing 1936/1950年論文に、人間の計算者と機械の対応を読むこと。
+- 高: 日本語では「コンピューター」「コンピュータ」「電子計算機」「計算機」が文脈に応じて使われていること。
+- 中: 「代理演算役」を本文の説明語として採用すること。これは AI エージェント論のための解釈であり、一般訳ではない。
+- 中: `computer` を本書の主題ではなく、翻訳によって技術の見え方が変わる重要例として扱うこと。
+- 低: `computer` の標準訳を全面的に「演算役」へ置き換える主張。本文では採用しない。
 
 ## Leibniz二進法易経
 
