@@ -21,3 +21,4 @@
 
 - [research_overview_20260427.md](research_overview_20260427.md): `02_manuscript` の章別ファイルへ切り出す前の統合ドラフト。参照用として残し、本文修正対象にはしない。
 - [single_threads_integration_20260504.md](single_threads_integration_20260504.md): `00_fragments/md_files/single_threads` の最近の ChatGPT 議論を、章別本文へ載せるための統合方針。
+- [manuscript_update_draft_20260504/](manuscript_update_draft_20260504/): `02_manuscript` を上書きせずに作成した、更新版本文たたき台と捨象ログ。
