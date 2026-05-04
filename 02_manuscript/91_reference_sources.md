@@ -154,6 +154,36 @@
 - 高: 舵取り・steersman 由来を参照すること。
 - 中: 対空砲予測装置から本書の「操る」概念へ橋をかけること。これは本文側の解釈なので、軍事技術そのものへ寄せすぎない。
 
+## GUI・空間表示・AIエージェントの思想的前史
+
+本文での使い方:
+
+- 第5部 5.1 で、GUI、プロジェクション、空間 AR、AI エージェントが唐突な応用例ではなく、コンピューターを人間の知的活動、身体、場、生活環境へ開こうとしてきた思想の延長にあることを示す。
+- ただし、これらの英語圏の先行思想が、そのまま本書の「場」「作法」「鎮める」「陰陽師」的な語りを含んでいたとは言わない。
+- 日本語で訳し直したときに見える像は、本文側の解釈として扱う。
+
+主張:
+
+- Engelbart の 1962年報告は、コンピューターを単なる計算装置ではなく、人間の複雑な問題解決能力を増幅する道具、言語、方法、訓練の体系として扱った。
+- Kay の Dynabook 論は、個人用コンピューターを、子どもや大人が持ち歩き、情報を作り、試し、操作する能動的な媒体として構想した。
+- Sutherland の “The Ultimate Display” は、ディスプレイを、物理世界では直接経験しにくい概念や仮想的な対象を体験可能にする窓・部屋として構想した。
+- Weiser の ubiquitous computing は、コンピューターを机上の一台へ閉じず、環境へ分散し、日常の中に溶け込ませる方向を示した。
+- Maes の interface agents 論は、情報過多や作業負荷を減らすため、ユーザーの代わりに学び、助け、働くソフトウェアエージェントを扱った。
+
+ソース:
+
+- [Douglas C. Engelbart “Augmenting Human Intellect: A Conceptual Framework”](https://www.dougengelbart.org/content/view/138/)
+- [Alan C. Kay “A Personal Computer for Children of All Ages”](https://mprove.de/visionreality/media/kay72.html)
+- [Ivan E. Sutherland “The Ultimate Display” CiNii Research](https://cir.nii.ac.jp/crid/1571980075024255872)
+- [Mark Weiser “The Computer for the 21st Century” Scientific American](https://www.scientificamerican.com/article/the-computer-for-the-21st-century/)
+- [Pattie Maes “Agents that Reduce Work and Information Overload” Communications of the ACM](https://cacm.acm.org/research/agents-that-reduce-work-and-information-overload/)
+
+確度:
+
+- 高: Engelbart、Kay、Sutherland、Weiser、Maes を、GUI、個人用コンピューティング、空間表示、環境化、エージェントの歴史的補助線として参照すること。
+- 中: これらを第5部の「サイバーが人間の前にどう現れるか」という問いへ接続すること。これは本文側の構成判断である。
+- 低: これらの先行思想が、本書の日本語的な「場」「作法」「鎮める」「陰陽師」的イメージを直接意図していたという主張。本文では採用しない。
+
 ## Turingと機械知性
 
 本文での使い方:
@@ -228,6 +258,36 @@
 - 中: `computer` を本書の主題ではなく、翻訳によって技術の見え方が変わる重要例として扱うこと。
 - 低: `computer` の標準訳を全面的に「演算役」へ置き換える主張。本文では採用しない。
 
+## serverとagentの語感
+
+本文での使い方:
+
+- 第6部 6.4 で、`server` と `agent` を、AI エージェント論を支える補助語として扱う。
+- `server` は「サーバー機」という装置名だけでなく、求めに応じてサービスを提供する役割を含む語として見る。
+- `agent` は、単なる人格キャラクターではなく、作用するもの、代理するもの、権限を受けて働くものとして見る。
+- ただし、本書の中心は `server` / `agent` の訳語論ではなく、願いを受け、演算し、場や現実へ橋渡しする役割の整理である。
+
+主張:
+
+- Merriam-Webster では、`server` は食事を提供する人、サービスを提供するネットワーク上のコンピューターなどを含む語として説明される。
+- Etymonline では、`server` は `serve` から派生した、仕える者を意味する語として説明される。
+- Merriam-Webster では、`agent` は作用するもの、効果を生むもの、他者のために、または他者の代わりに行為するもの、特定のタスクを自動化するコンピューターアプリケーションなどを含む語として説明される。
+- Etymonline では、`agent` は「行う、動かす」に関わるラテン語系の語として説明され、代理者・代表者の意味も確認できる。
+
+ソース:
+
+- [Merriam-Webster: “server”](https://www.merriam-webster.com/dictionary/server)
+- [Etymonline: “server”](https://www.etymonline.com/word/server)
+- [Merriam-Webster: “agent”](https://www.merriam-webster.com/dictionary/agent)
+- [Etymonline: “agent”](https://www.etymonline.com/word/agent)
+
+確度:
+
+- 高: `server` に「提供する、仕える」役割の語感があり、計算機分野でもサービス提供側を指すこと。
+- 高: `agent` に、作用するもの、代理するもの、自動化されたソフトウェアの意味があること。
+- 中: `server` を「奉仕者」、`agent` を「使い」「代理者」と説明すること。これは文脈によって有効だが、標準訳として固定しない。
+- 低: `server` / `agent` の語源だけで AI エージェントの技術的性質を説明しきる主張。本文では採用しない。
+
 ## Leibniz二進法易経
 
 本文での使い方:
@@ -261,6 +321,38 @@
 - 高: Leibniz の二進法研究が Bouvet 経由の伏羲図像以前に確認できること。
 - 中: 伏羲・邵雍系の六十四卦図を「binary」と呼べる範囲。研究上の議論があるため、「構造的対応」「形式的対応」として扱う。
 - 低: 易経を現代デジタル技術、制御理論、AI の原型とする主張。本文では採用しない。
+
+## 日本語の気と制御像
+
+本文での使い方:
+
+- 第4部 4.8 で、陰陽や符よりも日常語に近い制御感覚として、「気を遣う」「気を配る」「気を回す」「気が合う」「気配を読む」を扱う。
+- `care` と「気」を一対一対応させるのではなく、注意、配慮、監督、責任、心配、場の状態への感受性が、日本語では「気」の言い回しとして広く現れることを補助線にする。
+- 「気」を物理的な実体や工学的な変数として定義しない。あくまで、日本語でインターフェースや制御を語るときの比喩的・感覚的な資源として扱う。
+
+主張:
+
+- Merriam-Webster の `care` には、注意、心配、監督、責任、保護・安全への配慮などの語義がある。
+- 「気遣い」は、気を使うこと、心づかい、また懸念を含む語として辞書で説明される。
+- 「気を配る」は、さまざまに注意を払う、配慮することを意味する。
+- 「気を回す」は、必要以上にあれこれ考える、余計な憶測や邪推をする意味を含む。本文では、先回りする注意が行き過ぎるリスクも含めて扱う。
+- 「気が合う」は、考え方や感じ方が通じ合うこと、気持ちが通じ合い気分が一致することを意味する。
+- 「気配」は、はっきり見えないが漠然と感じられる様子、また市場や相場の状態を指す語として説明される。
+
+ソース:
+
+- [Merriam-Webster: “care”](https://www.merriam-webster.com/dictionary/care)
+- [コトバンク「気遣い」](https://kotobank.jp/word/%E6%B0%97%E9%81%A3%E3%81%84-474646)
+- [コトバンク「気を配る」](https://kotobank.jp/word/%E6%B0%97%E3%82%92%E9%85%8D%E3%82%8B-471906)
+- [コトバンク「気を回す」](https://kotobank.jp/word/%E6%B0%97%E3%82%92%E5%9B%9E%E3%81%99-471919)
+- [コトバンク「気が合う」](https://kotobank.jp/word/%E6%B0%97%E3%81%8C%E5%90%88%E3%81%86-471837)
+- [コトバンク「気配」](https://kotobank.jp/word/%E6%B0%97%E9%85%8D-475319)
+
+確度:
+
+- 高: 各慣用句の辞書上の意味。
+- 中: 「気」を、注意、配慮、相性、場の状態をめぐる日本語の制御感覚として読むこと。これは本文側の解釈である。
+- 低: 「気」を、物理的・工学的な量や変数として直接扱う主張。本文では採用しない。
 
 ## ジェスチャー設計と刀印
 

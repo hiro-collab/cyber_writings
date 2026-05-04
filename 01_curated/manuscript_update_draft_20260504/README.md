@@ -20,7 +20,7 @@
 - `02_cyber_means_ayatsuru_updated_draft.md`: 第2部 サイバーとは「操る」ことである
 - `03_cyber_techniques_classification_draft.md`: 第3部 サイバーの技をどう分類するか
 - `04_digital_terms_and_onmyoji_metaphor_updated_draft.md`: 第4部 デジタル用語を訳すと陰陽師っぽくなる問題
-- `05_gui_projection_body_extension_updated_draft.md`: 第5部 GUI、プロジェクション、身体拡張
+- `05_gui_projection_body_extension_updated_draft.md`: 第5部 GUI、プロジェクション、場に現れるサイバー
 - `06_virtual_being_and_ai_updated_draft.md`: 第6部 仮想存在と AI エージェント
 - `07_smart_devices_magic_and_jinn_updated_draft.md`: 第7部 スマートデバイス、魔法、魔人
 - `90_omissions_and_abstractions.md`: 捨象・保留・薄めた内容のログ
@@ -33,4 +33,4 @@
 - 第2部の後に「サイバーの技を分類する」章を新設する。
 - 陰陽・符の章は、先に操作論を固めた後に置く。
 - `陰陽師` は中心テーマではなく、「自然に訳そうとするとその語感に近づく」という問題提起として扱う。
-- GUI、プロジェクション、AI、スマートデバイスは、サイバーの技の具体展開として読む流れに寄せる。
+- GUI、プロジェクション、AI、スマートデバイスは、サイバーが人間の前に現れる姿として読む流れに寄せる。

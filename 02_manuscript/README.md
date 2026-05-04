@@ -12,7 +12,7 @@
 - [02_cyber_means_ayatsuru.md](02_cyber_means_ayatsuru.md): 第2部 サイバーとは「操る」ことである
 - [03_cyber_techniques_classification.md](03_cyber_techniques_classification.md): 第3部 サイバーの技をどう分類するか
 - [04_digital_terms_and_onmyoji_metaphor.md](04_digital_terms_and_onmyoji_metaphor.md): 第4部 デジタル用語を訳すと陰陽師っぽくなる問題
-- [05_gui_projection_body_extension.md](05_gui_projection_body_extension.md): 第5部 GUI、プロジェクション、身体拡張
+- [05_gui_projection_body_extension.md](05_gui_projection_body_extension.md): 第5部 GUI、プロジェクション、場に現れるサイバー
 - [06_virtual_being_and_ai.md](06_virtual_being_and_ai.md): 第6部 仮想存在と AI エージェント
 - [07_smart_devices_magic_and_jinn.md](07_smart_devices_magic_and_jinn.md): 第7部 スマートデバイス、魔法、魔人
 
