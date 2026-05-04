@@ -1,53 +1,38 @@
 # 02_manuscript
 
-このディレクトリは、公開候補の本文ドラフト、章立て、連載案を置く場所である。
+このディレクトリは、公開候補の本文ドラフト、章立て、参照ソース、保留事項を置く場所である。
 
-ここに置く文章は、読者に見せることを前提にする。ただし、完成稿だけでなく、公開前レビュー中の下書きも置いてよい。
+ここに置く文章は、読者に見せることを前提にする。ただし、完成稿ではなく、公開前レビュー中の下書きとして扱う。
 
-## 現在の正本
+## 現在の正本候補
 
-- [00_overview.md](00_overview.md): 文書の位置づけ、仮タイトル、まえがき案
+- [combined_reading.md](combined_reading.md): 00 から 07 までを結合した読解用ファイル
+- [00_overview.md](00_overview.md): 全体の入口、問題意識、章順
 - [01_why_retranslate_digital_terms.md](01_why_retranslate_digital_terms.md): 第1部 なぜ訳し直すのか
 - [02_cyber_means_ayatsuru.md](02_cyber_means_ayatsuru.md): 第2部 サイバーとは「操る」ことである
-- [03_digital_terms_and_onmyoji_metaphor.md](03_digital_terms_and_onmyoji_metaphor.md): 第3部 デジタル用語と陰陽・符・働きの比喩
-- [04_gui_projection_body_extension.md](04_gui_projection_body_extension.md): 第4部 GUI、プロジェクション、身体拡張
-- [05_virtual_being_and_ai.md](05_virtual_being_and_ai.md): 第5部 仮想存在と AI
-- [06_smart_devices_magic_and_jinn.md](06_smart_devices_magic_and_jinn.md): 第6部 スマートデバイス、魔法、魔人
-
-上記の章別ファイルを、現在の本文修正対象とする。
-[01_curated/research_overview_20260427.md](../01_curated/research_overview_20260427.md) は切り出し元の参照用スナップショットであり、本文修正対象にはしない。
+- [03_cyber_techniques_classification.md](03_cyber_techniques_classification.md): 第3部 サイバーの技をどう分類するか
+- [04_digital_terms_and_onmyoji_metaphor.md](04_digital_terms_and_onmyoji_metaphor.md): 第4部 デジタル用語を訳すと陰陽師っぽくなる問題
+- [05_gui_projection_body_extension.md](05_gui_projection_body_extension.md): 第5部 GUI、プロジェクション、身体拡張
+- [06_virtual_being_and_ai.md](06_virtual_being_and_ai.md): 第6部 仮想存在と AI エージェント
+- [07_smart_devices_magic_and_jinn.md](07_smart_devices_magic_and_jinn.md): 第7部 スマートデバイス、魔法、魔人
 
 ## 補助ファイル
 
-- [outline.md](outline.md): リポジトリ全体の仮の章立て。症状記録やサイバー論を含む大きな構成案であり、現在の章別本文そのものではない。
-- [90_revision_notes.md](90_revision_notes.md): 採用しない整理、記事案、要確認事項などの作業メモ。
-
-## `00_overview.md` と `outline.md` の違い
-
-[00_overview.md](00_overview.md) は、現在の本文ドラフトに含める入口である。
-文書の位置づけ、仮タイトル、まえがき案を置き、本文として編集する。
-
-[outline.md](outline.md) は、リポジトリ全体の大きな構成を考えるための設計メモである。
-症状記録、脳機能、サイバー論、公開戦略まで含むため、現在の章別本文とは別に扱う。
-
-## 原稿化の基準
-
-- 読者が前提知識なしに流れを追える
-- 個人情報や機微情報の扱いを確認している
-- 医学的・技術的な断定には注意している
-- 体験、考察、調査メモの境界がわかる
+- [90_omissions_and_abstractions.md](90_omissions_and_abstractions.md): 捨象・保留・薄めた内容のログ
+- [91_reference_sources.md](91_reference_sources.md): 参考ソースと主張対応表
+- [92_related_document_check.md](92_related_document_check.md): 関連文書再点検メモ
+- [outline.md](outline.md): リポジトリ全体の古い大枠メモ。現在の章別本文そのものではない。
 
 ## 編集時の注意
 
-- 本文の主張を勝手に変えない
-- 会話調、ChatGPT 応答調、保存用メモは本文と分ける
-- 未確認の語源・歴史説明・引用候補は `[要確認]` として残す
-- 根拠が必要な断定は `[要根拠]` を付けるか、控えめな表現にする
-- `陰陽` は二状態の説明補助として扱い、善悪・男女・光と闇の説明には使わない
-- 神秘化ではなく、操作・接続・実行条件の説明として整理する
-- 「思想・実装・祈り」の固定三層構造は採用しない
+- 本文の主張を勝手に強めない。
+- 未確認の語源・歴史説明・引用候補は `[要確認]` として残す。
+- 参照元が必要な断定は、[91_reference_sources.md](91_reference_sources.md) に根拠を残す。
+- 本文に入れない内容は、理由を添えて [90_omissions_and_abstractions.md](90_omissions_and_abstractions.md) または [92_related_document_check.md](92_related_document_check.md) に残す。
+- 個人経験、確定した事実、翻訳上の仮説、比喩的な接続を区別する。
+- `陰陽` は二状態の説明補助として扱い、神秘化の中心概念にしない。
+- 「思想・実装・祈り」の固定三層構造は採用しない。
 
-## 進め方
+## バックアップ
 
-まずは章別ファイルを作業単位にする。
-大きな構成を見直すときは [outline.md](outline.md) を参照し、個別の修正方針や保留事項は [90_revision_notes.md](90_revision_notes.md) に追記する。
+この更新の前の `02_manuscript` は、ローカルの `99_private/backups/` にバックアップを作成している。`99_private/` は `.gitignore` 対象であり、公開リポジトリには含めない。
