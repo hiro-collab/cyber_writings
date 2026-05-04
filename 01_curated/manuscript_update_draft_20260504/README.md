@@ -26,6 +26,7 @@
 - `90_omissions_and_abstractions.md`: 捨象・保留・薄めた内容のログ
 - `91_reference_sources.md`: 参考ソースと主張対応表
 - `92_related_document_check.md`: 関連文書再点検メモ
+- `93_interface_worldview_memo.md`: GUI、空間 AR、AI エージェントを扱う理由の整理メモ
 
 ## 現行 `02_manuscript` との主な違い
 

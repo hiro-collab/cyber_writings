@@ -21,6 +21,7 @@
 - [90_omissions_and_abstractions.md](90_omissions_and_abstractions.md): 捨象・保留・薄めた内容のログ
 - [91_reference_sources.md](91_reference_sources.md): 参考ソースと主張対応表
 - [92_related_document_check.md](92_related_document_check.md): 関連文書再点検メモ
+- [93_interface_worldview_memo.md](93_interface_worldview_memo.md): GUI、空間 AR、AI エージェントを扱う理由の整理メモ
 - [outline.md](outline.md): リポジトリ全体の古い大枠メモ。現在の章別本文そのものではない。
 
 ## 編集時の注意
