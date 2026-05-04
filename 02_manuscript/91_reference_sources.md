@@ -90,6 +90,40 @@
 - 中: `computer` を「演算役」「代理演算役」と読むこと。語義史と Turing 論文の訳語を追加確認する。
 - 要確認: 既存邦訳の有無と品質。必要なら自訳候補を別ファイルで作る。
 
+## Leibniz二進法易経
+
+本文での使い方:
+
+- 第4部 4.4 で、陰陽を「属性を落とした二状態」として扱うための歴史的補助線として参照する。
+- 「易経がデジタル技術の起源である」「Leibniz が易経を見て二進法を発明した」とは書かない。
+- `0/1` と `陰/陽` の対応は、二状態の記号的対応に限定する。
+
+主張:
+
+- Leibniz は 1703年の論文で、`0` と `1` だけを使う二進法を説明し、伏羲の古代中国図像との関係にも触れている。
+- 同論文では、実線を `1`、破線を `0` と見て、八卦・六十四卦を二進法的に読めると説明している。
+- ただし Leibniz の二進法研究は、Bouvet との易経・伏羲図像をめぐるやり取りより前に確認できる。1679年の `De Progressione Dyadica` が重要な早期資料である。
+- Bouvet は、Leibniz の二進法と伏羲・邵雍系の六十四卦図との類似に気づき、Leibniz に図を送った。
+- 現代研究では、この関係を「形式的対応」と見る立場と、特定の伏羲六十四卦方位図を二値的構造として評価する立場がある。いずれにせよ、本文では「構造的対応」に留める。
+
+ソース:
+
+- [Wikisource: Leibniz, “Explication de l'arithmétique binaire...”](https://fr.wikisource.org/wiki/Leibniz-en.francais-Gerhardt.Math.1a7.djvu/Num%C3%A9ration.binaire)
+- [Gallica: Académie royale des sciences, 1703](https://gallica.bnf.fr/ark:/12148/bpt6k3483p/f247.item)
+- [PHILIUMM: `De Progressione Dyadica` overview](https://eman-archives.org/philiumm/dyadica/de-progressione-dyadica)
+- [PhilArchive: Lloyd Strickland “Leibniz on Number Systems”](https://philarchive.org/rec/STRLON)
+- [MIT Press: *Leibniz on Binary*](https://mitpress.mit.edu/9780262544344/leibniz-on-binary/)
+- [Cambridge Core: Marie-Julie Maitre, “Is the Fuxi liushisi gua fangwei diagram attributed to Shao Yong binary?”](https://www.cambridge.org/core/journals/science-in-context/article/abs/is-the-fuxi-liushisi-gua-fangwei-diagram-attributed-to-shao-yong-binary-clarifying-a-consequence-of-its-analogy-with-the-binary-arithmetic-of-leibniz/9BA1DB9CFF13D5BEADCAF8FF954108AC)
+- [PhilPapers: Aiton and Shimao, “Gorai Kinzō's study of Leibniz and the I ching hexagrams”](https://philpapers.org/rec/AITGKS)
+- [Chinese Text Project: 周易 / Book of Changes](https://ctext.org/book-of-changes/zh)
+
+確度:
+
+- 高: Leibniz の 1703年論文が二進法と伏羲図像を結びつけていること。
+- 高: Leibniz の二進法研究が Bouvet 経由の伏羲図像以前に確認できること。
+- 中: 伏羲・邵雍系の六十四卦図を「binary」と呼べる範囲。研究上の議論があるため、「構造的対応」「形式的対応」として扱う。
+- 低: 易経を現代デジタル技術、制御理論、AI の原型とする主張。本文では採用しない。
+
 ## ジェスチャー設計と刀印
 
 本文での使い方:
