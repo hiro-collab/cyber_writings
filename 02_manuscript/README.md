@@ -6,7 +6,7 @@
 
 ## 現在の正本候補
 
-- [combined_reading.md](combined_reading.md): 00 から 07 までを結合した読解用ファイル
+- [combined_reading.md](combined_reading.md): 00 から 08 までを結合した読解用ファイル
 - [00_overview.md](00_overview.md): 全体の入口、問題意識、章順
 - [01_why_retranslate_digital_terms.md](01_why_retranslate_digital_terms.md): 第1部 なぜ訳し直すのか
 - [02_cyber_means_ayatsuru.md](02_cyber_means_ayatsuru.md): 第2部 サイバーとは「操る」ことである
@@ -15,6 +15,7 @@
 - [05_gui_projection_body_extension.md](05_gui_projection_body_extension.md): 第5部 GUI、プロジェクション、場に現れるサイバー
 - [06_virtual_being_and_ai.md](06_virtual_being_and_ai.md): 第6部 仮想存在と AI エージェント
 - [07_smart_devices_magic_and_jinn.md](07_smart_devices_magic_and_jinn.md): 第7部 スマートデバイス、魔法、魔人
+- [08_cyborg_body_and_survival.md](08_cyborg_body_and_survival.md): 第8部 サイボーグ、外部器官、生き残る身体
 
 ## 補助ファイル
 

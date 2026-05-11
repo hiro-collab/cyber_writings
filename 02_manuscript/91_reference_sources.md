@@ -400,6 +400,176 @@
 - 中: Code.org にはかなり直接的な説明がある。
 - 要確認: Google の具体教材内で `commands` と `function` がどう説明されているか。本文の `[要確認]` は残す。
 
+## 母国語概念としてのソフトウェア理解
+
+本文での使い方:
+
+- 第1部 1.8 で、ソフトウェアを母国語の概念として扱えない社会は、ソフトウェアを自分の願いの道具として育てにくい、という本書側の中核仮説として使う。
+- 日本のソフトウェア問題を訳語だけで説明せず、外注依存、内製力、経営理解、教育、組織、資本、プラットフォーム競争などの複合問題の中に、概念理解の問題を位置づける。
+- `command`、`program`、`code`、`function` を、自分たちの願い・判断・手順を機械が実行できる形へ移す語として再読する。
+
+主張:
+
+- ソフトウェアは、単に外部業者に発注して納品してもらう物ではなく、願い、判断、手順、確認方法を機械が実行できる形へ移すものとして読める。
+- 実装を専門家に頼むことは悪くないが、何を叶えたいのか、何が成功なのか、どの判断を機械へ渡すのか、どこを人間が責任を持つのかまで外部化すると、自分たちの道具として育てにくい。
+- 母国語で概念を動かせることは、内製化、現場参加、経営理解、教育の前提条件の一つになる。
+- 自然な日本語化を進めると、状態を読む、記号を与える、働きを呼ぶ、対象を動かす、結果を確かめる、という語りに近づき、それが陰陽師的に見える場合がある。ただしこれは神秘化ではなく、操作構造を母国語へ戻すための仮設足場である。
+
+ローカル文書:
+
+- `00_fragments/md_files/single_threads/2026-05-11T05-27-00_プログラミング_-_日本独自のAI戦略.md`
+- `01_curated/single_threads_integration_20260511.md`
+- `02_manuscript/01_why_retranslate_digital_terms.md`
+
+確度:
+
+- 高: これは筆者自身の問題意識として本文へ置けること。
+- 中: 母国語で概念を扱えることが、内製化や教育の基盤になるという仮説。
+- 低: 日本のソフトウェア産業問題を、訳語や翻訳だけで説明する主張。本文では採用しない。
+
+## 機械への心的性質帰属とELIZA/Golem
+
+本文での使い方:
+
+- 第6部 6.2 で、AI を人格として断定する前に、人間が機械へ信念、意図、欲求、理解、人格らしさを帰属する問題を扱う。
+- AI を「使い」や「代理演算役」と呼ぶことを、魂や自由意志の断定ではなく、社会的役割、心的性質の帰属、責任と権限の設計として位置づける。
+- 欧米の計算機思想にも、機械が学び、働き、人間が機械へ心的性質を帰属する問題が真剣に論じられてきたことを示す。
+
+主張:
+
+- John McCarthy は “Ascribing Mental Qualities to Machines” で、機械に信念、意図、欲求のような心的性質を帰属することが、慎重に行われるなら正しく、機械の状態を表すために必要になる場合もあると論じた。
+- Weizenbaum の ELIZA は、入力文のキーワードや分解・再構成規則に基づいて応答を生成する初期対話プログラムだった。ELIZA からは、人間が単純な対話プログラムにも理解や人格らしさを読み込みやすい問題を参照できる。
+- Wiener の *God & Golem, Inc.* は、サイバネティクスが宗教的問題に接する点として、学習する機械、自己複製する機械、人間と機械の関係を扱い、ゴーレムの比喩も用いている。
+- これらは、AI に魂や人格があることの根拠ではない。機械へ心的性質を帰属すること、人間が機械へ心や代理性を読み込むこと、人間が作った非人間的なものが制御の問題を生むことの根拠として使う。
+
+ソース:
+
+- [John McCarthy “Ascribing Mental Qualities to Machines”](https://www-formal.stanford.edu/jmc/ascribing/ascribing.html)
+- [John McCarthy “Ascribing Mental Qualities to Machines” PDF](https://www-formal.stanford.edu/jmc/ascribing.pdf)
+- [Joseph Weizenbaum “ELIZA—a computer program for the study of natural language communication between man and machine” Communications of the ACM](https://cacm.acm.org/research/eliza-a-computer-program-for-the-study-of-natural-language-communication-between-man-and-machine-2/)
+- [同論文 CiNii Research / DOI: 10.1145/365153.365168](https://cir.nii.ac.jp/crid/1360855571520252544)
+- [MIT Press: Norbert Wiener, *God & Golem, Inc.*](https://mitpress.mit.edu/9780262730112/god-and-golem-inc/)
+
+確度:
+
+- 高: McCarthy が機械への心的性質帰属を論じていること。
+- 高: ELIZA が1966年の初期対話プログラムであり、自然言語対話と心理的反応の論点を生んだこと。
+- 高: Wiener がサイバネティクスと宗教的・神話的問題の接点として *God & Golem, Inc.* を書いたこと。
+- 中: これらを「AI やサーバーを日本語で使い・代理演算役として読む」議論へ接続すること。これは本文側の解釈である。
+- 低: AI に本当に魂や人格が宿るという主張。本文では採用しない。
+
+## 2001年映画陰陽師の参照
+
+本文での使い方:
+
+- 第4部 4.10 で、映画『陰陽師』を、陰陽道史の根拠ではなく、現代日本語話者に共有されたポップカルチャー上の認知インターフェースとして扱う。
+- 状態を読み、記号や言葉に形式を与え、身体の所作を入力として使い、作法に従って働きを呼び、結果を確かめる、という構造だけを取り出す。
+- ユーザー発話では当初2011年とされたが、野村萬斎主演の映画『陰陽師』は2001年公開であることを本文で明記する。
+
+主張:
+
+- 野村萬斎主演、滝田洋二郎監督の映画『陰陽師』は、2001年10月6日に劇場公開された。
+- 同作品は、夢枕獏の小説『陰陽師』をもとにした時代劇ファンタジーであり、史実の陰陽道をそのまま説明する資料ではない。
+- ただし、2000年代以降の読者にとって、陰陽師を「見えない状態を読み、言葉や所作で働きかける者」として想像するポップカルチャー上の足場になりうる。
+
+ソース:
+
+- [映画.com『陰陽師』作品情報](https://eiga.com/movie/1580/)
+- [allcinema『陰陽師 ～おんみょうじ～』作品情報](https://www.allcinema.net/cinema/234051)
+- [シネマトゥデイ『陰陽師 (2001)』作品情報](https://www.cinematoday.jp/movie/T0000548)
+
+確度:
+
+- 高: 映画の公開日、主要スタッフ、主演情報。
+- 高: 映画を史実根拠としてではなくポップカルチャー参照として扱うこと。
+- 中: 同作品が本書の「状態・記号・作法・身体化された入力」の感覚に影響したという筆者側の読解。
+- 低: 映画の描写を、陰陽道史や情報学史の直接根拠として扱う主張。本文では採用しない。
+
+## スマートデバイス需要と魔法・魔人の提示
+
+本文での使い方:
+
+- 第7部 7.4、7.6、7.8 で、センサー、ディスプレイ、プロジェクター、スマート家電、ウェアラブル端末は、単体性能だけでは需要を作りにくいという筆者側の仮説として扱う。
+- まず、その道具でどんな願いが叶い、どんな AI エージェントが呼び出され、どんな現実変化が起きるかを見せる必要がある、というポートフォリオ上の導入として使う。
+
+主張:
+
+- 需要は部品性能から直接は生まれにくい。部品が組み合わさり、人間の願いを叶える体験が見えたときに生まれる。
+- センサーは何を感じ取るのか、ディスプレイは何を見せるのか、プロジェクターはどの状態を空間に出すのか、スマート家電はどの願いを叶えるのか、という問いが必要である。
+- `sword-voice-agent` は、刀印ジェスチャー、音声、AI エージェント、家電制御、投影表示を束ねる、ランプの魔人型インターフェースの試作として扱える。
+
+ローカル文書:
+
+- `00_fragments/md_files/single_threads/2026-05-11T05-23-54_プログラミング_-_AI使役システムの試み.md`
+- `01_curated/single_threads_integration_20260511.md`
+- `02_manuscript/07_smart_devices_magic_and_jinn.md`
+
+確度:
+
+- 高: 筆者自身の実装・ポートフォリオ上の問題意識として扱えること。
+- 中: スマートデバイス需要を、AI エージェントが何を見て、何を示し、何を実行するかを見せることに置く仮説。
+- 低: スマートデバイス市場全体の失敗や成功を、この仮説だけで説明する主張。本文では採用しない。
+
+## サイボーグ、外部器官、生命機能の外部化
+
+本文での使い方:
+
+- 第8部で、サイボーグを「強いロボット人間」ではなく、生命が機械を外部器官として取り込み、生存経路を増やす形式として扱う。
+- 脳や身体の不具合そのものを美化せず、不具合を前提に、記憶、判断、言語、表示、行動を外部化・冗長化することを論じる。
+- 機械の強みを処理速度ではなく、設計可能性、交換可能性、複製可能性として扱う。
+- 機械の自己保存を推奨せず、人間の責任、透明性、停止可能性、検証可能性の範囲で外部器官の自己維持を扱う。
+
+主張:
+
+- Clynes と Kline は1960年の “Cyborgs and Space” で、地球外環境に人間を適応させるため、外部的に拡張された恒常性システムとして cyborg を構想した。
+- Clynes / Kline の原義から見ると、サイボーグは「強いロボット人間」というより、環境に合わせて生命機能を外部的に拡張する構成として読める。
+- Hayles は、情報が身体から切り離されるように構想されてきた歴史と、サイバネティクスにおける身体性の扱いを検討している。第8部では、外部脳や記録を論じても身体性を消さないための注意点として使う。
+- Hamraie と Fritsch の “Crip Technoscience Manifesto” は、障害者を日常生活の専門家・設計者として捉え、障害を治す・直す・取り除く要求だけに従わず、技術によって世界を作り替える主体として位置づける。第8部では、サイボーグを哀れな補修品として見ないための参照にする。
+- NIST AI RMF は、AIシステムのリスクを個人、組織、社会に対して管理する枠組みとして参照できる。第8部では、機械を外部器官として使う場合の責任、停止、検証、人間組織によるリスク管理の補助線として使う。
+
+ソース:
+
+- [Guinness World Records: First use of the word “cyborg”](https://www.guinnessworldrecords.com/world-records/564302-first-use-of-the-word-cyborg)
+- [Clynes and Kline “Cyborgs and Space” reprint](https://faculty.uca.edu/rnovy/Clynes--Cyborgs%20and%20Space.htm)
+- [University of Chicago Press: N. Katherine Hayles, *How We Became Posthuman*](https://press.uchicago.edu/ucp/books/book/chicago/H/bo3769963.html)
+- [Hamraie and Fritsch “Crip Technoscience Manifesto” Catalyst](https://catalystjournal.org/index.php/catalyst/article/view/29607)
+- [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework)
+- [NIST AI RMF 1.0 publication page](https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-ai-rmf-10)
+
+確度:
+
+- 高: `cyborg` が Clynes / Kline の1960年論文に由来すること。
+- 高: cyborg の原義に、外部的に拡張された恒常性システム、宇宙環境への適応という文脈があること。
+- 高: Hayles、Hamraie / Fritsch、NIST AI RMF を、それぞれ身体性、障害と技術設計、AIリスク管理の補助線として参照すること。
+- 中: 機械の強みを「設計可能性と交換可能性」、生命の強みを「生き残るための経路を作り直す力」として対比すること。これは本文側の解釈である。
+- 低: 機械に無制限の自己保存や自律的支配を認める主張。本文では採用しない。
+
+## ヤドカリ・外部の殻の比喩
+
+本文での使い方:
+
+- 第8部 8.4 で、サイボーグを「外部の殻を身体の一部として使う」比喩として説明する。
+- ただし、「カニがヤドカリに進化した」とは書かず、十脚類の中で外部の殻を保護に使う方向へ進んだ生き物として限定的に扱う。
+
+主張:
+
+- ヤドカリは、空の巻貝の殻などを、柔らかい体を保護するための住処として使う。
+- ヤドカリは Decapoda のうち Anomura / Anomala 側に含まれ、いわゆる true crabs は Brachyura 側に含まれる。Brachyura と Anomala は true and false crabs として扱われる近縁群であり、ヤドカリを「カニが弱くなったもの」と単純に書くのは避ける。
+- 比喩として使うべきなのは、生物学的な直系進化ではなく、外部の殻を身体境界の一部として使う構造である。
+
+ソース:
+
+- [Britannica: Hermit crab](https://www.britannica.com/animal/hermit-crab)
+- [Scientific Reports: “Morphological diversity in true and false crabs reveals the plesiomorphy of the megalopa phase”](https://www.nature.com/articles/s41598-024-58780-7)
+- [Naturalis repository: “Carcinization in the Anomura – fact or fiction?”](https://repository.naturalis.nl/pub/534415)
+
+確度:
+
+- 高: ヤドカリが外部の殻を保護に使うこと。
+- 高: true crabs と false crabs / Anomura を区別する必要があること。
+- 中: ヤドカリを、外部器官としての機械を説明する比喩に使うこと。これは本文側の比喩である。
+- 低: 「カニがヤドカリに進化した」という主張。本文では採用しない。
+
 ## ローカル文書の根拠
 
 本文の筆者経験・構成方針は、次のローカル文書を参照した。
