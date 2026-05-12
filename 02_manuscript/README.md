@@ -14,7 +14,7 @@
 - [04_digital_terms_and_onmyoji_metaphor.md](04_digital_terms_and_onmyoji_metaphor.md): 第4部 デジタル用語を訳すと陰陽師っぽくなる問題
 - [05_gui_projection_body_extension.md](05_gui_projection_body_extension.md): 第5部 GUI、プロジェクション、場に現れるサイバー
 - [06_virtual_being_and_ai.md](06_virtual_being_and_ai.md): 第6部 仮想存在と AI エージェント
-- [07_smart_devices_magic_and_jinn.md](07_smart_devices_magic_and_jinn.md): 第7部 スマートデバイス、魔法、魔人
+- [07_smart_devices_magic_and_jinn.md](07_smart_devices_magic_and_jinn.md): 第7部 スマートデバイス、魔法、魔人（ジン）
 - [08_cyborg_body_and_survival.md](08_cyborg_body_and_survival.md): 第8部 サイボーグ、外部器官、生き残る身体
 
 ## 補助ファイル
