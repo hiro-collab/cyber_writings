@@ -22,4 +22,5 @@
 - [research_overview_20260427.md](research_overview_20260427.md): `02_manuscript` の章別ファイルへ切り出す前の統合ドラフト。参照用として残し、本文修正対象にはしない。
 - [single_threads_integration_20260504.md](single_threads_integration_20260504.md): `00_fragments/md_files/single_threads` の最近の ChatGPT 議論を、章別本文へ載せるための統合方針。
 - [single_threads_integration_20260511.md](single_threads_integration_20260511.md): 2026-05-11追加素材を、母国語としてのソフトウェア理解、`符文`、機械への心的性質帰属、映画『陰陽師』、スマートデバイス需要、サイボーグ論へ整理した統合方針。
+- [single_threads_integration_20260512.md](single_threads_integration_20260512.md): 2026-05-12追加素材を、サイバー空間の統治、管理者ユーザーとゲストユーザー、`command` を「命令」と呼ぶ前提、`code` / `符` / `符文` の扱いへ整理した統合方針。
 - [manuscript_update_draft_20260504/](manuscript_update_draft_20260504/): `02_manuscript` を上書きせずに作成した、更新版本文たたき台と捨象ログ。

@@ -400,6 +400,78 @@
 - 中: Code.org にはかなり直接的な説明がある。
 - 要確認: Google の具体教材内で `commands` と `function` がどう説明されているか。本文の `[要確認]` は残す。
 
+## commandとサイバー空間の統治
+
+本文での使い方:
+
+- 第1部 1.2 で、`command` を「お願い」とだけ説明しても、「命令」とだけ説明しても足りない理由を示す。
+- 第2部 2.4、2.5 で、サイバー空間を持つとは、操作可能な領域を統治することであり、`command` はその領域内で権限、形式、実行条件を伴う実行指示として成立すると説明する。
+- 管理者ユーザーとゲストユーザーの対比は、用語史の断定ではなく、入門者が「使う側」から「規則と実行条件を扱う側」へ移る感覚を説明するためのモデルとして使う。
+
+主張:
+
+- `command` には、権威をもって命じる、支配下に置く、指図する、コンピューターへ処理を行わせる指示、といった語義がある。
+- シェルの文脈では、コマンドはコマンド言語に従って解釈され、実行される単位として扱われる。
+- セキュリティ文脈では、誰がどの資源へアクセスできるか、どの操作を行えるかは authorization / 権限の問題として扱われる。
+- したがって、コンピューティングにおける `command` は、単なる丁寧な依頼ではなく、形式、権限、対象、実行環境が整った領域内で成立する実行指示として説明できる。
+- ただし本文では、「命令」を人間への人格支配や政治的支配として広げない。サイバー空間の統治とは、境界、権限、状態把握、停止、復旧、保守を扱う操作上の統治である。
+
+ソース:
+
+- [Merriam-Webster: “command”](https://www.merriam-webster.com/dictionary/command)
+- [The Open Group Base Specifications Issue 8: Shell Command Language](https://pubs.opengroup.org/onlinepubs/9799919799/utilities/V3_chap02.html)
+- [NIST CSRC Glossary: Authorization](https://csrc.nist.gov/glossary/term/authorization)
+
+ローカル文書:
+
+- `00_fragments/md_files/single_threads/2026-05-12T09-06-04_プログラミング_-_語源の関係.md`
+- `01_curated/single_threads_integration_20260512.md`
+
+確度:
+
+- 高: `command` に命令・指示・コンピューターへの指示の意味があること。
+- 高: シェルコマンドが、決められたコマンド言語の形式に従って解釈・実行されること。
+- 高: アクセスや実行可能範囲が authorization / 権限の問題として扱われること。
+- 中: これらを「サイバー空間の統治」という日本語の入門イメージへまとめること。これは本文側の概念整理である。
+- 低: `command` を人間への政治的支配や人格支配として説明すること。本文では採用しない。
+
+## code/codex/符/符号/符文
+
+本文での使い方:
+
+- 第4部 4.5 で、`code`、`符`、`符号`、`符文` を、語源の同一視ではなく、しるし、規則体系、形式、照合、実行条件の構造的対応として扱う。
+- `source code` / `program code` を必要な箇所に限って「符文（ふぶん）」と呼ぶ理由を補強する。
+
+主張:
+
+- `code` は `codex` 系の語であり、法典、規則体系、信号体系、コンピューターで扱う情報表現へ意味を広げてきた語として参照できる。
+- `符` は、割符、合札、証拠となる札、しるし、記号を含む漢字として参照できる。
+- `号` は、合図、しるし、呼び名などを含む漢字として参照できる。
+- 「符号」は、しるし、記号、一定体系の中で意味を持つ記号列として説明される。
+- ただし `code` と `符` は同語源ではない。本文で使うのは、語源上の同一性ではなく、記号、形式、照合、実行条件という構造的な対応である。
+- `符文` は標準訳語ではなく、本書内で、実行される `source code` / `program code` を説明するための試験的な補助語である。
+
+ソース:
+
+- [Online Etymology Dictionary: “code”](https://www.etymonline.com/word/code)
+- [Online Etymology Dictionary: “codex”](https://www.etymonline.com/word/codex)
+- [漢字ペディア「符」](https://www.kanjipedia.jp/kanji/0006050900)
+- [漢字ペディア「号」](https://www.kanjipedia.jp/kanji/0002339700)
+- [コトバンク「符号」](https://kotobank.jp/word/%E7%AC%A6%E5%8F%B7-8212)
+
+ローカル文書:
+
+- `00_fragments/md_files/single_threads/2026-05-11T05-26-30_プログラミング_-_符号と符文の訳語.md`
+- `00_fragments/md_files/single_threads/2026-05-12T09-06-04_プログラミング_-_語源の関係.md`
+- `01_curated/single_threads_integration_20260512.md`
+
+確度:
+
+- 高: `code` / `codex`、`符`、`号`、`符号` の辞書的説明。
+- 高: `code` と `符` を同語源とは書かない方針。
+- 中: `符文` を、実行される `source code` / `program code` の補助語として使うこと。これは本文側の提案であり、標準訳語ではない。
+- 低: `code` と `符` が同じ語源である、または `code` は常に「符文」と訳すべきだ、という主張。本文では採用しない。
+
 ## 母国語概念としてのソフトウェア理解
 
 本文での使い方:
