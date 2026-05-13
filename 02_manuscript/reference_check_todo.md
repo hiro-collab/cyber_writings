@@ -50,7 +50,53 @@
 | `08_cyborg_body_and_survival.md:33-49` | 生命は淘汰で強くなり、機械は設計変更で強くなるという対比 | 比喩・仮説としては有効。進化生物学や工学の一般原理として断定するなら参照が必要。 |
 | `08_cyborg_body_and_survival.md:109-127` | スカイネット、ネズミ、機械の自己保存をめぐる思考実験 | SF比喩と著者仮説の範囲に留める。AI安全論として一般化する場合は NIST AI RMF だけでは不足する可能性がある。 |
 
-## 4. 現時点で大きく問題なさそうな参照接続
+## 4. 文献1-4から追加で追うべき候補
+
+この節は、`C:\Users\kawai\ドキュメント\文献1.txt` から `文献4.txt` までを見たうえで、本文や参照表へ今後追加する価値が高い資料を並べる。ここにある資料は、まだ本文根拠として採用したわけではない。採用する場合は、該当箇所の主張を先に限定し、文献の射程を確認してから反映する。
+
+### 4.1 第8章の外部脳・サイボーグ論で優先して追う候補
+
+| 優先度 | 文献 | 使い道 | 現時点の扱い |
+|---|---|---|---|
+| 高 | Clark and Chalmers, “The Extended Mind” / [PhilPapers](https://philpapers.org/rec/CLATEM) / [PDF](https://www.ida.liu.se/~729G12/mtrl/clark_chalmers_extended_mind.pdf) | 記録、道具、環境を思考の外部要素として扱う議論。第8章の「外部脳」「外部器官」論に近い。 | 第8章を理論的に厚くするなら最優先で精読する。ただし、本文では「心そのものの哲学的同一性」を主題化しすぎない。 |
+| 高 | Andy Clark, *Natural-Born Cyborgs* / [Oxford University Press](https://global.oup.com/academic/product/natural-born-cyborgs-9780195177510) | 人間を、道具や技術と結びついて認知を拡張する存在として読む補助線。 | 第8章の「人間は機械を外部器官にする」という主張の補強候補。 |
+| 高 | Clynes and Kline, “Cyborgs and Space” / [MIT PDF](https://web.mit.edu/digitalapollo/Documents/Chapter1/cyborgs.pdf) | すでに参照表にある cyborg 原義の確認元を補強する。 | 既存参照の別URL・一次に近い確認候補として追加する価値がある。 |
+| 中 | Donna Haraway, “A Cyborg Manifesto” / [PDF](https://sidoli.w.waseda.jp/Haraway_Cyborg_Manifesto.pdf) / [excerpt](https://warwick.ac.uk/fac/arts/english/currentstudents/undergraduates/modules/fictionnownarrativemediaandtheoryinthe21stcentury/manifestly_haraway_----_a_cyborg_manifesto_science_technology_and_socialist-feminism_in_the_....pdf) | サイボーグを、自然/人工、人間/機械などの境界を揺さぶる存在として読む補助線。 | 思想的射程が広いため、本文へ厚く入れる場合は章全体が別方向へ広がらないよう注意する。 |
+| 中 | N. Katherine Hayles, *How We Became Posthuman* / [Prologue excerpt](https://press.uchicago.edu/Misc/Chicago/321460.htm) | 既存参照にある Hayles の補助確認。情報化によって身体性が消える読みを避けるための安全装置。 | 既存参照の追加確認候補。 |
+| 中 | Hamraie / Fritsch 関連補助資料 / [SSRC](https://just-tech.ssrc.org/citation/crip-technoscience-manifesto-2/) / [Aimi Hamraie](https://aimihamraie.com/) | crip technoscience の位置づけや著者情報の確認。 | 既存参照の補助。本文では「障害を修理対象としてだけ見ない」点に限定して使う。 |
+
+### 4.2 AI安全・自己保存・ルール優先の議論で追う候補
+
+| 優先度 | 文献 | 使い道 | 現時点の扱い |
+|---|---|---|---|
+| 高 | [OpenAI Model Spec](https://model-spec.openai.com/) | AIがどのような指示階層、権限、制約、リスク回避のもとで動くよう設計されているかを確認する。 | ChatGPT/Codexが「生存よりルールを優先する」ように見える制約の背景候補。ただしOpenAI公式文書は更新されるため、本文採用時は最新版を再確認する。 |
+| 高 | [OpenAI Usage Policies](https://openai.com/policies/usage-policies/) | AI利用に関する禁止・制限・責任の枠組みを確認する。 | 2026-05-13確認時点では 2025-10-29 版が表示されていた。本文では日付つきで扱う。 |
+| 中 | [OpenAI “How we think about safety and alignment”](https://openai.com/safety/how-we-think-about-safety-alignment/) | OpenAI自身が安全性、リスク、限界、不確実性をどう説明しているかを確認する。 | 一企業の安全思想として扱い、AI一般の普遍法則としては使わない。 |
+| 中 | [OpenAI “Our updated Preparedness Framework”](https://openai.com/index/updating-our-preparedness-framework/) / [Preparedness Framework v2 PDF](https://cdn.openai.com/pdf/18a02b5d-6b67-4cec-ab64-68cdfbddebcd/preparedness-framework-v2.pdf) | frontier AI の高リスク能力、自己改善、自律性、セーフガードの議論。 | 第8章の自己保存・自律性・危険性の議論をAI安全論へ広げる場合の候補。 |
+| 中 | [IEEE, *Ethically Aligned Design* v2](https://standards.ieee.org/wp-content/uploads/import/documents/other/ead_v2.pdf) | 技術設計、倫理、人間の統制、責任の補助線。 | NIST AI RMFだけでは倫理・責任の文脈が薄い場合の追加候補。 |
+
+### 4.3 command / request / 命令 / 願いの整理で追う候補
+
+| 優先度 | 文献 | 使い道 | 現時点の扱い |
+|---|---|---|---|
+| 高 | Online Etymology Dictionary: [instruction](https://www.etymonline.com/word/instruction), [order](https://www.etymonline.com/word/order), [require](https://www.etymonline.com/word/require) | `command` を「命令」だけでなく、指示、順序、要求の広がりの中で読むための補助。 | 第1章・第2章の語感整理を補強する候補。語源から強い結論を出さない。 |
+| 高 | [国際交流基金「依頼と指示・命令」](https://www.jpf.go.jp/j/project/japanese/teach/tsushin/grammar/201603.html) | 日本語の「お願い」「依頼」「指示」「命令」の距離を確認する。 | 日本語読者にとって `command` が硬く・上下関係的に読まれやすい理由を説明する候補。 |
+| 中 | [MDN: HTTP overview](https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/Overview) | request / response の構造を、コンピューターへの「要求」として説明する補助。 | `command` と `request` を混同しないための候補。本文に入れる場合はHTTP一般論へ広げすぎない。 |
+| 中 | [OpenAI API Reference overview](https://developers.openai.com/api/reference/overview/) | APIにおけるリクエスト、入力、レスポンスの実例。 | OpenAI公式ドキュメントは更新されるため、本文採用時は最新版確認が必要。 |
+
+### 4.4 今すぐ本文に入れず、別稿候補として残す資料群
+
+| 資料群 | 例 | 扱い |
+|---|---|---|
+| domain / DNS / authority | RFC 882、BIND、DNS、domain 語源 | 「サイバー空間の領域」「名前」「権威」を別稿で扱うなら有用。現本文へ入れると広がりすぎる。 |
+| administrator / root / sudo | AWS IAM root user、Ubuntu user management、CMU admin access | 管理者権限の比喩を強化する候補。現本文では `command` と権限の話に留める。 |
+| time-sharing / Unix / shell / kernel | McCarthy、Computer History Museum、Ritchie/Thompson、Multics、protection ring | サーバー、シェル、核、保護層の歴史を扱う別稿候補。 |
+| daemon / kami / 付喪神 | daemon、daimon、kami、付喪神関連資料 | ソフトウェア常駐プロセスと民俗的イメージの接続候補。陰陽師論とは混ぜすぎない。 |
+| human enhancement / transhumanism | [Stanford Encyclopedia: Human Enhancement](https://plato.stanford.edu/entries/enhancement/), [Nick Bostrom “Transhumanist Values”](https://nickbostrom.com/ethics/values) | 第8章をトランスヒューマニズム論へ広げる場合の候補。現本文ではサイボーグを外部器官論へ限定する。 |
+| natural selection | Britannica、UCMP、National Geographic | 「生命は淘汰で強くなる」という説明を一般原理として扱う場合の候補。現本文では比喩・仮説に留める。 |
+| 気合 | [コトバンク「気合」](https://kotobank.jp/word/%E6%B0%97%E5%90%88-472067) | 第8章の「気合」を説明語として使う場合の候補。ただしデジタル用語再翻訳とは別の語感なので、本文採用は慎重にする。 |
+
+## 5. 現時点で大きく問題なさそうな参照接続
 
 以下は、本文内に参照リンクがあり、[91_reference_sources.md](91_reference_sources.md) 側にも対応項目がある。
 
@@ -62,7 +108,7 @@
 - 第7章: スマートデバイス需要と魔法・魔人（ジン）の提示。
 - 第8章: ヤドカリ比喩、Clynes / Kline、Hayles、crip technoscience、NIST AI RMF。
 
-## 5. 今後の作業方針
+## 6. 今後の作業方針
 
 本文へいきなり参考文献を追加しない。
 

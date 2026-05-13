@@ -694,3 +694,5 @@
 - `00_fragments/md_files/single_threads/*.md`
 
 ローカル文書の拾い漏れ確認は [関連文書再点検メモ](92_related_document_check.md) に分けた。
+
+文献1-4から抽出した未採用の追加候補は、[参照・要確認 TODO](reference_check_todo.md#4-文献1-4から追加で追うべき候補) に分けた。本文根拠として採用する場合は、先に該当主張の射程を限定してから精読する。
