@@ -22,11 +22,11 @@
 |---|---|---|
 | `02_cyber_means_ayatsuru.md:21-29` | [cyberneticsと対空砲予測装置](91_reference_sources.md#cyberneticsと対空砲予測装置) | `cyber` の語源、Wiener / Bigelow、対空砲予測装置、フィードバックの説明が出典に沿っているか。 |
 | `02_cyber_means_ayatsuru.md:148-150` | [cyberneticsと対空砲予測装置](91_reference_sources.md#cyberneticsと対空砲予測装置) | “Behavior, Purpose and Teleology” の目的・フィードバック説明が、本文の要約として過剰でないか。 |
-| `04_digital_terms_and_onmyoji_metaphor.md:118-143` | [Leibniz二進法易経](91_reference_sources.md#leibniz二進法易経) | Leibniz、Bouvet、伏羲・邵雍系六十四卦図、`De Progressione Dyadica` の関係を、発明原因ではなく構造的対応として扱えているか。 |
-| `04_digital_terms_and_onmyoji_metaphor.md:145-201` | [史料・伝承・現代文化としての陰陽師](91_reference_sources.md#史料伝承現代文化としての陰陽師) | 史料層、伝承層、現代文化層を分け、宗教的・呪術的・スピリチュアルな要素をデジタル技術の説明へ直接混ぜていないか。 |
-| `04_digital_terms_and_onmyoji_metaphor.md:203-243` | [code/codex/符/符号/符文](91_reference_sources.md#codecodex符符号符文) | `code` / `codex` と `符` / `符号` を同語源扱いせず、構造的対応に留まっているか。 |
-| `04_digital_terms_and_onmyoji_metaphor.md:281-313` | [日本語の気と制御像](91_reference_sources.md#日本語の気と制御像) | `気` を物理的・霊的実体としてではなく、注意、配慮、場への関わり方の補助線として説明できているか。 |
-| `04_digital_terms_and_onmyoji_metaphor.md:169-189` | [2001年映画陰陽師の参照](91_reference_sources.md#2001年映画陰陽師の参照) | 映画『陰陽師』を史実根拠ではなく、現代読者の共有イメージとして扱えているか。 |
+| `04_digital_terms_and_onmyoji_metaphor.md:140-163` | [Leibniz二進法易経](91_reference_sources.md#leibniz二進法易経) | Leibniz、Bouvet、伏羲・邵雍系六十四卦図、`De Progressione Dyadica` の関係を、発明原因ではなく構造的対応として扱えているか。 |
+| `04_digital_terms_and_onmyoji_metaphor.md:165-209` | [史料・伝承・現代文化としての陰陽師](91_reference_sources.md#史料伝承現代文化としての陰陽師) | 史料層、伝承層、現代文化層を分け、宗教的・呪術的・スピリチュアルな要素をデジタル技術の説明へ直接混ぜていないか。 |
+| `04_digital_terms_and_onmyoji_metaphor.md:237-277` | [code/codex/符/符号/符文](91_reference_sources.md#codecodex符符号符文) | `code` / `codex` と `符` / `符号` を同語源扱いせず、構造的対応に留まっているか。 |
+| `04_digital_terms_and_onmyoji_metaphor.md:317-349` | [日本語の気と制御像](91_reference_sources.md#日本語の気と制御像) | `気` を物理的・霊的実体としてではなく、注意、配慮、場への関わり方の補助線として説明できているか。 |
+| `04_digital_terms_and_onmyoji_metaphor.md:189-209` | [2001年映画陰陽師の参照](91_reference_sources.md#2001年映画陰陽師の参照) | 映画『陰陽師』を史実根拠ではなく、現代読者の共有イメージとして扱えているか。 |
 | `05_gui_projection_body_extension.md:21-25` | [GUI・空間表示・AIエージェントの思想的前史](91_reference_sources.md#gui空間表示aiエージェントの思想的前史) | Engelbart、Alan Kay、Sutherland、Weiser の要約が一次資料や参照表の範囲を越えていないか。 |
 | `05_gui_projection_body_extension.md:121-135` | [ジェスチャー設計と刀印](91_reference_sources.md#ジェスチャー設計と刀印) | 刀印を和風演出ではなく、入力ゲート、誤作動回避、記憶しやすさ、身体負荷の観点で説明できているか。 |
 | `06_virtual_being_and_ai.md:37-53` | [Turingと機械知性](91_reference_sources.md#turingと機械知性) ほか | Turing、McCarthy、ELIZA、Wiener / Golem の説明が、AI人格化の根拠ではなく、心的語彙の補助線になっているか。 |
@@ -42,8 +42,8 @@
 |---|---|---|
 | `03_cyber_techniques_classification.md:56-68` | `向量` が中国語圏で vector に使われる語であること | 本文で標準訳ではないと説明しているが、中国語圏での用法を公開本文で根拠づけるなら、辞書・専門用語集・信頼できる参照を追加する。 |
 | `03_cyber_techniques_classification.md:52-60` | `契` を trigger / event / condition / hook の説明語として使うこと | これは本書内の読み換え語であり、標準訳ではない。外部根拠より、本文内で「固定訳ではない」と明記できているかを確認する。 |
-| `04_digital_terms_and_onmyoji_metaphor.md:27-43` | 陰陽師っぽさの四分類整理 | これは著者仮説の整理であり、史実説明ではない。[94_onmyoji_hypothesis_memo.md](94_onmyoji_hypothesis_memo.md) と整合しているか確認する。 |
-| `04_digital_terms_and_onmyoji_metaphor.md:175-181` | 現代読者の陰陽師イメージ | 映画参照だけで「多くの人に印象づけた」と強く書く場合は、公開時に興行・受容・作品紹介などの追加根拠を検討する。現状は共有イメージの補助線として扱う。 |
+| `04_digital_terms_and_onmyoji_metaphor.md:93-107` | 陰陽師っぽさの四分類整理 | これは著者仮説の整理であり、史実説明ではない。[94_onmyoji_hypothesis_memo.md](94_onmyoji_hypothesis_memo.md) と整合しているか確認する。 |
+| `04_digital_terms_and_onmyoji_metaphor.md:195-201` | 現代読者の陰陽師イメージ | 映画参照だけで「多くの人に印象づけた」と強く書く場合は、公開時に興行・受容・作品紹介などの追加根拠を検討する。現状は共有イメージの補助線として扱う。 |
 | `06_virtual_being_and_ai.md:17-27` | 会社、貨幣、契約、アカウント、法人、キャラクター、AI エージェントを仮想存在として並べる説明 | 法学・社会存在論の厳密な主張ではなく、説明上の例として読めるか確認する。必要なら「ここでは厳密な存在論ではなく」と注記する。 |
 | `06_virtual_being_and_ai.md:119-180` | AI の状態表示、プロジェクター需要、表示要求 | 現状は著者仮説として自然。実証的な需要予測として読ませる場合は、HCI、UX、説明可能性、状態表示の参照を追加する。 |
 | `07_smart_devices_magic_and_jinn.md:101-121` | スマートデバイスを AI の身体と見る説明 | 著者仮説としてはよい。IoT、embodied AI、ambient computing の外部参照を入れる場合は、別途確認する。 |
