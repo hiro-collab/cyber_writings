@@ -1,0 +1,14 @@
+{
+  "name": "x-post-character-count-skill",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Agent Skill helper for X/Twitter weighted character counting.",
+  "type": "module",
+  "scripts": {
+    "count": "node scripts/count-x-post.mjs",
+    "test": "node --test scripts/count-x-post.test.mjs"
+  },
+  "dependencies": {
+    "twitter-text": "3.1.0"
+  }
+}
